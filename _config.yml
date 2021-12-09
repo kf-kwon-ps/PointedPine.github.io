@@ -19,8 +19,8 @@ locale                   : "ko-KR"
 title                    : PointedPine
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : 정첨백
-description              : "KwonPS 영업기획 대외배포용 매뉴얼 제작"
+name                     :정첨백
+description              :KwonPS 영업기획 대외배포용 매뉴얼 제작
 url                      : "https://pointedpine.github.io/"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
