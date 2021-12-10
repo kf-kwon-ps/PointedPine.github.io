@@ -7,14 +7,9 @@
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
-.center {
-  display: block;
-  margin: auto;
-}
-
 @font-face {
-    font-family: 'RIDIBatang';
-    src: url('/assets/fonts/RIDIBatang.otf') format('otf');
+    font-family: 'Noto Serif KR', serif;
+    src: url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR&display=swap');
     font-weight: normal;
     font-style: normal;
 }
