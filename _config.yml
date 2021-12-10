@@ -101,10 +101,10 @@ analytics:
 
 
 # Site Author
-author: "Pointed_Pine"
+author: 
   name             : "정첨백"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
+  bio              : "Kwonps 영업기획 업무"
   location         : "서울특별시 구로구 디지털로33길 27 5층 514호 (주)케이원피에스"
   email            : "j06.k1ps@gmail.com"
   links:
