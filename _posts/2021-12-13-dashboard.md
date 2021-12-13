@@ -1,20 +1,26 @@
 ---
-title:  "DashBoard"
-excerpt: "Home : main page(DashBoard)"
+title: "Dashboard"
+excerpt: "Main page(대행사 home)
 
-categories:
-  - 대행사
+categories: 
+- 대행사
 tags:
-  - [대행사매뉴얼, 대시보드, DashBoard]
+- [대행사, 대시보드, DashBoard]
 
 toc: true
 toc_sticky: true
- 
+
 date: 2021-12-13
 last_modified_at: 2021-12-13
 ---
-# 대행사페이지 - *DashBoard*
-----
-![image](C:\Users\KWONPS\Desktop\매뉴얼\대행사_대시보드.jpeg)
+### 대행사 페이지 - *DashBoard*
+![image](https://user-images.githubusercontent.com/95394003/145782416-b20f8a59-b46f-4cbd-8b81-151b089f9c9d.jpeg)
+#### *Description*
+**- 일/월 기준 거래내역 및 거래추이 등을 한눈에 파악할 수 있습니다.**
+
+**- 최근 매입 내역, 연 한도 관리에 대한 정보를 표기합니다.**
+
+**- 공지사항을 열람할 수 있습니다.**
+
 
 
