@@ -1,7 +1,7 @@
 ---
 title: "대행사"
 layout: archive
-permalink: categories/cpp
+permalink: categories/대행사
 author_profile: true
 sidebar_main: true
 ---
