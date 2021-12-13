@@ -3,9 +3,9 @@ title: "Dashboard"
 excerpt: "Main page(대행사 home)
 
 categories: 
-- 대행사
+-대행사
 tags:
-- [대행사, 대시보드, DashBoard]
+-[대행사, 대시보드, DashBoard]
 
 toc: true
 toc_sticky: true
