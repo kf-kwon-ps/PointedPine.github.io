@@ -1,11 +1,11 @@
 ---
 title: "Dashboard"
-excerpt: "Main page(대행사 home)
+excerpt: "Main page(대행사 Home)"
 
 categories: 
--대행사
+ - 대행사
 tags:
--[대행사, DashBoard]
+- [대행사, DashBoard]
 
 toc: true
 toc_sticky: true
