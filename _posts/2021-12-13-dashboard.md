@@ -3,7 +3,7 @@ title: "Dashboard"
 excerpt: "Main page(대행사 Home)"
 
 categories: 
- - 대행사
+ - DashBoard
 tags:
 - [대행사, DashBoard]
 
