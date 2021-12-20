@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "ko-KR"
-title                    : "PointedPine"
+title                    : (https://kwonps.com/wp-content/uploads/2021/09/logo-2.png
 title_separator          : "KwonPs"
 subtitle                 : "Version_1.0"
 name                     : "정첨백"
