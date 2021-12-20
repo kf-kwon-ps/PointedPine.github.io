@@ -87,6 +87,105 @@
                     {% endif %}
                 {% endfor %}
             </ul>
+             <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "거래관리" %}
+                        <li><a href="/categories/거래관리" class="">거래관리 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "매출관리" %}
+                        <li><a href="/categories/매출관리" class="">매출관리 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "대행사정산" %}
+                        <li><a href="/categories/대행사정산" class="">대행사정산 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "실시간정산" %}
+                        <li><a href="/categories/실시간정산" class="">실시간정산 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "멤버관리" %}
+                        <li><a href="/categories/멤버관리" class="">멤버관리 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "고객센터" %}
+                        <li><a href="/categories/고객센터" class="">고객센터 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <span class="nav__sub-title">지사</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "DashBoard" %}
+                        <li><a href="/categories/DashBoard" class="">DashBoard ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "가맹점관리" %}
+                        <li><a href="/categories/가맹점관리" class="">가맹점관리 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+             <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "거래관리" %}
+                        <li><a href="/categories/거래관리" class="">거래관리 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "매출관리" %}
+                        <li><a href="/categories/매출관리" class="">매출관리 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "대행사정산" %}
+                        <li><a href="/categories/대행사정산" class="">대행사정산 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "실시간정산" %}
+                        <li><a href="/categories/실시간정산" class="">실시간정산 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "멤버관리" %}
+                        <li><a href="/categories/멤버관리" class="">멤버관리 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "고객센터" %}
+                        <li><a href="/categories/고객센터" class="">고객센터 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
       </li>
   </ul>
 </nav>
