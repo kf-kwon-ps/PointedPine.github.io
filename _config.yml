@@ -16,8 +16,8 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "ko-KR"
-title                    : "KwonPS Manual"
-title_separator          : 
+title                    : 
+title_separator          : KwonPS Manual
 subtitle                 : 
 name                     : "정첨백"
 description              : "KwonPS_영업기획_대외배포용_매뉴얼_제작"
@@ -102,9 +102,9 @@ analytics:
 
 # Site Author
 author: 
-  name             : "Manual"
+  name             : "KwonPS 영업기획팀"
   avatar           : https://kwonps.com/wp-content/uploads/2021/09/mtouch_02-300x263.png # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Kwonps 영업기획 업무"
+  bio              : "Manual Upload"
   location         : "(주)케이원피에스<br> 구로구 디지털로33길 27 514호"
   email            : "j06.k1ps@gmail.com"
   links:
