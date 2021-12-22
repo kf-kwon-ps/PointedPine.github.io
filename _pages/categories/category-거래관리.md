@@ -1,5 +1,5 @@
 ---
-title: "거래 관리"
+title: "거래관리"
 layout: archive
 permalink: categories/거래관리
 author_profile: true
