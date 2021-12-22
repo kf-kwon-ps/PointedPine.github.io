@@ -1,5 +1,5 @@
 ---
-title: "가맹점 관리"
+title: "가맹점관리"
 layout: archive
 permalink: categories/가맹점관리
 author_profile: true
