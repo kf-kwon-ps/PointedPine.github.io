@@ -1,11 +1,11 @@
 ---
 title: "고객센터"
 layout: archive
-permalink: categories/고객센터
+permalink: categories/cs
 author_profile: true
 sidebar_main: true
 ---
 
 
-{% assign posts = site.categories.고객센터 %}
+{% assign posts = site.categories.cs %}
 {% for post in posts %} {% include archive-single2.html type=page.entries_layout %} {% endfor %}
