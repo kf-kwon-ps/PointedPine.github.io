@@ -15,7 +15,7 @@ main:
     url: https://pointedpine.github.io/categories
 
     # sidebar navigation list sample
-sidebar-sample:
+sidebar:
   - title: "대행사"
     children:
       - title: "Dashboard"
