@@ -63,8 +63,8 @@
             </ul>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "고객센터" %}
-                        <li><a href="/categories/고객센터" class="">고객센터 ({{category[1].size}})</a></li>
+                    {% if category[0] == "cs" %}
+                        <li><a href="/categories/cs" class="">고객센터 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
