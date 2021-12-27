@@ -78,8 +78,8 @@
             </ul>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "FM" %}
-                        <li><a href="/categories/FM" class="">가맹점 관리 ({{category[1].size}})</a></li>
+                    {% if category[0] == "agency FM" %}
+                        <li><a href="/categories/agency FM" class="">가맹점 관리 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
@@ -135,8 +135,8 @@
             </ul>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "FM" %}
-                        <li><a href="/categories/FM" class="">가맹점 관리 ({{category[1].size}})</a></li>
+                    {% if category[0] == "branch FM" %}
+                        <li><a href="/categories/branch FM" class="">가맹점 관리 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
