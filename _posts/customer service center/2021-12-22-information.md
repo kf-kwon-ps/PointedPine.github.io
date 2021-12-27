@@ -13,11 +13,12 @@ toc_sticky: true
 date: 2021-12-16
 last_modified_at: 2021-12-22
 ---
+
 ### 고객 센터 - *공지사항*
 ![공지사항](https://user-images.githubusercontent.com/95394003/147037406-93ea8018-2001-430a-b9ae-248923eed882.jpeg)
 
 #### *구분* <br>
-**< 조회 힝목 >** 
+**< 조회 항목 >** 
 <br>No, 제목, 등록자, 등록일시
 
 
