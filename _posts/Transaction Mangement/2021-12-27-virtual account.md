@@ -106,7 +106,7 @@ eq, ge 로 구분됩니다.
 
 ----
 
-### 거래 관리 - 가상계좌 관리 - *거레 내역 조회*
+### 거래 관리 - 가상계좌 관리 - *거래 내역 조회*
 ![거래내역조회](https://user-images.githubusercontent.com/95394003/146506673-d2a40f98-a734-4eab-8dae-dcf49d07fcd4.jpeg)
 
 
