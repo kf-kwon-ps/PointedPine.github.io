@@ -5,7 +5,7 @@ excerpt: "Main page(대행사 Home)"
 categories: 
  - DashBoard
 tags:
-- [대행사, 에이전시, 지사, 가맹점]
+- [대행사, 에이전시, 지사,]
 
 toc: true
 toc_sticky: true
