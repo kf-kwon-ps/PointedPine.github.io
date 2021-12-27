@@ -3,15 +3,15 @@ title:  "매입 현황 조회"
 excerpt: "검색 조건을 입력하여 매입 현황을 조회합니다"
 
 categories:
-  - 거래관리
+  - transaction management
 tags:
-  - [대행사, 에이전시, 지사, 매입 현황 조회]
+  - [대행사, 매입 현황 조회]
 
 toc: true
 toc_sticky: true
  
 date: 2021-12-16
-last_modified_at: 2021-12-17
+last_modified_at: 2021-12-27
 ---
 ### 거래 관리 - *매입 현황 조회*
 ![매입현황조회](https://user-images.githubusercontent.com/95394003/146471139-296c0d0a-fe56-4f0a-a4ef-a030f29daaf4.jpeg)
@@ -149,7 +149,7 @@ VVAN 종류를 선택합니다.
 <br>
 <br>
 
-![상세정보](https://user-images.githubusercontent.com/95394003/146490436-614afafa-333c-4dba-b97f-dd732fa6443c.png)
+![image](https://user-images.githubusercontent.com/95394003/147442074-d093c8d0-b87d-4029-aa27-84a1eeda66ad.png)
 ###### 매입번호
 매입번호를 나타냅니다.<br>클릭하면 매입내역에 대한 상세정보를 확인할 수 있습니다. <br>
 매입 정보를 조회하고 취소를 요청할 수도 있습니다.
