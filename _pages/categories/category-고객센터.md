@@ -1,5 +1,5 @@
 ---
-title: "고객센터"
+title: "고객 센터"
 layout: archive
 permalink: categories/고객센터
 author_profile: true
