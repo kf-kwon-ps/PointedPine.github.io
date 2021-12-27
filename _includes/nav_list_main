@@ -35,8 +35,8 @@
             </ul>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "매출관리" %}
-                        <li><a href="/categories/매출관리" class="">매출관리 ({{category[1].size}})</a></li>
+                    {% if category[0] == "sales management" %}
+                        <li><a href="/categories/sales management" class="">매출 관리 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
@@ -92,8 +92,8 @@
             </ul>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "매출관리" %}
-                        <li><a href="/categories/매출관리" class="">매출관리 ({{category[1].size}})</a></li>
+                    {% if category[0] == "agency SM" %}
+                        <li><a href="/categories/agency SM" class="">매출 관리 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
@@ -149,8 +149,8 @@
             </ul>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "매출관리" %}
-                        <li><a href="/categories/매출관리" class="">매출관리 ({{category[1].size}})</a></li>
+                    {% if category[0] == "branch SM" %}
+                        <li><a href="/categories/branch SM" class="">매출 관리 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
