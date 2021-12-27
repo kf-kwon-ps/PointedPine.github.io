@@ -3,7 +3,7 @@ title:  "가맹점 등록"
 excerpt: "가맹점을 등록합니다"
 
 categories:
-  - 가맹점관리
+  - FM
 tags:
   - [대행사, 에이전시, 지사, 가맹점 등록]
 
