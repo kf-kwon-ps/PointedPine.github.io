@@ -3,7 +3,7 @@ title:  "지사 등록"
 excerpt: "지사를 등록합니다"
 
 categories:
-  - 멤버관리
+  - member management
 tags:
   - [대행사, 에이전시, 지사, 지사 관리, 지사 등록]
 toc: true
