@@ -56,8 +56,8 @@
             </ul>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "멤버 관리" %}
-                        <li><a href="/categories/member mangement" class="">member management ({{category[1].size}})</a></li>
+                    {% if category[0] == "member management" %}
+                        <li><a href="/categories/member mangement" class="">멤버 관라 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
