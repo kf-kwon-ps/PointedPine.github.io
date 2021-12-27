@@ -3,9 +3,9 @@ title:  "거래 내역 조회"
 excerpt: "가상계좌에 대한 거래 내역을 조회합니다"
 
 categories:
-  - 거래관리
+  - transaction management
 tags:
-  - [대행사, 에이전시, 지사, 가상계좌관리, 거래내역 조회]
+  - [대행사, 가상계좌관리, 거래내역 조회]
 toc: true
 toc_sticky: true
  

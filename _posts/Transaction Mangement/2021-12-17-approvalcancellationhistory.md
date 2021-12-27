@@ -3,9 +3,9 @@ title:  "승인 취소내역 조회"
 excerpt: "검색 조건을 입력 및 선택하여 승인이 취소된 거래 내역을 조회합니다"
 
 categories:
-  - 거래관리
+  - transaction management
 tags:
-  - [대행사, 에이전시, 지사, 승인 취소내역 조회]
+  - [대행사, 승인 취소내역 조회]
 toc: true
 toc_sticky: true
  

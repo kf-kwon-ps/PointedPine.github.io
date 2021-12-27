@@ -3,9 +3,9 @@ title:  "승인 내역 조회"
 excerpt: "검색 조건을 입력하여 승인 내역을 조회합니다"
 
 categories:
-  - 거래관리
+  - transaction management
 tags:
-  - [대행사, 에이전시, 지사, 승인 내역 조회]
+  - [대행사, 승인 내역 조회]
 toc: true
 toc_sticky: true
  

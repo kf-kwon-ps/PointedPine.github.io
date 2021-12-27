@@ -3,9 +3,9 @@ title:  "발행 내역 조회"
 excerpt: "검색 조건을 입력하여 가상계좌에 대한 발행 내역을 조회합니다"
 
 categories:
-  - 거래관리
+  - transaction management
 tags:
-  - [대행사, 에이전시, 지사, 가상계좌관리, 발행내역 조회]
+  - [대행사, 가상계좌관리, 발행내역 조회]
 toc: true
 toc_sticky: true
  
