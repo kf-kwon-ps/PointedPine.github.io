@@ -1,7 +1,7 @@
 ---
 title: "멤버 관리"
 layout: archive
-permalink: categories/member-management
+permalink: categories/member management
 author_profile: true
 sidebar_main: true
 ---
