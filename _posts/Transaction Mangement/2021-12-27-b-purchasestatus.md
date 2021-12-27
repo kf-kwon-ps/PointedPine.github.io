@@ -147,7 +147,7 @@ VVAN 종류를 선택합니다.
 <br>
 <br>
 
-![상세정보](https://user-images.githubusercontent.com/95394003/146490436-614afafa-333c-4dba-b97f-dd732fa6443c.png)
+![image](https://user-images.githubusercontent.com/95394003/147442074-d093c8d0-b87d-4029-aa27-84a1eeda66ad.png)
 ###### 매입번호
 매입번호를 나타냅니다.<br>클릭하면 매입내역에 대한 상세정보를 확인할 수 있습니다. <br>
 매입 정보를 조회하고 취소를 요청할 수도 있습니다.
