@@ -5,7 +5,7 @@ excerpt: "에이전시를 등록합니다"
 categories:
   - member management
 tags:
-  - [대행사, 에이전시, 지사, 에이전시 관리, 에이전시 등록]
+  - [대행사, 에이전시 관리, 에이전시 등록]
 toc: true
 toc_sticky: true
  
