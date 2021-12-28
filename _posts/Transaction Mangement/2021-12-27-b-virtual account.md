@@ -1,18 +1,19 @@
 ---
-title:  "발행내역 조회 & 거래내역 조회"
+title:  "가상계좌 관리(발행내역 조회 & 거래내역 조회)"
 excerpt: "검색 조건을 입력하여 가상계좌에 대한 발행내역과 거래내역을 조회합니다"
 
 categories:
   - branch TM
 tags:
   - [지사, 가상계좌관리, 발행내역 조회, 거래내역 조회]
+  
 toc: true
 toc_sticky: true
  
 date: 2021-12-27
 last_modified_at: 2021-12-27
 ---
-### 거래 관리 - 가상계좌 관리 - *발행 내역 조회*
+### 거래 관리 - *발행 내역 조회*
 ![지사 발행내역](https://user-images.githubusercontent.com/95394003/147450067-67d2c7c7-8746-453e-ac15-2c22503277a6.jpeg)
 
 #### *구분* <br>
@@ -106,7 +107,7 @@ eq, ge 로 구분됩니다.
 
 ----
 
-### 거래 관리 - 가상계좌 관리 - *거래 내역 조회*
+### 거래 관리 - *거래 내역 조회*
 ![지사 거래내역](https://user-images.githubusercontent.com/95394003/147450128-0c5a75e8-a2a6-4edf-adc1-e8ed808fd416.jpeg)
 
 
