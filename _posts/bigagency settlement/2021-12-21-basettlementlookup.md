@@ -3,14 +3,14 @@ title:  "대행사 정산 조회"
 excerpt: "검색 조건을 입력 및 선택하여 대행사에 대한 정산 정보를 조회합니다"
 
 categories:
-  - 대행사정산
+  - settlement
 tags:
-  - [대행사, 에이전시, 지사, 대행사 정산 조회]
+  - [대행사, 대행사 정산 조회]
 toc: true
 toc_sticky: true
  
 date: 2021-12-16
-last_modified_at: 2021-12-21
+last_modified_at: 2021-12-28
 ---
 ### 거래 관리 - *대행사 정산 조회*
 ![대행사정산조회](https://user-images.githubusercontent.com/95394003/146876072-5a804e18-470d-4e7c-915c-facc43696f0b.jpeg)
