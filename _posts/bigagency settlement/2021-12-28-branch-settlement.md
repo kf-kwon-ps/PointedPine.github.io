@@ -12,7 +12,7 @@ toc_sticky: true
 date: 2021-12-28
 last_modified_at: 2021-12-28
 ---
-### *지사 정산 조회*
+### 대행사 정산 - *지사 정산 조회*
 ![지사 정산조회](https://user-images.githubusercontent.com/95394003/147530103-682b2dc3-3e94-4ebc-b564-587ea0ad53b8.jpeg)
 
 #### *구분* <br>
