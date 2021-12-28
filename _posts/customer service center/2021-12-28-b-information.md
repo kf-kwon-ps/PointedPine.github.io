@@ -3,19 +3,19 @@ title:  "공지사항"
 excerpt: "공지사항 조회 페이지입니다"
 
 categories:
-  - customer service center
+  - branch CSC
 tags:
-  - [대행사, 고객센터, 공지사항]
+  - [지사, 고객센터, 공지사항]
 
 toc: true
 toc_sticky: true
  
-date: 2021-12-16
+date: 2021-12-28
 last_modified_at: 2021-12-28
 ---
 
 ### 고객 센터 - *공지사항*
-![공지사항](https://user-images.githubusercontent.com/95394003/147037406-93ea8018-2001-430a-b9ae-248923eed882.jpeg)
+![지사 공지사항](https://user-images.githubusercontent.com/95394003/147545277-08e0abb9-1027-45e8-aba1-0c786dfc7b3f.jpeg)
 
 #### *구분* <br>
 **< 조회 항목 >** 
