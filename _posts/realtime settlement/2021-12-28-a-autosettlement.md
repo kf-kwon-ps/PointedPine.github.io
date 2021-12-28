@@ -3,7 +3,7 @@ title:  "자동 정산내역 조회"
 excerpt: "검색 조건을 입력 및 선택하여 자동정산내역을 조회합니다"
 
 categories:
-  - 실시간 정산
+  - agency RS
 tags:
   - [에이전시, 자동 정산내역 조회]
 
@@ -14,7 +14,7 @@ date: 2021-12-28
 last_modified_at: 2021-12-28
 ---
 ### 실시간 정산 - *자동 정산내역 조회*
-![자동정산내역]
+![에이전시 실시간 정산](https://user-images.githubusercontent.com/95394003/147534439-6c0d90bd-fbb9-444c-a77e-9e516e833fc0.jpeg)
 
 #### *구분* <br>
 **< 검색 조건 >** **(8)**
@@ -30,7 +30,7 @@ last_modified_at: 2021-12-28
 #### *Detail*
 <br>
 
-![자동정산내역검색조건]
+![에이전시자동정산내역검색조건](https://user-images.githubusercontent.com/95394003/147534571-65bc0c91-e1ae-4ade-9243-43167e46a88c.jpeg)
 ###### 가맹점 ID
 가맹점 ID를 입력합니다.
 
@@ -56,7 +56,7 @@ last_modified_at: 2021-12-28
 결제수단을 선택합니다. 카드, 가상계좌로 구분됩니다.
 <br>
 
-![자동정산내역검색결과]
+![에이전시 자동정산검결](https://user-images.githubusercontent.com/95394003/147535506-a59a963f-9751-4343-9453-c2ce7c795282.jpeg)
 ###### No
 조회된 결과의 리스트 번호를 나타냅니다.
 
