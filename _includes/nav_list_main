@@ -106,8 +106,8 @@
             </ul>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "실시간정산" %}
-                        <li><a href="/categories/실시간정산" class="">실시간정산 ({{category[1].size}})</a></li>
+                    {% if category[0] == "agency RS" %}
+                        <li><a href="/categories/agency RS" class="">실시간 정산 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
@@ -163,8 +163,8 @@
             </ul>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "실시간정산" %}
-                        <li><a href="/categories/실시간정산" class="">실시간정산 ({{category[1].size}})</a></li>
+                    {% if category[0] == "branch RS" %}
+                        <li><a href="/categories/branch RS" class="">실시간 정산 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
