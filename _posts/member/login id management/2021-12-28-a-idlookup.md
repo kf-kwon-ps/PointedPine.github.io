@@ -3,18 +3,18 @@ title:  "ID 조회"
 excerpt: "등록된 로그인 ID를 조회합니다"
 
 categories:
-  - member management
+  - agency MM
 tags:
-  - [대행사, 멤버관리, 로그인 ID관리, ID 조회]
+  - [에이전시, 멤버관리, 로그인 ID관리, ID 조회]
 
 toc: true
 toc_sticky: true
  
-date: 2021-12-16
+date: 2021-12-28
 last_modified_at: 2021-12-28
 ---
 ### 멤버관리 - 로그인 ID관리 - *ID 조회*
-![image](https://user-images.githubusercontent.com/95394003/147541464-65ad614d-9c1f-41a6-a4de-f2acdd713488.png)
+![에이전시아이디조회](https://user-images.githubusercontent.com/95394003/147540804-5ea774ea-d6af-44bf-85b9-99a1e2424f7c.png)
 
 #### *구분* <br>
 **< 검색 조건 >** **(6)**
@@ -51,7 +51,7 @@ last_modified_at: 2021-12-28
 <br>
 <br>
 
-![image](https://user-images.githubusercontent.com/95394003/146885254-78bf8060-da6d-48dd-83bf-f2c10ca2ffc3.png)
+![image](https://user-images.githubusercontent.com/95394003/147541226-6a04fd54-4733-4400-a7d8-b180ae21344d.png)
 ###### No
 조회된 결과의 리스트 번호를 나타냅니다.
 
