@@ -49,8 +49,8 @@
             </ul>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "실시간정산" %}
-                        <li><a href="/categories/실시간정산" class="">실시간정산 ({{category[1].size}})</a></li>
+                    {% if category[0] == "realtime settlement" %}
+                        <li><a href="/categories/realtime settlement" class="">실시간 정산 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
@@ -63,8 +63,8 @@
             </ul>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "고객센터" %}
-                        <li><a href="/categories/고객센터" class="">고객센터 ({{category[1].size}})</a></li>
+                    {% if category[0] == "customer service center" %}
+                        <li><a href="/categories/customer service center" class="">고객센터 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
@@ -113,15 +113,15 @@
             </ul>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "멤버관리" %}
-                        <li><a href="/categories/멤버관리" class="">멤버관리 ({{category[1].size}})</a></li>
+                    {% if category[0] == "agency MM" %}
+                        <li><a href="/categories/agency MM" class="">멤버 관리 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "고객센터" %}
-                        <li><a href="/categories/고객센터" class="">고객센터 ({{category[1].size}})</a></li>
+                    {% if category[0] == "agency CSC" %}
+                        <li><a href="/categories/agency CSC" class="">고객센터 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
@@ -170,15 +170,15 @@
             </ul>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "멤버관리" %}
-                        <li><a href="/categories/멤버관리" class="">멤버관리 ({{category[1].size}})</a></li>
+                    {% if category[0] == "branch MM" %}
+                        <li><a href="/categories/branch MM" class="">멤버 관리 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "고객센터" %}
-                        <li><a href="/categories/고객센터" class="">고객센터 ({{category[1].size}})</a></li>
+                    {% if category[0] == "branch CSC" %}
+                        <li><a href="/categories/branch CSC" class="">고객센터 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
