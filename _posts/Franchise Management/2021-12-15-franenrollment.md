@@ -5,7 +5,7 @@ excerpt: "가맹점을 등록합니다"
 categories:
   - FM
 tags:
-  - [대행사, 에이전시, 지사, 가맹점 등록]
+  - [대행사, 가맹점 등록]
 
 toc: true
 toc_sticky: true

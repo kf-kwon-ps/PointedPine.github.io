@@ -5,7 +5,7 @@ excerpt: "검색 조건을 입력하여 미실적 가맹점을 조회합니다"
 categories:
   - FM
 tags:
-  - [대행사, 에이전시, 지사, 미실적 가맹점 조회]
+  - [대행사, 미실적 가맹점 조회]
 
 toc: true
 toc_sticky: true
