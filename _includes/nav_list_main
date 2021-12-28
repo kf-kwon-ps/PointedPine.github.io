@@ -99,8 +99,8 @@
             </ul>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "대행사정산" %}
-                        <li><a href="/categories/대행사정산" class="">대행사정산 ({{category[1].size}})</a></li>
+                    {% if category[0] == "agency settlement" %}
+                        <li><a href="/categories/agency settlement" class="">대행사 정산 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
@@ -156,8 +156,8 @@
             </ul>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "대행사정산" %}
-                        <li><a href="/categories/대행사정산" class="">대행사정산 ({{category[1].size}})</a></li>
+                    {% if category[0] == "branch settlement" %}
+                        <li><a href="/categories/branch settlement" class="">대행사 정산 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
