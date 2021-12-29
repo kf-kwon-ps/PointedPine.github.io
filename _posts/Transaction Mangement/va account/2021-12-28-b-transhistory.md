@@ -5,7 +5,7 @@ excerpt: "검색 조건을 입력 및 선택하여 가상계좌에 대한 거래
 categories:
   - branch TM
 tags:
-  - [지사, 가상계좌관리, 발행내역 조회, 거래내역 조회]
+  - [지사, 가상계좌관리, 거래내역 조회]
   
 toc: true
 toc_sticky: true
