@@ -5,7 +5,7 @@ excerpt: "등록된 지사를 조회합니다"
 categories:
   - member management
 tags:
-  - [대행사, 에이전시, 지사, 지사 관리, 지사 조회]
+  - [대행사, 지사 관리, 지사 조회]
 toc: true
 toc_sticky: true
  
