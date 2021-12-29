@@ -1,5 +1,5 @@
 ---
-title:  "ID 조회"
+title:  "로그인 ID관리 - ID 조회"
 excerpt: "등록된 로그인 ID를 조회합니다"
 
 categories:
@@ -13,7 +13,7 @@ toc_sticky: true
 date: 2021-12-28
 last_modified_at: 2021-12-28
 ---
-### 멤버관리 - 로그인 ID관리 - *ID 조회*
+### 멤버관리 - *ID 조회*
 ![에이전시아이디조회](https://user-images.githubusercontent.com/95394003/147540804-5ea774ea-d6af-44bf-85b9-99a1e2424f7c.png)
 
 #### *구분* <br>

@@ -5,7 +5,7 @@ excerpt: "하위사용자 등록, 가맹점사용자 등록"
 categories:
   - member management
 tags:
-  - [대행사, 에이전시, 지사, 대행사 등록, 에이전시 등록]
+  - [대행사, 대행사 등록, 에이전시 등록]
 toc: true
 toc_sticky: true
  
