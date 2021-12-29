@@ -1,5 +1,5 @@
 ---
-title:  "지사 ID 등록"
+title:  "로그인 ID관리 - 지사 ID 등록"
 excerpt: "하위사용자 등록, 가맹점사용자 등록"
 
 categories:

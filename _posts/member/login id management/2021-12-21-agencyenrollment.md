@@ -1,5 +1,5 @@
 ---
-title:  "대행사/에이전시 등록"
+title:  "로그인 ID관리 - 대행사/에이전시 등록"
 excerpt: "하위사용자 등록, 가맹점사용자 등록"
 
 categories:
@@ -10,9 +10,9 @@ toc: true
 toc_sticky: true
  
 date: 2021-12-16
-last_modified_at: 2021-12-21
+last_modified_at: 2021-12-29
 ---
-### 거래 관리 - *대행사/에이전시 등록*
+### 멤버 관리 - *대행사/에이전시 등록*
 ![대행사에이전시등록](https://user-images.githubusercontent.com/95394003/146888311-e15563ff-b471-4370-9f60-1e59a3d60cac.jpeg)
 
 #### *구분* <br>
