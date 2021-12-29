@@ -1,18 +1,18 @@
 ---
-title:  "에이전시 조회"
+title:  "에이전시 관리 - 에이전시 조회"
 excerpt: "등록된 에이전시를 조회합니다"
 
 categories:
   - member management
 tags:
-  - [대행사, 에이전시, 지사, 에이전시 관리, 에이전시 조회]
+  - [대행사, 에이전시 관리, 에이전시 조회]
 toc: true
 toc_sticky: true
  
 date: 2021-12-16
-last_modified_at: 2021-12-22
+last_modified_at: 2021-12-29
 ---
-### 멤버 관리 - 에이전시 관리 - *에이전시 조회*
+### 멤버 관리 - *에이전시 조회*
 ![에이전시조회](https://user-images.githubusercontent.com/95394003/147026907-ee927d06-e688-401e-97e6-c5a9b5a8b113.jpeg)
 
 #### *구분* <br>

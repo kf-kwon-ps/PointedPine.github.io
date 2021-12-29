@@ -1,5 +1,5 @@
 ---
-title:  "에이전시 등록"
+title:  "에이전시 관리 - 에이전시 등록"
 excerpt: "에이전시를 등록합니다"
 
 categories:
@@ -10,9 +10,9 @@ toc: true
 toc_sticky: true
  
 date: 2021-12-16
-last_modified_at: 2021-12-22
+last_modified_at: 2021-12-29
 ---
-### 멤버 관리 - 에이전시 관리 - *에이전시 등록*
+### 멤버 관리 - *에이전시 등록*
 ![에이전시등록](https://user-images.githubusercontent.com/95394003/147034477-3916c6ce-9f2a-4f69-bbbb-e1246d73fc98.jpeg)
 
 #### *구분* <br>

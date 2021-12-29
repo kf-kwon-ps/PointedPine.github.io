@@ -1,5 +1,5 @@
 ---
-title:  "지사 조회"
+title:  "지사 관리 - 지사 조회"
 excerpt: "등록된 지사를 조회합니다"
 
 categories:
@@ -10,9 +10,9 @@ toc: true
 toc_sticky: true
  
 date: 2021-12-16
-last_modified_at: 2021-12-22
+last_modified_at: 2021-12-29
 ---
-### 멤버 관리 - 지사 관리 - *지사 조회*
+### 멤버 관리 - *지사 조회*
 ![지사조회](https://user-images.githubusercontent.com/95394003/147035321-6270e6d1-6e9a-464d-9eee-d87521a9820b.jpeg)
 
 #### *구분* <br>

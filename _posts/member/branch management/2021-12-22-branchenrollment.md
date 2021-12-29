@@ -1,5 +1,5 @@
 ---
-title:  "지사 등록"
+title:  "지사 관리 - 지사 등록"
 excerpt: "지사를 등록합니다"
 
 categories:
@@ -12,7 +12,7 @@ toc_sticky: true
 date: 2021-12-16
 last_modified_at: 2021-12-29
 ---
-### 멤버 관리 - 지사 관리 - *지사 등록*
+### 멤버 관리 - *지사 등록*
 ![지사등록](https://user-images.githubusercontent.com/95394003/147036755-48e2e55f-322f-4662-a817-cf7480800496.jpeg)
 
 #### *구분* <br>
