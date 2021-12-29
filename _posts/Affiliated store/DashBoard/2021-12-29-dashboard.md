@@ -3,9 +3,9 @@ title: "Dashboard"
 excerpt: "Main page(Home)"
 
 categories: 
- - a.dashboard
+ - affliated dashboard
 tags:
-- [가맹점]
+- [가맹점, DashBoard]
 
 toc: true
 toc_sticky: true
