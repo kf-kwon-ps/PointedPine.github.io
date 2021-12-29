@@ -10,15 +10,15 @@ tags:
 toc: true
 toc_sticky: true
  
-date: 2021-12-27
-last_modified_at: 2021-12-28
+date: 2021-12-29
+last_modified_at: 2021-12-29
 ---
-### 거래 관리 - *발행내역 조회*
-![에이전시발행내역](https://user-images.githubusercontent.com/95394003/147449551-3a21b101-23fa-4fea-a978-6a37f4cc3d6d.jpeg)
+### 거래 관리 - *발행 내역 조회*
+![가맹점 발행내역](https://user-images.githubusercontent.com/95394003/147631923-2570f7b1-1f9e-4dfb-b6a8-32408bcca98a.jpeg)
 
 #### *구분* <br>
-**< 검색 조건 >** **(8)**
-<br>발행번호, 가맹점명, 계좌번호, 예금주명, 거래추적번호, 발행유형, 지급대행, 은행
+**< 검색 조건 >** **(7)**
+<br>발행번호, 계좌번호, 예금주명, 거래추적번호, 발행유형, 지급대행, 은행
 
 **< 조회 결과 항목 >** **(15)**
 <br>No, 발행번호, 은행, 계좌번호, 발행유형, 상태, 가맹점, 예금주명, 수식, 금액기준, 거래추적번호, 만료일시, Reason, 지급대행, 거래일시
@@ -31,12 +31,9 @@ last_modified_at: 2021-12-28
 #### *Detail*
 <br>
 
-![검색조건발행내역](https://user-images.githubusercontent.com/95394003/146500483-07e53c61-2016-4e15-be1b-c0807c5a970a.jpeg)
+![발행내역 검색조건(가맹)](https://user-images.githubusercontent.com/95394003/147632088-0842ba69-8999-4820-bdf4-df531107ce9a.jpeg)
 ###### 발행번호
 발행번호를 입력합니다.
-
-###### 가맹점명
-가상계좌를 부여받은 가맹점을 입력합니다.
 
 ###### 계좌번호
 발행된 가상 계좌번호를 입력합니다.
