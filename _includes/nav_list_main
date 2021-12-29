@@ -190,6 +190,34 @@
                     {% endif %}
                 {% endfor %}
             </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "affliated TM" %}
+                        <li><a href="/categories/affliated TM" class="">거래 관리 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "affliated SS" %}
+                        <li><a href="/categories/affliated SS" class="">매출 및 정산 내역 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "affliated CS" %}
+                        <li><a href="/categories/affliated CS" class="">충전 정산 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "affliated CSC" %}
+                        <li><a href="/categories/affliated CSC" class="">고객 센터 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
       </li>
   </ul>
 </nav>
