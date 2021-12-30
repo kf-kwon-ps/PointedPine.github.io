@@ -10,7 +10,7 @@ tags:
 toc: true
 toc_sticky: true
  
-date: 2021-12-28
+date: 2021-12-27
 last_modified_at: 2021-12-28
 ---
 ### 거래 관리 - *발행내역 조회*

@@ -9,7 +9,7 @@ tags:
 toc: true
 toc_sticky: true
  
-date: 2021-12-25
+date: 2021-12-24
 last_modified_at: 2021-12-27
 ---
 ### 거래 관리 - *승인 취소내역 조회*
