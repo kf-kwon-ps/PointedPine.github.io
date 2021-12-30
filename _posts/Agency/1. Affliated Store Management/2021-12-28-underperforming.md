@@ -10,7 +10,7 @@ tags:
 toc: true
 toc_sticky: true
  
-date: 2021-12-27
+date: 2021-12-26
 last_modified_at: 2021-12-27
 ---
 ### 가맹점 관리 - *미실적 가맹점 조회*
