@@ -57,7 +57,7 @@ last_modified_at: 2021-12-22
 <br>
 <br>
 
-![6상태변경](https://user-images.githubusercontent.com/95394003/146902014-2d094af2-6e2d-4c61-a0b7-22261d2c446e.png)
+![6상태변경](https://user-images.githubusercontent.com/95394003/147734087-24c58327-2c63-4a47-beb4-92590abd8bd8.png)
 <p>6. 멤버 관리 > 가맹점 등록 > 하위사용자 등록<br>상태를 사용으로 변경해줍니다.</p>
 <br>
 <br>
