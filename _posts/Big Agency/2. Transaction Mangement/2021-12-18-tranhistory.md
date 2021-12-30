@@ -76,7 +76,7 @@ last_modified_at: 2021-12-28
 <br>
 <br>
 
-![image](https://user-images.githubusercontent.com/95394003/146506022-14a9993c-99c3-463a-b55e-3d8a4f6de5bd.png)
+![image](https://user-images.githubusercontent.com/95394003/147732267-9f91868a-8a4c-4a8c-9bc6-f9d3ee59345a.png)
 ###### 거래번호
 거래번호를 표기합니다.<br>거래번호를 클릭하여 가상계좌 거래에 대한<br>상세정보를 조회할 수 있습니다.
 
