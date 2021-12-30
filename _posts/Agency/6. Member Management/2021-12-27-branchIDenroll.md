@@ -10,7 +10,8 @@ toc: true
 toc_sticky: true
  
 date: 2021-12-29
-last_modified_at: 2021-12-29
+last_modified_at: 2021-12-30
+
 ---
 ### 멤버관리 - *지사 ID등록*
 ![에이전시 지사 ID등록](https://user-images.githubusercontent.com/95394003/147620920-2885475a-b228-411e-be28-cddc429c9a8b.jpeg)

@@ -9,8 +9,8 @@ tags:
 toc: true
 toc_sticky: true
  
-date: 2021-12-29
-last_modified_at: 2021-12-29
+date: 2021-12-26
+last_modified_at: 2021-12-30
 ---
 ### 멤버 관리 - 지사 관리 - *지사 등록*
 ![에이전시 지사등록](https://user-images.githubusercontent.com/95394003/147618878-067e8431-12de-4f67-965f-637e0a34f8e1.jpeg)
