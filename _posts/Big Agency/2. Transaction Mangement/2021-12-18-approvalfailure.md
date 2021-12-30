@@ -9,8 +9,9 @@ tags:
 toc: true
 toc_sticky: true
  
-date: 2021-12-16
-last_modified_at: 2021-12-17
+date: 2021-12-20
+last_modified_at: 2021-12-30
+
 ---
 ### 거래 관리 - *승인 실패 조회*
 ![승인실패조회](https://user-images.githubusercontent.com/95394003/146492884-fc254e4a-e421-4d10-b924-ee85f35bd18b.jpeg)

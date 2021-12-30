@@ -9,8 +9,8 @@ tags:
 toc: true
 toc_sticky: true
  
-date: 2021-12-16
-last_modified_at: 2021-12-17
+date: 2021-12-21
+last_modified_at: 2021-12-30
 ---
 ### 거래 관리 - *승인 내역 조회*
 ![승인내역조회](https://user-images.githubusercontent.com/95394003/146490610-a3cf3430-7856-47b4-bbca-034cfa328d8a.jpeg)

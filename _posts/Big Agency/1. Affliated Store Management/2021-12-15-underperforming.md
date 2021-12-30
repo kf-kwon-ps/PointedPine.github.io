@@ -11,7 +11,7 @@ toc: true
 toc_sticky: true
  
 date: 2021-12-15
-last_modified_at: 2021-12-15
+last_modified_at: 2021-12-30
 ---
 ### 가맹점 관리 - *미실적 가맹점 조회*
 ![미실적가맹점조회](https://user-images.githubusercontent.com/95394003/146144409-529f8826-c318-4933-8dac-1e7a163f98d5.jpeg)

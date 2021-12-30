@@ -10,7 +10,7 @@ tags:
 toc: true
 toc_sticky: true
  
-date: 2021-12-16
+date: 2021-12-17
 last_modified_at: 2021-12-17
 ---
 ### 거래 관리 - *리스크 관리*
