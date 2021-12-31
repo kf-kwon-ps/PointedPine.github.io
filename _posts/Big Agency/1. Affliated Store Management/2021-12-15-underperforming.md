@@ -60,8 +60,8 @@ last_modified_at: 2021-12-30
 <br>
 <br>
 
-![대행사소속선택](https://user-images.githubusercontent.com/95394003/146113804-6cc2322c-260b-492d-8ca2-ee29c5013cc5.jpeg)
 ###### 소속 선택
+![대행사소속선택](https://user-images.githubusercontent.com/95394003/146113804-6cc2322c-260b-492d-8ca2-ee29c5013cc5.jpeg)
 소속을 선택합니다. (에이전시/지사)선택 후 그에 따라 등록된<br> 소속 항목을 선택합니다.
 <br>
 <br>
