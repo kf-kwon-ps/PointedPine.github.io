@@ -65,9 +65,11 @@ PG 거래번호를 입력합니다.
 <br>
 <br>
 
-![취소내역상세정보](https://user-images.githubusercontent.com/95394003/146523476-5bc007ce-053e-4da3-a5c2-74ebecaf97a3.png)
 ###### 거래번호
-거래번호를 나타냅니다.<br>클릭하면 승인 취소내역 상세정보를 조회할 수 있습니다.
+![취소내역상세정보](https://user-images.githubusercontent.com/95394003/146523476-5bc007ce-053e-4da3-a5c2-74ebecaf97a3.png)
+<br>거래번호를 나타냅니다.<br>클릭하면 승인 취소내역 상세정보를 조회할 수 있습니다.
+<br>
+<br>
 
 ###### 가맹점
 거래가 이루어진 가맹점을 표기합니다.
