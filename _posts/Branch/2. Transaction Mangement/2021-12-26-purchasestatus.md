@@ -91,9 +91,9 @@ last_modified_at: 2021-12-27
 <br>
 <br>
 
-![정산주기](https://user-images.githubusercontent.com/95394003/146488198-6ca8c161-13e2-48b5-825d-f89fe582569b.jpeg)
 ###### 정산주기
-정산주기를 선택합니다. (D+0~7, C+0~7, A+1, B+1)
+![정산주기](https://user-images.githubusercontent.com/95394003/146488198-6ca8c161-13e2-48b5-825d-f89fe582569b.jpeg)
+<br>정산주기를 선택합니다. (D+0~7, C+0~7, A+1, B+1)
 <br>
 <br>
 
@@ -147,10 +147,12 @@ VAN 종류를 선택합니다.
 <br>
 <br>
 
-![image](https://user-images.githubusercontent.com/95394003/147442074-d093c8d0-b87d-4029-aa27-84a1eeda66ad.png)
 ###### 매입번호
-매입번호를 나타냅니다.<br>클릭하면 매입내역에 대한 상세정보를 확인할 수 있습니다. <br>
+![image](https://user-images.githubusercontent.com/95394003/147442074-d093c8d0-b87d-4029-aa27-84a1eeda66ad.png)
+<br>매입번호를 나타냅니다.<br>클릭하면 매입내역에 대한 상세정보를 확인할 수 있습니다. <br>
 매입 정보를 조회하고 취소를 요청할 수도 있습니다.
+<br>
+<br>
 
 ###### 거래번호
 거래번호를 나타냅니다.
