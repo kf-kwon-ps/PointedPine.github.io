@@ -88,9 +88,10 @@ last_modified_at: 2021-12-17
 <br>
 <br>
 
-![image](https://user-images.githubusercontent.com/95394003/146509871-391da55c-123e-43ef-913b-452e33c6dcf5.png)
 ###### 매입번호
-매입번호를 나타냅니다.<br>매입번호를 클릭하면 매입내역에 대한 상세정보를<br>조회 또는 취소 요청할 수 있습니다.
+![image](https://user-images.githubusercontent.com/95394003/146509871-391da55c-123e-43ef-913b-452e33c6dcf5.png)
+<br>매입번호를 나타냅니다.<br>매입번호를 클릭하면 매입내역에 대한 상세정보를<br>조회 또는 취소 요청할 수 있습니다.
+<br>
 
 ###### 가맹점
 거래가 이루어진 가맹점을 표기합니다.
