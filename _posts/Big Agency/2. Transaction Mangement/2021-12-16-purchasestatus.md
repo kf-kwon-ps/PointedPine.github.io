@@ -45,10 +45,11 @@ last_modified_at: 2021-12-27
 거래가 발생한 가맹점의 이름을 입력합니다
 <br>
 <br>
+<br>
 
-![거래일자](https://user-images.githubusercontent.com/95394003/146482288-281b97a7-3e60-4c56-b40a-b5889a1299c7.jpeg)
 ###### 거래일자
-거래일자에 대한 조회 기간을 설정합니다.<br>날짜부터 날짜로 설정 가능합니다.
+![거래일자](https://user-images.githubusercontent.com/95394003/146482288-281b97a7-3e60-4c56-b40a-b5889a1299c7.jpeg)
+<p>거래일자에 대한 조회 기간을 설정합니다.<br>날짜부터 날짜로 설정 가능합니다.</p>
 
 ###### 지급일
 지급일에 대한 조회 기간을 설정합니다.<br>날짜부터 날짜로 설정 가능합니다.
@@ -58,6 +59,7 @@ last_modified_at: 2021-12-27
 
 ###### 입금예정일
 입금예정일에 대한 조회 기간을 설정합니다.<br>날짜부터 날짜로 설정 가능합니다.
+<br>
 <br>
 <br>
 
@@ -91,9 +93,10 @@ last_modified_at: 2021-12-27
 <br>
 <br>
 
-![정산주기](https://user-images.githubusercontent.com/95394003/146488198-6ca8c161-13e2-48b5-825d-f89fe582569b.jpeg)
 ###### 정산주기
-정산주기를 선택합니다. (D+0~7, C+0~7, A+1, B+1)
+![정산주기](https://user-images.githubusercontent.com/95394003/146488198-6ca8c161-13e2-48b5-825d-f89fe582569b.jpeg)
+<p>정산주기를 선택합니다. (D+0~7, C+0~7, A+1, B+1)</p>
+<br>
 <br>
 <br>
 
@@ -133,6 +136,7 @@ VAN 종류를 선택합니다.
 소속을 선택합니다. (에이전시/지사)선택하고<br>그에 따라 등록된 소속 항목을 선택합니다.
 <br>
 <br>
+<br>
 
 ![조회결과](https://user-images.githubusercontent.com/95394003/146479953-2adedabb-d3a8-4b89-9aa9-31b72fe795e4.jpeg)
 ###### 체크박스
@@ -147,12 +151,14 @@ VAN 종류를 선택합니다.
 ###### 승인번호
 거래의 승인번호를 나타냅니다.
 <br>
-<br>
 
-![image](https://user-images.githubusercontent.com/95394003/147442074-d093c8d0-b87d-4029-aa27-84a1eeda66ad.png)
 ###### 매입번호
 매입번호를 나타냅니다.<br>클릭하면 매입내역에 대한 상세정보를 확인할 수 있습니다. <br>
-매입 정보를 조회하고 취소를 요청할 수도 있습니다.
+매입 정보를 조회하고 취소를 요청할 수도 있습니다.<br>
+*매입내역 상세정보*
+![image](https://user-images.githubusercontent.com/95394003/147442074-d093c8d0-b87d-4029-aa27-84a1eeda66ad.png)
+<br>
+<br>
 
 ###### 거래번호
 거래번호를 나타냅니다.
