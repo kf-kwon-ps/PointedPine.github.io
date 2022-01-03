@@ -1,0 +1,706 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="ko" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>가상계좌 관리 - 발행내역 조회 - PointedPine</title>
+<meta name="description" content="검색 조건을 입력 및 선택하여 가상계좌에 대한 발행내역을 조회합니다">
+
+
+  <meta name="author" content="정첨백">
+  
+  <meta property="article:author" content="정첨백">
+  
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="ko_KR">
+<meta property="og:site_name" content="PointedPine">
+<meta property="og:title" content="가상계좌 관리 - 발행내역 조회">
+<meta property="og:url" content="https://pointedpine.github.io//transaction%20management/publihistory/">
+
+
+  <meta property="og:description" content="검색 조건을 입력 및 선택하여 가상계좌에 대한 발행내역을 조회합니다">
+
+
+
+
+
+
+
+  <meta property="article:published_time" content="2021-12-19T00:00:00+09:00">
+
+
+
+  <meta property="article:modified_time" content="2021-12-28T00:00:00+09:00">
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://pointedpine.github.io//transaction%20management/publihistory/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "정첨백",
+      "url": "https://pointedpine.github.io//"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="PointedPine Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/">
+          PointedPine
+          <span class="site-subtitle">Version_1.0</span>
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/">Quick-Start Guide</a>
+            </li></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">토글 메뉴</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person" class="h-card">
+
+  
+
+  <div class="author__content">
+    <h3 class="author__name p-name" itemprop="name">
+      <a class="u-url" rel="me" href="https://pointedpine.github.io//" itemprop="url">정첨백</a>
+    </h3>
+    
+      <div class="author__bio p-note" itemprop="description">
+        <p>Kwonps 영업기획 업무</p>
+
+      </div>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">팔로우</button>
+    <ul class="author__urls social-icons">
+      
+        <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
+          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name" class="p-locality">서울특별시 구로구 디지털로33길 27 5층 514호 (주)케이원피에스</span>
+        </li>
+      
+
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+
+      
+
+      
+        <li>
+          <a href="mailto:j06.k1ps@gmail.com" rel="me" class="u-email">
+            <meta itemprop="email" content="j06.k1ps@gmail.com" />
+            <i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i><span class="label">이메일</span>
+          </a>
+        </li>
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer me">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+  
+  </div>
+
+
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="가상계좌 관리 - 발행내역 조회">
+    <meta itemprop="description" content="검색 조건을 입력 및 선택하여 가상계좌에 대한 발행내역을 조회합니다">
+    <meta itemprop="datePublished" content="2021-12-19T00:00:00+09:00">
+    <meta itemprop="dateModified" content="2021-12-28T00:00:00+09:00">
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title p-name" itemprop="headline">
+            <a href="https://pointedpine.github.io//transaction%20management/publihistory/" class="u-url" itemprop="url">가상계좌 관리 - 발행내역 조회
+</a>
+          </h1>
+          
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          최대 1 분 소요
+        
+      </span>
+    
+  </p>
+
+
+        </header>
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+          <aside class="sidebar__right sticky">
+            <nav class="toc">
+              <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> On This Page</h4></header>
+              <ul class="toc__menu"><li><a href="#거래-관리---발행-내역-조회">거래 관리 - 발행 내역 조회</a><ul><li><a href="#구분-">구분 </a></li><li><a href="#description">Description</a></li><li><a href="#detail">Detail</a><ul><li><a href="#발행번호">발행번호</a></li><li><a href="#가맹점명">가맹점명</a></li><li><a href="#계좌번호">계좌번호</a></li><li><a href="#예금주명">예금주명</a></li><li><a href="#거래추적번호">거래추적번호</a></li><li><a href="#발행유형">발행유형</a></li><li><a href="#지급대행">지급대행</a></li><li><a href="#은행">은행</a></li><li><a href="#no">No</a></li><li><a href="#발행번호-1">발행번호</a></li><li><a href="#은행-1">은행</a></li><li><a href="#계좌번호-1">계좌번호</a></li><li><a href="#발행유형-1">발행유형</a></li><li><a href="#상태">상태</a></li><li><a href="#가맹점">가맹점</a></li><li><a href="#예금주명-1">예금주명</a></li><li><a href="#수식">수식</a></li><li><a href="#금액기준">금액기준</a></li><li><a href="#거래추적번호-1">거래추적번호</a></li><li><a href="#만료일시">만료일시</a></li><li><a href="#reason">Reason</a></li><li><a href="#지급대행-1">지급대행</a></li><li><a href="#거래일시">거래일시</a></li></ul></li></ul></li></ul></li></ul>
+
+            </nav>
+          </aside>
+        
+        <h3 id="거래-관리---발행-내역-조회">거래 관리 - <em>발행 내역 조회</em></h3>
+<p><img src="https://user-images.githubusercontent.com/95394003/146500161-2e15e5fd-6cd5-4e90-9eaa-caeaed09a01a.jpeg" alt="발행내역조회" /></p>
+
+<h4 id="구분-"><em>구분</em> <br /></h4>
+<p><strong>&lt; 검색 조건 &gt;</strong> <strong>(8)</strong>
+<br />발행번호, 가맹점명, 계좌번호, 예금주명, 거래추적번호, 발행유형, 지급대행, 은행</p>
+
+<p><strong>&lt; 조회 결과 항목 &gt;</strong> <strong>(15)</strong>
+<br />No, 발행번호, 은행, 계좌번호, 발행유형, 상태, 가맹점, 예금주명, 수식, 금액기준, 거래추적번호, 만료일시, Reason, 지급대행, 거래일시</p>
+
+<h4 id="description"><em>Description</em></h4>
+<ul>
+  <li>검색 조건을 입력하여 가상계좌에 대한 발행내역을 조회합니다.
+<br />
+<br /></li>
+</ul>
+
+<h4 id="detail"><em>Detail</em></h4>
+<p><br /></p>
+
+<p><img src="https://user-images.githubusercontent.com/95394003/146500483-07e53c61-2016-4e15-be1b-c0807c5a970a.jpeg" alt="검색조건발행내역" /></p>
+<h6 id="발행번호">발행번호</h6>
+<p>발행번호를 입력합니다.</p>
+
+<h6 id="가맹점명">가맹점명</h6>
+<p>가상계좌를 부여받은 가맹점을 입력합니다.</p>
+
+<h6 id="계좌번호">계좌번호</h6>
+<p>발행된 가상 계좌번호를 입력합니다.</p>
+
+<h6 id="예금주명">예금주명</h6>
+<p>발행된 가상계좌의 예금주명을 입력합니다.</p>
+
+<h6 id="거래추적번호">거래추적번호</h6>
+<p>거래추적번호를 입력합니다.</p>
+
+<h6 id="발행유형">발행유형</h6>
+<p>가상계좌의 발행유형을 선택합니다.<br />전체, 임시, 영구로 구분됩니다.</p>
+
+<h6 id="지급대행">지급대행</h6>
+<p>지급대행 여부를 선택합니다.<br />현재까지 지급대행으로 설정한 발행내역은 없습니다.</p>
+
+<h6 id="은행">은행</h6>
+<p>가상계좌를 발급한 은행을 선택합니다.<br />전체, 경남, 수협, 케이뱅크, 부산, 우리로 구분됩니다.
+<br />
+<br /></p>
+
+<p><img src="https://user-images.githubusercontent.com/95394003/146500756-81b301fb-ff81-4ad6-9504-59b5a504fad5.png" alt="조회결과" /></p>
+<h6 id="no">No</h6>
+<p>조회된 결과의 리스트 번호를 나타냅니다.</p>
+
+<h6 id="발행번호-1">발행번호</h6>
+<p>발행번호를 표기합니다.</p>
+
+<h6 id="은행-1">은행</h6>
+<p>해당 가상계좌를 발행한 은행을 나타냅니다.</p>
+
+<h6 id="계좌번호-1">계좌번호</h6>
+<p>해당 계좌의 계좌번호를 나타냅니다.</p>
+
+<h6 id="발행유형-1">발행유형</h6>
+<p>발행 유형이 임시인지 영구인지 구분합니다.</p>
+
+<h6 id="상태">상태</h6>
+<p>가상계좌의 상태를 표기합니다.<br />발행, 사용만료, 사용자만료로 구분됩니다.</p>
+
+<h6 id="가맹점">가맹점</h6>
+<p>가상계좌를 부여받은 가맹점을 표기합니다.</p>
+
+<h6 id="예금주명-1">예금주명</h6>
+<p>해당 가상계좌의 예금주명을 나타냅니다.</p>
+
+<h6 id="수식">수식</h6>
+<p>eq, ge 로 구분됩니다.</p>
+
+<h6 id="금액기준">금액기준</h6>
+<p>금액기준을 표기합니다.</p>
+
+<h6 id="거래추적번호-1">거래추적번호</h6>
+<p>거래추적번호를 나타냅니다.</p>
+
+<h6 id="만료일시">만료일시</h6>
+<p>부여한 가상계좌의 사용 만료일시를 나타냅니다.</p>
+
+<h6 id="reason">Reason</h6>
+<p>사용만료된 가상계좌 사유 번호를 나타냅니다.</p>
+
+<h6 id="지급대행-1">지급대행</h6>
+<p>사용하지 않는 항목입니다.</p>
+
+<h6 id="거래일시">거래일시</h6>
+<p>거래일시를 날짜와 시간으로 표기합니다.</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> 태그: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/tags/#%EA%B0%80%EC%83%81%EA%B3%84%EC%A2%8C%EA%B4%80%EB%A6%AC" class="page__taxonomy-item p-category" rel="tag">가상계좌관리</a><span class="sep">, </span>
+    
+      <a href="/tags/#%EB%8C%80%ED%96%89%EC%82%AC" class="page__taxonomy-item p-category" rel="tag">대행사</a><span class="sep">, </span>
+    
+      <a href="/tags/#%EB%B0%9C%ED%96%89%EB%82%B4%EC%97%AD-%EC%A1%B0%ED%9A%8C" class="page__taxonomy-item p-category" rel="tag">발행내역 조회</a>
+    
+    </span>
+  </p>
+
+
+
+
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> 카테고리: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/categories/#transaction-management" class="page__taxonomy-item p-category" rel="tag">transaction management</a>
+    
+    </span>
+  </p>
+
+
+        
+
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> 업데이트:</strong> <time class="dt-published" datetime="2021-12-28">December 28, 2021</time></p>
+
+      </footer>
+
+      <section class="page__share">
+  
+    <h4 class="page__share-title">공유하기</h4>
+  
+
+  <a href="https://twitter.com/intent/tweet?text=%EA%B0%80%EC%83%81%EA%B3%84%EC%A2%8C+%EA%B4%80%EB%A6%AC+-+%EB%B0%9C%ED%96%89%EB%82%B4%EC%97%AD+%EC%A1%B0%ED%9A%8C%20https%3A%2F%2Fpointedpine.github.io%2F%2Ftransaction%2520management%2Fpublihistory%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="공유하기 Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fpointedpine.github.io%2F%2Ftransaction%2520management%2Fpublihistory%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="공유하기 Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fpointedpine.github.io%2F%2Ftransaction%2520management%2Fpublihistory%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="공유하기 LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+
+      
+  <nav class="pagination">
+    
+      <a href="/customer%20service%20center/information/" class="pagination--pager" title="공지사항
+">이전</a>
+    
+    
+      <a href="/sales%20management/BSM/" class="pagination--pager" title="지사 매출관리
+">다음</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+    <div class="page__related">
+      <h2 class="page__related-title">참고</h2>
+      <div class="grid__wrapper">
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/branch%20sm/MSM/" rel="permalink">월별 매출관리
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          최대 1 분 소요
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">조회할 기간을 설정하여 해당 월별 매출을 조회합니다
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/branch%20fm/ASLookup/" rel="permalink">가맹점 조회
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          1 분 소요
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">등록된 가맹점을 조회합니다.
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/agency%20csc/a-information/" rel="permalink">공지사항
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          최대 1 분 소요
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">공지사항 조회 페이지입니다
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/agency%20mm/idlookup/" rel="permalink">로그인 ID관리 - ID 조회
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          최대 1 분 소요
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">등록된 로그인 ID를 조회합니다
+</p>
+  </article>
+</div>
+
+        
+      </div>
+    </div>
+  
+  
+</div>
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>팔로우:</strong></li>
+    
+
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> 피드</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2022 정첨백. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>
