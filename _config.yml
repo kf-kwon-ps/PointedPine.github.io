@@ -248,12 +248,14 @@ whitelist:
 #  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
 #  - <base_path>/categories/my-awesome-category/index.html ~> path: /categories/
 #  - <base_path>/my-awesome-category/index.html ~> path: /
- category_archive:
-  type: liquid
-  path: /categories/
- tag_archive:
-  type: liquid
-  path: /tags/
+# 주석처리 시작
+# category_archive:
+  #type: liquid
+  #path: /categories/
+ #tag_archive:
+  #type: liquid
+  #path: /tags/
+# 주석처리 끝
 # https://github.com/jekyll/jekyll-archives
 # jekyll-archives:
 #   enabled:
