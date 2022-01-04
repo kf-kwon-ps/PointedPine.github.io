@@ -206,7 +206,7 @@
             </ul>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "충전 정산" %}
+                    {% if category[0] == "affliated CS" %}
                         <li><a href="/categories/affliated CS" class="">충전 정산 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
