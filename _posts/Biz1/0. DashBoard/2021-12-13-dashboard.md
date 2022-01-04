@@ -5,16 +5,18 @@ excerpt: "Main page(Home)"
 categories: 
  - DashBoard
 tags:
-- [대행사, 에이전시, 지사,]
+- [대행사, DashBoard]
 
 toc: true
 toc_sticky: true
 
 date: 2021-12-13
-last_modified_at: 2021-12-13
+last_modified_at: 2022-01-04
 ---
-### 대행사 페이지 - *DashBoard*
+### *Home*
 ![image](https://user-images.githubusercontent.com/95394003/145782416-b20f8a59-b46f-4cbd-8b81-151b089f9c9d.jpeg)
+<br>
+
 #### *Description*
 - 일/월 기준 거래내역 및 거래추이 등을<br>한눈에 파악할 수 있습니다.
 
