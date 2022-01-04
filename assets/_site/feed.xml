@@ -1,0 +1,709 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="https://pointedpine.github.io//feed.xml" rel="self" type="application/atom+xml" /><link href="https://pointedpine.github.io//" rel="alternate" type="text/html" /><updated>2022-01-03T14:30:01+09:00</updated><id>https://pointedpine.github.io//feed.xml</id><title type="html">PointedPine</title><subtitle>KwonPS_영업기획_대외배포용_매뉴얼_제작</subtitle><author><name>정첨백</name><email>j06.k1ps@gmail.com</email></author><entry><title type="html">매입 현황 조회</title><link href="https://pointedpine.github.io//agency%20tm/purchasestatus/" rel="alternate" type="text/html" title="매입 현황 조회" /><published>2021-12-30T00:00:00+09:00</published><updated>2021-12-27T00:00:00+09:00</updated><id>https://pointedpine.github.io//agency%20tm/purchasestatus</id><content type="html" xml:base="https://pointedpine.github.io//agency%20tm/purchasestatus/">&lt;h3 id=&quot;거래-관리---매입-현황-조회&quot;&gt;거래 관리 - &lt;em&gt;매입 현황 조회&lt;/em&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/95394003/147441443-9dcf55d9-48f7-448e-a599-ff965e5a4b4b.jpeg&quot; alt=&quot;에이전시 매입현황조회&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;구분-&quot;&gt;&lt;em&gt;구분&lt;/em&gt; &lt;br /&gt;&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;&amp;lt; 검색 조건 &amp;gt;&lt;/strong&gt; &lt;strong&gt;(23)&lt;/strong&gt;&lt;br /&gt;
+승인번호, 매입번호, 가맹점명&lt;br /&gt;거래일자/지급일/정산예정일/입금예정일, 승인금액, 리스크,&lt;br /&gt;터미널 번호, 카드BIN, 카드뒤4자리, 매입구분, 정산상태,정산주기,&lt;br /&gt;일시불/할부, 신용/체크, 매입사, 가맹점 대표자, VAN,&lt;br /&gt;취소구분, 취소원거래번호, 거래번호, 가맹점 ID, 입금상태, 소속 선택
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&amp;lt; 조회 결과 항목 &amp;gt;&lt;/strong&gt; &lt;strong&gt;(18)&lt;/strong&gt;
+&lt;br /&gt;체크박스, No, 거래일시, 승인번호, 매입번호, 거래번호, 가맹점,&lt;br /&gt; 가맹점대표, 주문번호, 터미널ID, 매입구분, 신용/체크, 취소거래,&lt;br /&gt; 금액, BIN, LAST4, 할부, 리스크
+&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;description&quot;&gt;&lt;em&gt;Description&lt;/em&gt;&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;검색 조건을 입력하여 거래건별 승인내역 등 매입 현황을&lt;br /&gt;조회합니다.&lt;/li&gt;
+  &lt;li&gt;조회 결과 항목 중 매입 번호를 통해 매입정보, 취소요청,&lt;br /&gt;KSPAY 영수증 조회 등 매입내역에 대한 상세 정보를&lt;br /&gt;확인할 수 있습니다.&lt;/li&gt;
+  &lt;li&gt;KSPAY 영수증 조회를 클릭하여 조회 및 VAN 매출전표를&lt;br /&gt;출력할 수 있습니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;detail&quot;&gt;&lt;em&gt;Detail&lt;/em&gt;&lt;/h4&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/95394003/146481772-129ea77c-27de-4d95-84df-cc3dd5c0a795.jpeg&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
+&lt;h6 id=&quot;승인번호&quot;&gt;승인번호&lt;/h6&gt;
+&lt;p&gt;거래 승인번호를 입력합니다.&lt;/p&gt;
+
+&lt;h6 id=&quot;매입번호&quot;&gt;매입번호&lt;/h6&gt;
+&lt;p&gt;거래 매입번호를 입력합니다.&lt;/p&gt;
+
+&lt;h6 id=&quot;가맹점명&quot;&gt;가맹점명&lt;/h6&gt;
+&lt;p&gt;거래가 발생한 가맹점의 이름을 입력합니다
+&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/95394003/146482288-281b97a7-3e60-4c56-b40a-b5889a1299c7.jpeg&quot; alt=&quot;거래일자&quot; /&gt;&lt;/p&gt;
+&lt;h6 id=&quot;거래일자&quot;&gt;거래일자&lt;/h6&gt;
+&lt;p&gt;거래일자에 대한 조회 기간을 설정합니다.&lt;br /&gt;날짜부터 날짜로 설정 가능합니다.&lt;/p&gt;
+
+&lt;h6 id=&quot;지급일&quot;&gt;지급일&lt;/h6&gt;
+&lt;p&gt;지급일에 대한 조회 기간을 설정합니다.&lt;br /&gt;날짜부터 날짜로 설정 가능합니다.&lt;/p&gt;
+
+&lt;h6 id=&quot;정산예정일&quot;&gt;정산예정일&lt;/h6&gt;
+&lt;p&gt;정산예정일에 대한 조회 기간을 설정합니다.&lt;br /&gt;날짜부터 날짜로 설정 가능합니다.&lt;/p&gt;
+
+&lt;h6 id=&quot;입금예정일&quot;&gt;입금예정일&lt;/h6&gt;
+&lt;p&gt;입금예정일에 대한 조회 기간을 설정합니다.&lt;br /&gt;날짜부터 날짜로 설정 가능합니다.
+&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/95394003/146482485-1c2ed337-0e12-433f-aed7-2443cd0e2c9d.jpeg&quot; alt=&quot;승인금액리스크&quot; /&gt;&lt;/p&gt;
+&lt;h6 id=&quot;승인금액&quot;&gt;승인금액&lt;/h6&gt;
+&lt;p&gt;거래가 승인된 금액의 범위를 설정합니다.&lt;br /&gt;금액부터 금액으로 설정 가능합니다.&lt;/p&gt;
+
+&lt;h6 id=&quot;리스크&quot;&gt;리스크&lt;/h6&gt;
+&lt;p&gt;리스크 종류를 선택합니다.&lt;br /&gt;
+전체, 건한도, 중복, 고액, 최소금액, 야간할부, 1일중복, 주간할부,&lt;br /&gt; 야간건한도, 위험, 관리자설정
+&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/95394003/146488114-947dea4a-fc11-4f88-ab53-e2b30c04769c.jpeg&quot; alt=&quot;정산상태까지&quot; /&gt;&lt;/p&gt;
+&lt;h6 id=&quot;터미널-번호&quot;&gt;터미널 번호&lt;/h6&gt;
+&lt;p&gt;터미널 번호를 입력합니다.&lt;/p&gt;
+
+&lt;h6 id=&quot;카드-bin&quot;&gt;카드 BIN&lt;/h6&gt;
+&lt;p&gt;카드의 정보를 구분할 수 있는 BIN 번호를 입력합니다.&lt;br /&gt;
+카드번호의 첫번째 자리부터 여섯번째 자리까지 입력합니다.&lt;/p&gt;
+
+&lt;h6 id=&quot;카드뒤4자리&quot;&gt;카드뒤4자리&lt;/h6&gt;
+&lt;p&gt;카드번호 끝 4자리를 입력합니다.&lt;/p&gt;
+
+&lt;h6 id=&quot;매입구분&quot;&gt;매입구분&lt;/h6&gt;
+&lt;p&gt;매입에 대한 구분을 전체, 매입, 매입취소 중에 선택합니다.&lt;/p&gt;
+
+&lt;h6 id=&quot;정산상태&quot;&gt;정산상태&lt;/h6&gt;
+&lt;p&gt;정산에 대한 상태를 선택합니다.&lt;br /&gt;
+전체, 대기, 확정, 보류, 완료 중에 선택합니다.
+&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;h6 id=&quot;정산주기&quot;&gt;정산주기&lt;/h6&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/95394003/146488198-6ca8c161-13e2-48b5-825d-f89fe582569b.jpeg&quot; alt=&quot;정산주기&quot; /&gt;
+&lt;br /&gt;정산주기를 선택합니다. (D+0~7, C+0~7, A+1, B+1)
+&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/95394003/147441675-735cf9bf-83c8-4f04-a686-2da6baba3902.jpeg&quot; alt=&quot;에이전시일시불부터소속&quot; /&gt;&lt;/p&gt;
+&lt;h6 id=&quot;일시불할부&quot;&gt;일시불/할부&lt;/h6&gt;
+&lt;p&gt;거래가 일시불인지 할부인지를 선택합니다.&lt;/p&gt;
+
+&lt;h6 id=&quot;신용체크&quot;&gt;신용/체크&lt;/h6&gt;
+&lt;p&gt;결제한 카드가 신용카드인지 체크카드인지를 구분합니다.&lt;/p&gt;
+
+&lt;h6 id=&quot;매입사&quot;&gt;매입사&lt;/h6&gt;
+&lt;p&gt;결제한 카드 매입사를 선택합니다.&lt;br /&gt;
+(전체, 국민, 농협, 롯데, 비씨, 삼성, 하나, 현대, 기타)&lt;/p&gt;
+
+&lt;h6 id=&quot;가맹점-대표자&quot;&gt;가맹점 대표자&lt;/h6&gt;
+&lt;p&gt;가맹점 대표자를 입력합니다.&lt;/p&gt;
+
+&lt;h6 id=&quot;van&quot;&gt;VAN&lt;/h6&gt;
+&lt;p&gt;VAN 종류를 선택합니다.&lt;/p&gt;
+
+&lt;h6 id=&quot;취소구분&quot;&gt;취소구분&lt;/h6&gt;
+&lt;p&gt;취소구분을 선택합니다. 전체와 부분으로 구분됩니다.&lt;/p&gt;
+
+&lt;h6 id=&quot;취소원거래번호&quot;&gt;취소원거래번호&lt;/h6&gt;
+&lt;p&gt;취소원거래번호를 입력합니다.&lt;/p&gt;
+
+&lt;h6 id=&quot;거래번호&quot;&gt;거래번호&lt;/h6&gt;
+&lt;p&gt;거래번호를 입력합니다.&lt;/p&gt;
+
+&lt;h6 id=&quot;가맹점-id&quot;&gt;가맹점 ID&lt;/h6&gt;
+&lt;p&gt;가맹점 ID를 입력합니다.&lt;/p&gt;
+
+&lt;h6 id=&quot;입금상태&quot;&gt;입금상태&lt;/h6&gt;
+&lt;p&gt;입금상태를 선택합니다. 전체, 입금대기, 입금완료로 구분됩니다.&lt;/p&gt;
+
+&lt;h6 id=&quot;소속-선택&quot;&gt;소속 선택&lt;/h6&gt;
+&lt;p&gt;지사를 선택합니다.
+&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/95394003/146479953-2adedabb-d3a8-4b89-9aa9-31b72fe795e4.jpeg&quot; alt=&quot;조회결과&quot; /&gt;&lt;/p&gt;
+&lt;h6 id=&quot;체크박스&quot;&gt;체크박스&lt;/h6&gt;
+&lt;p&gt;리스크를 변경하고자 하는 매입내역에 체크할 수 있습니다.&lt;/p&gt;
+
+&lt;h6 id=&quot;no&quot;&gt;No&lt;/h6&gt;
+&lt;p&gt;조회된 결과의 리스트 번호를 나타냅니다.&lt;/p&gt;
+
+&lt;h6 id=&quot;거래일시&quot;&gt;거래일시&lt;/h6&gt;
+&lt;p&gt;거래가 이루어진 날짜와 시간을 나타냅니다.&lt;/p&gt;
+
+&lt;h6 id=&quot;승인번호-1&quot;&gt;승인번호&lt;/h6&gt;
+&lt;p&gt;거래의 승인번호를 나타냅니다.
+&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;h6 id=&quot;매입번호-1&quot;&gt;매입번호&lt;/h6&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/95394003/147442074-d093c8d0-b87d-4029-aa27-84a1eeda66ad.png&quot; alt=&quot;image&quot; /&gt;
+&lt;br /&gt;매입번호를 나타냅니다.&lt;br /&gt;클릭하면 매입내역에 대한 상세정보를 확인할 수 있습니다. &lt;br /&gt;
+매입 정보를 조회하고 취소를 요청할 수도 있습니다.
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;h6 id=&quot;거래번호-1&quot;&gt;거래번호&lt;/h6&gt;
+&lt;p&gt;거래번호를 나타냅니다.&lt;/p&gt;
+
+&lt;h6 id=&quot;가맹점&quot;&gt;가맹점&lt;/h6&gt;
+&lt;p&gt;거래가 이루어진 가맹점을 표기합니다.&lt;/p&gt;
+
+&lt;h6 id=&quot;가맹점대표&quot;&gt;가맹점대표&lt;/h6&gt;
+&lt;p&gt;해당 가맹점의 대표자 이름을 나타냅니다.&lt;/p&gt;
+
+&lt;h6 id=&quot;주문번호&quot;&gt;주문번호&lt;/h6&gt;
+&lt;p&gt;주문 번호를 나타냅니다.&lt;/p&gt;
+
+&lt;h6 id=&quot;터미널id&quot;&gt;터미널ID&lt;/h6&gt;
+&lt;p&gt;터미널 ID를 나타냅니다.&lt;/p&gt;
+
+&lt;h6 id=&quot;매입구분-1&quot;&gt;매입구분&lt;/h6&gt;
+&lt;p&gt;매입에 대한 구분을 나타내는데 매입과 취소로 구분됩니다.&lt;/p&gt;
+
+&lt;h6 id=&quot;신용체크-1&quot;&gt;신용/체크&lt;/h6&gt;
+&lt;p&gt;거래한 카드가 신용카드인지 체크카드인지를 나타냅니다.&lt;/p&gt;
+
+&lt;h6 id=&quot;취소거래&quot;&gt;취소거래&lt;/h6&gt;
+&lt;p&gt;취소 거래일 경우 취소거래번호를 나타냅니다.&lt;/p&gt;
+
+&lt;h6 id=&quot;금액&quot;&gt;금액&lt;/h6&gt;
+&lt;p&gt;거래 금액을 표기합니다.&lt;/p&gt;
+
+&lt;h6 id=&quot;bin&quot;&gt;BIN&lt;/h6&gt;
+&lt;p&gt;카드의 정보를 구분할 수 있는 BIN 번호를 나타냅니다.&lt;br /&gt;
+카드번호의 첫번째 자리부터 여섯번째 자리까지 보여줍니다.&lt;/p&gt;
+
+&lt;h6 id=&quot;last4&quot;&gt;LAST4&lt;/h6&gt;
+&lt;p&gt;카드번호 끝 4자리입니다.&lt;br /&gt;
+암호화가 되어있을 수도 있습니다.&lt;/p&gt;
+
+&lt;h6 id=&quot;할부&quot;&gt;할부&lt;/h6&gt;
+&lt;p&gt;할부 기간을 나타냅니다.&lt;br /&gt;
+일시불 거래일 경우 00으로 표기됩니다.&lt;/p&gt;
+
+&lt;h6 id=&quot;리스크-1&quot;&gt;리스크&lt;/h6&gt;
+&lt;p&gt;리스크를 구분해서 나타냅니다.&lt;/p&gt;</content><author><name>정첨백</name><email>j06.k1ps@gmail.com</email></author><category term="agency TM" /><category term="에이전시" /><category term="매입 현황 조회" /><summary type="html">검색 조건을 입력하여 매입 현황을 조회합니다</summary></entry><entry><title type="html">월별 매출관리</title><link href="https://pointedpine.github.io//branch%20sm/MSM/" rel="alternate" type="text/html" title="월별 매출관리" /><published>2021-12-30T00:00:00+09:00</published><updated>2021-12-27T00:00:00+09:00</updated><id>https://pointedpine.github.io//branch%20sm/MSM</id><content type="html" xml:base="https://pointedpine.github.io//branch%20sm/MSM/">&lt;h3 id=&quot;매출-관리---월별-매출관리&quot;&gt;매출 관리 - &lt;em&gt;월별 매출관리&lt;/em&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/95394003/147454096-9b104ab7-283e-4143-8fdb-77a39ae607b9.jpeg&quot; alt=&quot;지사 월별매출관리&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;구분-&quot;&gt;&lt;em&gt;구분&lt;/em&gt; &lt;br /&gt;&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;&amp;lt; 검색 조건 &amp;gt;&lt;/strong&gt; &lt;strong&gt;(3)&lt;/strong&gt;
+&lt;br /&gt;조회 시작월, 조회 종료월&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&amp;lt; 조회 결과 항목 &amp;gt;&lt;/strong&gt;  &lt;strong&gt;(6)&lt;/strong&gt;
+&lt;br /&gt;No, 매입월, 매입현황, 매입취소현황,&lt;br /&gt;합계(금액/건수/정산금액/가맹점수수료), 지사 수익&lt;/p&gt;
+
+&lt;h4 id=&quot;description&quot;&gt;&lt;em&gt;Description&lt;/em&gt;&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;조회할 기간을 설정하여 해당 월별 매출을 조회합니다.&lt;/li&gt;
+  &lt;li&gt;매입 현황과 매입 취소 현황, 합계 금액, 건수 및 지사 수익을&lt;br /&gt;조회할 수 있습니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;detail&quot;&gt;&lt;em&gt;Detail&lt;/em&gt;&lt;/h4&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/95394003/147454212-a6b45bf9-4709-4105-9912-92ee73e9b085.jpeg&quot; alt=&quot;지사 월별매출관리검색조건&quot; /&gt;&lt;/p&gt;
+&lt;h6 id=&quot;조회-시작월&quot;&gt;조회 시작월&lt;/h6&gt;
+&lt;p&gt;조회를 시직할 연도와 월을 설정할 수 있습니다.&lt;br /&gt;2019년 07월부터 조회가 가능합니다.&lt;/p&gt;
+
+&lt;h6 id=&quot;조회-종료월&quot;&gt;조회 종료월&lt;/h6&gt;
+&lt;p&gt;조회를 종료할 연도와 월을 설정할 수 있습니다.&lt;br /&gt;2019년 07월부터 조회가 가능합니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/95394003/147457161-321a3afd-2dc6-40fe-a1fd-3c10e8edc2f1.jpeg&quot; alt=&quot;지사월별매출관리검색결과&quot; /&gt;&lt;/p&gt;
+&lt;h6 id=&quot;no&quot;&gt;No&lt;/h6&gt;
+&lt;p&gt;조회된 결과의 리스트 번호를 나타냅니다.&lt;/p&gt;
+
+&lt;h6 id=&quot;매입월&quot;&gt;매입월&lt;/h6&gt;
+&lt;p&gt;연도 - 월 을 나타냅니다.&lt;/p&gt;
+
+&lt;h6 id=&quot;매입현황&quot;&gt;매입현황&lt;/h6&gt;
+&lt;p&gt;해당 월의 매입 금액과 건수를 나타냅니다.&lt;/p&gt;
+
+&lt;h6 id=&quot;매입취소현황&quot;&gt;매입취소현황&lt;/h6&gt;
+&lt;p&gt;해당 월의 매입 취소 금액과 건수를 나타냅니다.&lt;/p&gt;
+
+&lt;h6 id=&quot;합계&quot;&gt;합계&lt;/h6&gt;
+&lt;p&gt;월별 매입현황과 매입취소현황에 대한 금액, 건수의 합계와&lt;br /&gt;그에 따른 합계 정산금액, 가맹점수수료를 나타냅니다.&lt;/p&gt;
+
+&lt;h6 id=&quot;지사-수익&quot;&gt;지사 수익&lt;/h6&gt;
+&lt;p&gt;지사의 수익이 얼마인지를 나타냅니다.&lt;/p&gt;
+
+&lt;h6 id=&quot;금액&quot;&gt;금액&lt;/h6&gt;
+&lt;p&gt;금액을 표기합니다.&lt;/p&gt;
+
+&lt;h6 id=&quot;건수&quot;&gt;건수&lt;/h6&gt;
+&lt;p&gt;건수를 표기합니다.&lt;/p&gt;
+
+&lt;h6 id=&quot;정산금액&quot;&gt;정산금액&lt;/h6&gt;
+&lt;p&gt;정산 금액이 얼마인지를 나타냅니다.&lt;/p&gt;
+
+&lt;h6 id=&quot;가맹점수수료&quot;&gt;가맹점수수료&lt;/h6&gt;
+&lt;p&gt;가맹점 수수료가 얼마인지를 나타냅니다.&lt;/p&gt;</content><author><name>정첨백</name><email>j06.k1ps@gmail.com</email></author><category term="branch SM" /><category term="지사" /><category term="월별 매출관리" /><summary type="html">조회할 기간을 설정하여 해당 월별 매출을 조회합니다</summary></entry><entry><title type="html">가맹점 조회</title><link href="https://pointedpine.github.io//branch%20fm/ASLookup/" rel="alternate" type="text/html" title="가맹점 조회" /><published>2021-12-30T00:00:00+09:00</published><updated>2021-12-30T00:00:00+09:00</updated><id>https://pointedpine.github.io//branch%20fm/ASLookup</id><content type="html" xml:base="https://pointedpine.github.io//branch%20fm/ASLookup/">&lt;h3 id=&quot;가맹점-관리---가맹점-조회&quot;&gt;가맹점 관리 - &lt;em&gt;가맹점 조회&lt;/em&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/95394003/147434994-7da94462-42cc-4546-9afa-536bec476193.jpeg&quot; alt=&quot;지사 가맹점조회&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;구분&quot;&gt;&lt;em&gt;구분&lt;/em&gt;&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;&amp;lt; 검색 조건 &amp;gt;&lt;/strong&gt; &lt;strong&gt;(8)&lt;/strong&gt;
+&lt;br /&gt;아이디, 가맹점명, 사업자(주민)번호, 상태, 대표자이름, 전화번호,&lt;br /&gt;정산주기, 담당자이름&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&amp;lt; 조회 결과 항목 &amp;gt;&lt;/strong&gt; &lt;strong&gt;(12)&lt;/strong&gt;
+&lt;br /&gt;No, 아이디, 이름, 사업자(주민)번호, 대표자이름, 상태, 지사,&lt;br /&gt;예수금, 정산주기, 수수료, 등록자, 등록일시&lt;/p&gt;
+
+&lt;h4 id=&quot;description&quot;&gt;&lt;em&gt;Description&lt;/em&gt;&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;검색 조건을 입력하여 등록된 터미널을 조회합니다.&lt;br /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;아이디부터 등록일시까지 간단한 정보가 목록화되어 표기됩니다.&lt;br /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;특정 가맹점의 세부 정보를 수정 또는 조회하려면 조회 결과 항목 중 아이디 또는 이름을 클릭하여 가맹점페이지로 이동합니다.&lt;strong&gt;&lt;br /&gt;&lt;/strong&gt;(지불 및 정산정보 포함 - 등록 및 수정 가능)
+&lt;br /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;가맹점-페이지&quot;&gt;&lt;em&gt;가맹점 페이지&lt;/em&gt;&lt;/h4&gt;
+&lt;p&gt;[Home &amp;gt; 가맹점 관리 &amp;gt; 가맹점 페이지]
+&lt;img src=&quot;https://user-images.githubusercontent.com/95394003/145925179-55611876-ce37-4ec5-9d8d-e5f5571d27ec.jpeg&quot; alt=&quot;가맹점페이지&quot; /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;detail&quot;&gt;&lt;em&gt;Detail&lt;/em&gt;&lt;/h4&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/95394003/146112518-8ff9309c-a45d-4596-a1c1-64e64d521a90.jpeg&quot; alt=&quot;아이디가맹점사업자&quot; /&gt; &lt;br /&gt;&lt;/p&gt;
+&lt;h6 id=&quot;아이디&quot;&gt;아이디&lt;/h6&gt;
+&lt;p&gt;등록된 가맹점 ID를 입력합니다.&lt;/p&gt;
+
+&lt;h6 id=&quot;가맹점명&quot;&gt;가맹점명&lt;/h6&gt;
+&lt;p&gt;등록된 가맹점의 이름을 입력합니다.&lt;/p&gt;
+
+&lt;h6 id=&quot;사업자주민번호&quot;&gt;사업자(주민)번호&lt;/h6&gt;
+&lt;p&gt;등록된 사업자번호 또는 주민등록번호를 입력합니다.
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;h6 id=&quot;상태&quot;&gt;상태&lt;/h6&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/95394003/146114750-edd257df-fd47-466e-b0a1-4751523fa8a1.jpeg&quot; alt=&quot;상태&quot; /&gt;&lt;br /&gt;
+계정의 상태를 선택합니다. &lt;br /&gt;
+상태/ 예비 / 승인대기 / 사용 / 중지 중 선택합니다.
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/95394003/146112941-83cdaa8f-e2fe-47a0-8efc-a7bacf4831c3.jpeg&quot; alt=&quot;대표자담당자&quot; /&gt;&lt;/p&gt;
+&lt;h6 id=&quot;대표자이름&quot;&gt;대표자이름&lt;/h6&gt;
+&lt;p&gt;등록된 대표자의 이름을 입력합니다.&lt;/p&gt;
+
+&lt;h6 id=&quot;담당자이름&quot;&gt;담당자이름&lt;/h6&gt;
+&lt;p&gt;등록된 담당자의 이름을 입력합니다.(등록하지 않은 경우도 있습니다)&lt;/p&gt;
+
+&lt;h6 id=&quot;전화번호&quot;&gt;전화번호&lt;/h6&gt;
+&lt;p&gt;등록된 전화번호를 입력합니다.
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;h6 id=&quot;정산주기&quot;&gt;정산주기&lt;/h6&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/95394003/146113348-cbe31c00-e08b-4e43-8e6e-92b0e4f1ec94.jpeg&quot; alt=&quot;정산주기&quot; /&gt;
+&lt;br /&gt;전체/ D+0 / A+1 / D+1 / D+5 중 선택합니다.
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/95394003/145962859-5a6bdfe6-eae1-4270-a66f-7301f41da9e7.jpeg&quot; alt=&quot;reset,search&quot; /&gt;&lt;/p&gt;
+&lt;h6 id=&quot;reset&quot;&gt;reset&lt;/h6&gt;
+&lt;p&gt;입력한 검색 조건 내용을 초기화합니다.&lt;/p&gt;
+&lt;h6 id=&quot;search&quot;&gt;search&lt;/h6&gt;
+&lt;p&gt;입력한 검색 조건에 대한 결과를 보여줍니다.
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/95394003/147435076-59816b60-2dce-4a8c-8e6a-3d3eb39f94be.jpeg&quot; alt=&quot;지사 가맹점조회 조회결과&quot; /&gt;&lt;/p&gt;
+&lt;h6 id=&quot;no&quot;&gt;No&lt;/h6&gt;
+&lt;p&gt;조회된 결과의 리스트 번호를 나타냅니다.&lt;/p&gt;
+
+&lt;h6 id=&quot;아이디-1&quot;&gt;아이디&lt;/h6&gt;
+&lt;p&gt;해당 가맹점의 아이디입니다.&lt;br /&gt;클릭하면 가맹점 페이지로 이동합니다.&lt;/p&gt;
+
+&lt;h6 id=&quot;이름&quot;&gt;이름&lt;/h6&gt;
+&lt;p&gt;해당 가맹점의 대표자(담당자) 이름입니다.&lt;br /&gt;클릭하면 가맹점 페이지로 이동합니다.&lt;/p&gt;
+
+&lt;h6 id=&quot;사업자주민번호-1&quot;&gt;사업자(주민)번호&lt;/h6&gt;
+&lt;p&gt;해당 가맹점에 등록된 사업자번호 또는 주민등록번호입니다.&lt;/p&gt;
+
+&lt;h6 id=&quot;대표자이름-1&quot;&gt;대표자이름&lt;/h6&gt;
+&lt;p&gt;해당 가맹점의 대표자 이름입니다.&lt;/p&gt;
+
+&lt;h6 id=&quot;상태-1&quot;&gt;상태&lt;/h6&gt;
+&lt;p&gt;해당 가맹점 계정의 상태입니다. &lt;br /&gt;예비, 승인대기, 사용, 중지로 구분됩니다.&lt;/p&gt;
+
+&lt;h6 id=&quot;지사&quot;&gt;지사&lt;/h6&gt;
+&lt;p&gt;해당 가맹점이 소속되어있는 지사입니다.&lt;/p&gt;
+
+&lt;h6 id=&quot;예수금&quot;&gt;예수금&lt;/h6&gt;
+&lt;p&gt;해당 가맹점의 잔여 예수금을 나타냅니다.&lt;br /&gt;클릭하면 예수금 조회 페이지로 이동하여&lt;br /&gt;조회 및 수기입력이 가능합니다.&lt;/p&gt;
+
+&lt;h6 id=&quot;정산주기-1&quot;&gt;정산주기&lt;/h6&gt;
+&lt;p&gt;해당 가맹점의 정산주기입니다.&lt;/p&gt;
+
+&lt;h6 id=&quot;수수료&quot;&gt;수수료&lt;/h6&gt;
+&lt;p&gt;해당 가맹점에 책정된 수수료(%)입니다.&lt;/p&gt;
+
+&lt;h6 id=&quot;등록자&quot;&gt;등록자&lt;/h6&gt;
+&lt;p&gt;해당 가맹점 정보를 등록한 관리자의 아이디입니다.&lt;/p&gt;
+
+&lt;h6 id=&quot;등록일시&quot;&gt;등록일시&lt;/h6&gt;
+&lt;p&gt;해당 내용을 등록한 날짜와 시간입니다.&lt;/p&gt;</content><author><name>정첨백</name><email>j06.k1ps@gmail.com</email></author><category term="branch FM" /><category term="지사" /><category term="가맹점 조회" /><summary type="html">등록된 가맹점을 조회합니다.</summary></entry><entry><title type="html">공지사항</title><link href="https://pointedpine.github.io//agency%20csc/a-information/" rel="alternate" type="text/html" title="공지사항" /><published>2021-12-30T00:00:00+09:00</published><updated>2021-12-30T00:00:00+09:00</updated><id>https://pointedpine.github.io//agency%20csc/a-information</id><content type="html" xml:base="https://pointedpine.github.io//agency%20csc/a-information/">&lt;h3 id=&quot;고객-센터---공지사항&quot;&gt;고객 센터 - &lt;em&gt;공지사항&lt;/em&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/95394003/147546203-add7b935-9fc6-464d-9040-a0ad426c5c18.jpeg&quot; alt=&quot;에이전시 공지사항&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;구분-&quot;&gt;&lt;em&gt;구분&lt;/em&gt; &lt;br /&gt;&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;&amp;lt; 조회 항목 &amp;gt;&lt;/strong&gt; 
+&lt;br /&gt;No, 제목, 등록자, 등록일시&lt;/p&gt;
+
+&lt;h4 id=&quot;description&quot;&gt;&lt;em&gt;Description&lt;/em&gt;&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;등록된 공지사항을 조회하는 페이지입니다.&lt;/li&gt;
+  &lt;li&gt;목록화 되어 있고 공지사항 각 제목을 클릭하면 상세내용을&lt;br /&gt;확인할 수 있습니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;detail&quot;&gt;&lt;em&gt;Detail&lt;/em&gt;&lt;/h4&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/95394003/147037538-f9a5683c-b98c-42be-aae6-b0ff34052cdc.jpeg&quot; alt=&quot;공지사항조회항목&quot; /&gt;&lt;/p&gt;
+&lt;h6 id=&quot;no&quot;&gt;No&lt;/h6&gt;
+&lt;p&gt;조회된 결과의 리스트 번호를 나타냅니다.&lt;/p&gt;
+
+&lt;h6 id=&quot;제목&quot;&gt;제목&lt;/h6&gt;
+&lt;p&gt;공지사항의 제목을 나타냅니다.&lt;/p&gt;
+
+&lt;h6 id=&quot;등록자&quot;&gt;등록자&lt;/h6&gt;
+&lt;p&gt;공지사항을 등록한 등록자를 나타냅니다.&lt;/p&gt;
+
+&lt;h6 id=&quot;등록일시&quot;&gt;등록일시&lt;/h6&gt;
+&lt;p&gt;공지사항이 등록된 일시를 나타냅니다.&lt;/p&gt;</content><author><name>정첨백</name><email>j06.k1ps@gmail.com</email></author><category term="agency CSC" /><category term="에이전시" /><category term="고객센터" /><category term="공지사항" /><summary type="html">공지사항 조회 페이지입니다</summary></entry><entry><title type="html">로그인 ID관리 - ID 조회</title><link href="https://pointedpine.github.io//agency%20mm/idlookup/" rel="alternate" type="text/html" title="로그인 ID관리 - ID 조회" /><published>2021-12-30T00:00:00+09:00</published><updated>2021-12-30T00:00:00+09:00</updated><id>https://pointedpine.github.io//agency%20mm/idlookup</id><content type="html" xml:base="https://pointedpine.github.io//agency%20mm/idlookup/">&lt;h3 id=&quot;멤버관리---id-조회&quot;&gt;멤버관리 - &lt;em&gt;ID 조회&lt;/em&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/95394003/147540804-5ea774ea-d6af-44bf-85b9-99a1e2424f7c.png&quot; alt=&quot;에이전시아이디조회&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;구분-&quot;&gt;&lt;em&gt;구분&lt;/em&gt; &lt;br /&gt;&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;&amp;lt; 검색 조건 &amp;gt;&lt;/strong&gt; &lt;strong&gt;(6)&lt;/strong&gt;
+&lt;br /&gt;아이디, 이름, 등록일, 권한, 소속, 상태&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&amp;lt; 조회 결과 항목 &amp;gt;&lt;/strong&gt; &lt;strong&gt;(11)&lt;/strong&gt;
+&lt;br /&gt;No, 아이디, 이름, 소속, 권한, 기타거래, 상태, 대출정산, 전화번호,&lt;br /&gt;등록자, 등록일시&lt;/p&gt;
+
+&lt;h4 id=&quot;description&quot;&gt;&lt;em&gt;Description&lt;/em&gt;&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;사용자를 조회합니다.&lt;/li&gt;
+  &lt;li&gt;검색 조건을 입력 및 선택하여 등록된 로그인 ID를 조회합니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;detail&quot;&gt;&lt;em&gt;Detail&lt;/em&gt;&lt;/h4&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/95394003/146885311-b63104fc-ad9a-4f81-8c9d-363fb430c48e.jpeg&quot; alt=&quot;아이디조회검색조건&quot; /&gt;&lt;/p&gt;
+&lt;h6 id=&quot;아이디&quot;&gt;아이디&lt;/h6&gt;
+&lt;p&gt;아이디를 입력합니다.&lt;/p&gt;
+
+&lt;h6 id=&quot;이름&quot;&gt;이름&lt;/h6&gt;
+&lt;p&gt;이름을 입력합니다.&lt;/p&gt;
+
+&lt;h6 id=&quot;등록일&quot;&gt;등록일&lt;/h6&gt;
+&lt;p&gt;등록일을 설정합니다. 날짜부터 날짜로 설정 가능합니다.&lt;/p&gt;
+
+&lt;h6 id=&quot;권한&quot;&gt;권한&lt;/h6&gt;
+&lt;p&gt;권한을 선택합니다. 일반, 관리자, 마스터로 구분됩니다.&lt;/p&gt;
+
+&lt;h6 id=&quot;소속&quot;&gt;소속&lt;/h6&gt;
+&lt;p&gt;소속을 선택합니다. 본사, 대행사, 에이전시, 지사로 구분됩니다.&lt;/p&gt;
+
+&lt;h6 id=&quot;상태&quot;&gt;상태&lt;/h6&gt;
+&lt;p&gt;상태를 선택합니다. 예비, 사용, 중지로 구분됩니다.
+&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/95394003/147541226-6a04fd54-4733-4400-a7d8-b180ae21344d.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
+&lt;h6 id=&quot;no&quot;&gt;No&lt;/h6&gt;
+&lt;p&gt;조회된 결과의 리스트 번호를 나타냅니다.&lt;/p&gt;
+
+&lt;h6 id=&quot;아이디-1&quot;&gt;아이디&lt;/h6&gt;
+&lt;p&gt;아이디를 나타냅니다.&lt;/p&gt;
+
+&lt;h6 id=&quot;이름-1&quot;&gt;이름&lt;/h6&gt;
+&lt;p&gt;이름을 나타냅니다.&lt;/p&gt;
+
+&lt;h6 id=&quot;소속-1&quot;&gt;소속&lt;/h6&gt;
+&lt;p&gt;소속이 어디인지를 나타냅니다.&lt;br /&gt;
+본사, 대행사, 에이전시, 지사, 가맹점으로 구분됩니다.&lt;/p&gt;
+
+&lt;h6 id=&quot;권한-1&quot;&gt;권한&lt;/h6&gt;
+&lt;p&gt;해당 계정의 권한을 나타냅니다.&lt;/p&gt;
+
+&lt;h6 id=&quot;기타거래&quot;&gt;기타거래&lt;/h6&gt;
+&lt;p&gt;기타거래에 대한 사용여부를 나타냅니다.&lt;/p&gt;
+
+&lt;h6 id=&quot;상태-1&quot;&gt;상태&lt;/h6&gt;
+&lt;p&gt;상태를 나타냅니다. 예비, 사용, 중지로 구분됩니다.&lt;/p&gt;
+
+&lt;h6 id=&quot;대출정산&quot;&gt;대출정산&lt;/h6&gt;
+&lt;p&gt;대출정산에 대한 사용 여부를 나타냅니다.&lt;/p&gt;
+
+&lt;h6 id=&quot;전화번호&quot;&gt;전화번호&lt;/h6&gt;
+&lt;p&gt;전화번호를 나타냅니다.&lt;/p&gt;
+
+&lt;h6 id=&quot;등록자&quot;&gt;등록자&lt;/h6&gt;
+&lt;p&gt;해당 계정을 등록한 등록자를 나타냅니다.&lt;/p&gt;
+
+&lt;h6 id=&quot;등록일시&quot;&gt;등록일시&lt;/h6&gt;
+&lt;p&gt;해당 계정이 등록된 일시를 나타냅니다.&lt;br /&gt;연, 월, 일, 시간으로 표기됩니다.&lt;/p&gt;</content><author><name>정첨백</name><email>j06.k1ps@gmail.com</email></author><category term="agency MM" /><category term="에이전시" /><category term="멤버관리" /><category term="로그인 ID관리" /><category term="ID 조회" /><summary type="html">등록된 로그인 ID를 조회합니다</summary></entry><entry><title type="html">월별 매출관리</title><link href="https://pointedpine.github.io//agency%20sm/a-MSM/" rel="alternate" type="text/html" title="월별 매출관리" /><published>2021-12-30T00:00:00+09:00</published><updated>2021-12-30T00:00:00+09:00</updated><id>https://pointedpine.github.io//agency%20sm/a-MSM</id><content type="html" xml:base="https://pointedpine.github.io//agency%20sm/a-MSM/">&lt;h3 id=&quot;매출-관리---월별-매출관리&quot;&gt;매출 관리 - &lt;em&gt;월별 매출관리&lt;/em&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/95394003/147454461-e8f9a62a-e17e-44d4-ac34-7faeb57e8a04.jpeg&quot; alt=&quot;에이전시 월별매출관리&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;구분-&quot;&gt;&lt;em&gt;구분&lt;/em&gt; &lt;br /&gt;&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;&amp;lt; 검색 조건 &amp;gt;&lt;/strong&gt; &lt;strong&gt;(3)&lt;/strong&gt;
+&lt;br /&gt;소속 선택, 조회 시작월, 조회 종료월&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&amp;lt; 조회 결과 항목 &amp;gt;&lt;/strong&gt;  &lt;strong&gt;(6)&lt;/strong&gt;
+&lt;br /&gt;No, 매입월, 매입현황, 매입취소현황,&lt;br /&gt;합계(금액/건수/정산금액/가맹점수수료), 에이전시 수익&lt;/p&gt;
+
+&lt;h4 id=&quot;description&quot;&gt;&lt;em&gt;Description&lt;/em&gt;&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;조회할 기간을 설정하여 해당 월별 매출을 조회합니다.&lt;/li&gt;
+  &lt;li&gt;매입 현황과 매입 취소 현황, 합계 금액, 건수 및 에이전시 수익을&lt;br /&gt;조회할 수 있습니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;detail&quot;&gt;&lt;em&gt;Detail&lt;/em&gt;&lt;/h4&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/95394003/147454561-1d032e50-30f6-44d8-a542-41ce3d0b84e7.jpeg&quot; alt=&quot;에이전시 월별매출관리검색조건&quot; /&gt;&lt;/p&gt;
+&lt;h6 id=&quot;소속-선택&quot;&gt;소속 선택&lt;/h6&gt;
+&lt;p&gt;지사를 선택합니다.&lt;/p&gt;
+
+&lt;h6 id=&quot;조회-시작월&quot;&gt;조회 시작월&lt;/h6&gt;
+&lt;p&gt;조회를 시직할 연도와 월을 설정할 수 있습니다.&lt;br /&gt;2019년 07월부터 조회가 가능합니다.&lt;/p&gt;
+
+&lt;h6 id=&quot;조회-종료월&quot;&gt;조회 종료월&lt;/h6&gt;
+&lt;p&gt;조회를 종료할 연도와 월을 설정할 수 있습니다.&lt;br /&gt;2019년 07월부터 조회가 가능합니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/95394003/146702711-840d85cb-b22b-4497-8d4f-3c75939d1e2c.jpeg&quot; alt=&quot;월별매출관리조회결과&quot; /&gt;&lt;/p&gt;
+&lt;h6 id=&quot;no&quot;&gt;No&lt;/h6&gt;
+&lt;p&gt;조회된 결과의 리스트 번호를 나타냅니다.&lt;/p&gt;
+
+&lt;h6 id=&quot;매입월&quot;&gt;매입월&lt;/h6&gt;
+&lt;p&gt;연도 - 월 을 나타냅니다.&lt;/p&gt;
+
+&lt;h6 id=&quot;매입현황&quot;&gt;매입현황&lt;/h6&gt;
+&lt;p&gt;해당 월의 매입 금액과 건수를 나타냅니다.&lt;/p&gt;
+
+&lt;h6 id=&quot;매입취소현황&quot;&gt;매입취소현황&lt;/h6&gt;
+&lt;p&gt;해당 월의 매입 취소 금액과 건수를 나타냅니다.&lt;/p&gt;
+
+&lt;h6 id=&quot;합계&quot;&gt;합계&lt;/h6&gt;
+&lt;p&gt;월별 매입현황과 매입취소현황에 대한 금액, 건수의 합계와&lt;br /&gt;그에 따른 합계 정산금액, 가맹점수수료를 나타냅니다.&lt;/p&gt;
+
+&lt;h6 id=&quot;에이전시-수익&quot;&gt;에이전시 수익&lt;/h6&gt;
+&lt;p&gt;에이전시의 수익이 얼마인지를 나타냅니다.&lt;/p&gt;
+
+&lt;h6 id=&quot;금액&quot;&gt;금액&lt;/h6&gt;
+&lt;p&gt;금액을 표기합니다.&lt;/p&gt;
+
+&lt;h6 id=&quot;건수&quot;&gt;건수&lt;/h6&gt;
+&lt;p&gt;건수를 표기합니다.&lt;/p&gt;
+
+&lt;h6 id=&quot;정산금액&quot;&gt;정산금액&lt;/h6&gt;
+&lt;p&gt;정산 금액이 얼마인지를 나타냅니다.&lt;/p&gt;
+
+&lt;h6 id=&quot;가맹점수수료&quot;&gt;가맹점수수료&lt;/h6&gt;
+&lt;p&gt;가맹점 수수료가 얼마인지를 나타냅니다.&lt;/p&gt;</content><author><name>정첨백</name><email>j06.k1ps@gmail.com</email></author><category term="agency SM" /><category term="에이전시" /><category term="월별 매출관리" /><summary type="html">조회할 기간을 설정하여 해당 월별 매출을 조회합니다</summary></entry><entry><title type="html">지사 매출관리</title><link href="https://pointedpine.github.io//branch%20sm/BSM/" rel="alternate" type="text/html" title="지사 매출관리" /><published>2021-12-29T00:00:00+09:00</published><updated>2021-12-28T00:00:00+09:00</updated><id>https://pointedpine.github.io//branch%20sm/BSM</id><content type="html" xml:base="https://pointedpine.github.io//branch%20sm/BSM/">&lt;h3 id=&quot;매출-관리---지사-매출관리&quot;&gt;매출 관리 - &lt;em&gt;지사 매출관리&lt;/em&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/95394003/147454860-410f505d-f156-4a89-a78d-8e9223f3c717.jpeg&quot; alt=&quot;지사 매출관리&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;구분-&quot;&gt;&lt;em&gt;구분&lt;/em&gt; &lt;br /&gt;&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;&amp;lt; 검색 조건 &amp;gt;&lt;/strong&gt; &lt;strong&gt;(3)&lt;/strong&gt;
+&lt;br /&gt;지사명, 조회 시작월, 조회 종료월&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&amp;lt; 조회 결과 항목 &amp;gt;&lt;/strong&gt; &lt;strong&gt;(7)&lt;/strong&gt;
+&lt;br /&gt;No, 매입월, 지사, 매입현황, 매입취소현황, 합계, 지사 수익&lt;/p&gt;
+
+&lt;h4 id=&quot;description&quot;&gt;&lt;em&gt;Description&lt;/em&gt;&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;지사 명칭과 조회 기간을 설정하여 지사에 대한 매출을&lt;br /&gt;조회합니다.&lt;/li&gt;
+  &lt;li&gt;매입 현황과 매입 취소 현황, 합계 금액, 건수 및 지사 수익을&lt;br /&gt;조회할 수 있습니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;detail&quot;&gt;&lt;em&gt;Detail&lt;/em&gt;&lt;/h4&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/95394003/147456925-0747ae23-2cae-4dda-9273-9a84a2362504.jpeg&quot; alt=&quot;지사매출관리검색조건&quot; /&gt;&lt;/p&gt;
+&lt;h6 id=&quot;지사명&quot;&gt;지사명&lt;/h6&gt;
+&lt;p&gt;조회할 지사명을 입력합니다.&lt;/p&gt;
+
+&lt;h6 id=&quot;조회-시작월&quot;&gt;조회 시작월&lt;/h6&gt;
+&lt;p&gt;조회를 시직할 연도와 월을 설정할 수 있습니다.&lt;br /&gt;2019년 07월부터 조회가 가능합니다.&lt;/p&gt;
+
+&lt;h6 id=&quot;조회-종료월&quot;&gt;조회 종료월&lt;/h6&gt;
+&lt;p&gt;조회를 종료할 연도와 월을 설정할 수 있습니다.&lt;br /&gt;2019년 07월부터 조회가 가능합니다.
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/95394003/146704394-2c4e7fdd-9568-42fc-8a49-c355947e919b.jpeg&quot; alt=&quot;지사 매출관리 조결&quot; /&gt;&lt;/p&gt;
+&lt;h6 id=&quot;no&quot;&gt;No&lt;/h6&gt;
+&lt;p&gt;조회된 결과의 리스트 번호를 나타냅니다.&lt;/p&gt;
+
+&lt;h6 id=&quot;매입월&quot;&gt;매입월&lt;/h6&gt;
+&lt;p&gt;연도 - 월 을 나타냅니다.&lt;/p&gt;
+
+&lt;h6 id=&quot;지사&quot;&gt;지사&lt;/h6&gt;
+&lt;p&gt;지사명을 나타냅니다.&lt;/p&gt;
+
+&lt;h6 id=&quot;매입현황&quot;&gt;매입현황&lt;/h6&gt;
+&lt;p&gt;해당 월의 매입 금액과 건수를 나타냅니다.&lt;/p&gt;
+
+&lt;h6 id=&quot;매입취소현황&quot;&gt;매입취소현황&lt;/h6&gt;
+&lt;p&gt;해당 월의 매입 취소 금액과 건수를 나타냅니다.&lt;/p&gt;
+
+&lt;h6 id=&quot;합계&quot;&gt;합계&lt;/h6&gt;
+&lt;p&gt;해당 지사의 매입현황과 매입취소현황에 대한 금액, 건수의 합계와&lt;br /&gt;그에 따른 합계 정산금액, 가맹점수수료를 나타냅니다.&lt;/p&gt;
+
+&lt;h6 id=&quot;금액&quot;&gt;금액&lt;/h6&gt;
+&lt;p&gt;금액을 표기합니다.&lt;/p&gt;
+
+&lt;h6 id=&quot;건수&quot;&gt;건수&lt;/h6&gt;
+&lt;p&gt;건수를 표기합니다.&lt;/p&gt;
+
+&lt;h6 id=&quot;정산금액&quot;&gt;정산금액&lt;/h6&gt;
+&lt;p&gt;정산 금액이 얼마인지를 나타냅니다.&lt;/p&gt;
+
+&lt;h6 id=&quot;가맹점수수료&quot;&gt;가맹점수수료&lt;/h6&gt;
+&lt;p&gt;가맹점수수료가 얼마인지를 나타냅니다.&lt;/p&gt;
+
+&lt;h6 id=&quot;지사-수익&quot;&gt;지사 수익&lt;/h6&gt;
+&lt;p&gt;지사의 수익이 얼마인지를 나타냅니다.&lt;/p&gt;</content><author><name>정첨백</name><email>j06.k1ps@gmail.com</email></author><category term="branch SM" /><category term="지사" /><category term="지사 매출관리" /><summary type="html">조회할 기간을 설정하여 지사의 월별 매출을 조회합니다</summary></entry><entry><title type="html">터미널 조회</title><link href="https://pointedpine.github.io//branch%20fm/terminal/" rel="alternate" type="text/html" title="터미널 조회" /><published>2021-12-29T00:00:00+09:00</published><updated>2021-12-29T00:00:00+09:00</updated><id>https://pointedpine.github.io//branch%20fm/terminal</id><content type="html" xml:base="https://pointedpine.github.io//branch%20fm/terminal/">&lt;h3 id=&quot;가맹점-관리---터미널-조회&quot;&gt;가맹점 관리 - &lt;em&gt;터미널 조회&lt;/em&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/95394003/145934413-49b390a0-b38a-4de7-b48b-c9ed85cdd859.jpeg&quot; alt=&quot;터미널조회&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;구분-&quot;&gt;&lt;em&gt;구분&lt;/em&gt; &lt;br /&gt;&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;&amp;lt; 검색 조건 &amp;gt;&lt;/strong&gt; &lt;strong&gt;(3)&lt;/strong&gt;
+&lt;br /&gt;터미널 ID, 가맹점 ID, 가맹점 대표자&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&amp;lt; 조회 결과 항목 &amp;gt;&lt;/strong&gt; &lt;strong&gt;(13)&lt;/strong&gt;
+&lt;br /&gt;No, 가맹점 ID, 가맹점명, 가맹점 대표자, 터미널 ID, 상호, TAX,&lt;br /&gt; 시작일자, 취급품목, 기본정보, 추가정보, 등록자, 등록일시&lt;/p&gt;
+
+&lt;h4 id=&quot;description&quot;&gt;&lt;em&gt;Description&lt;/em&gt;&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;검색 조건을 입력하여 등록된 터미널을 조회합니다.&lt;br /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;터미널에 대한 기본 정보를 입력 및 수정할 수 있습니다.&lt;br /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;터미널에 대한 추가정보를 등록할 수 있습니다. &lt;br /&gt; (기본/은행/주소/영수증/서비스사에 대한 정보 입력 및 수정)&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;detail&quot;&gt;&lt;em&gt;Detail&lt;/em&gt;&lt;/h4&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h6 id=&quot;터미널-id&quot;&gt;터미널 ID&lt;/h6&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/95394003/145962360-d160a00d-e2a8-4aaa-9d5d-a20ff2b0b41c.jpeg&quot; alt=&quot;터미널ID&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;등록된 터미널 ID를 입력합니다.&lt;/p&gt;
+
+&lt;h6 id=&quot;가맹점-id&quot;&gt;가맹점 ID&lt;/h6&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/95394003/145962553-9a4a2e9f-4363-4b15-84ce-38c9317d867b.jpeg&quot; alt=&quot;가맹점ID&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;등록된 가맹점 ID를 입력합니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/95394003/145962660-8a07cd14-3ea2-4b9d-ac50-6c50eff4d671.jpeg&quot; alt=&quot;가맹점대표자&quot; /&gt;&lt;/p&gt;
+
+&lt;h6 id=&quot;가맹점-대표자&quot;&gt;가맹점 대표자&lt;/h6&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/95394003/145962660-8a07cd14-3ea2-4b9d-ac50-6c50eff4d671.jpeg&quot; alt=&quot;가맹점대표자&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;등록된 가맹점 대표자 이름을 입력합니다.&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/95394003/145962859-5a6bdfe6-eae1-4270-a66f-7301f41da9e7.jpeg&quot; alt=&quot;reset,search&quot; /&gt;&lt;/p&gt;
+&lt;h6 id=&quot;reset&quot;&gt;reset&lt;/h6&gt;
+&lt;p&gt;입력한 검색 조건 내용을 초기화합니다.&lt;/p&gt;
+&lt;h6 id=&quot;search&quot;&gt;search&lt;/h6&gt;
+&lt;p&gt;입력한 검색 조건에 대한 결과를 보여줍니다.
+&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/95394003/147731356-c41b108e-9f4d-48aa-824f-9ba829dd7f0d.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
+&lt;h6 id=&quot;no&quot;&gt;No&lt;/h6&gt;
+&lt;p&gt;조회된 결과의 리스트 번호를 나타냅니다.&lt;/p&gt;
+
+&lt;h6 id=&quot;가맹점id&quot;&gt;가맹점ID&lt;/h6&gt;
+&lt;p&gt;해당 가맹점 ID입니다. 클릭하면 가맹점 페이지로 이동합니다.&lt;/p&gt;
+
+&lt;h6 id=&quot;가맹점명&quot;&gt;가맹점명&lt;/h6&gt;
+&lt;p&gt;해당 가맹점 이름입니다.&lt;/p&gt;
+
+&lt;h6 id=&quot;가맹점-대표자-1&quot;&gt;가맹점 대표자&lt;/h6&gt;
+&lt;p&gt;해당 가맹점의 대표자 이름입니다.&lt;/p&gt;
+
+&lt;h6 id=&quot;터미널-id-1&quot;&gt;터미널 ID&lt;/h6&gt;
+&lt;p&gt;해당 터미널 ID입니다.&lt;/p&gt;
+
+&lt;h6 id=&quot;상호&quot;&gt;상호&lt;/h6&gt;
+&lt;p&gt;해당 가맹점의 회사 또는 상점의 명칭입니다.&lt;/p&gt;
+
+&lt;h6 id=&quot;tax&quot;&gt;Tax&lt;/h6&gt;
+&lt;p&gt;Tax정보를 나타냅니다. 기본값으로 설정되어집니다.&lt;/p&gt;
+
+&lt;h6 id=&quot;시작일자&quot;&gt;시작일자&lt;/h6&gt;
+&lt;p&gt;터미널이 등록되어 사용을 시작한 날짜를 나타냅니다.&lt;/p&gt;
+
+&lt;h6 id=&quot;취급품목&quot;&gt;취급품목&lt;/h6&gt;
+&lt;p&gt;상호, 업종, 대표자(담당자)이름, 전화번호, 주소, 품목 등을&lt;br /&gt; 나타냅니다.&lt;/p&gt;
+
+&lt;h6 id=&quot;기본정보&quot;&gt;기본정보&lt;/h6&gt;
+&lt;p&gt;터미널에 대한 기본 정보를 조회 및 수정할 수 있습니다.&lt;/p&gt;
+
+&lt;h6 id=&quot;추가정보&quot;&gt;추가정보&lt;/h6&gt;
+&lt;p&gt;터미널 추가 정보를 상태에 따라 (등록/조회/수정)합니다. &lt;br /&gt; (기본/은행/주소/영수증/서비스사)&lt;/p&gt;
+
+&lt;h6 id=&quot;등록자&quot;&gt;등록자&lt;/h6&gt;
+&lt;p&gt;해당 내용을 기입한 관리자의 아이디입니다.&lt;/p&gt;
+
+&lt;h6 id=&quot;등록일시&quot;&gt;등록일시&lt;/h6&gt;
+&lt;p&gt;해당 내용을 등록한 날짜와 시간입니다.&lt;/p&gt;</content><author><name>정첨백</name><email>j06.k1ps@gmail.com</email></author><category term="branch FM" /><category term="지사" /><category term="터미널 조회" /><summary type="html">등록된 터미널을 조회합니다.</summary></entry><entry><title type="html">자주 묻는 질문</title><link href="https://pointedpine.github.io//agency%20csc/a-qna/" rel="alternate" type="text/html" title="자주 묻는 질문" /><published>2021-12-29T00:00:00+09:00</published><updated>2021-12-30T00:00:00+09:00</updated><id>https://pointedpine.github.io//agency%20csc/a-qna</id><content type="html" xml:base="https://pointedpine.github.io//agency%20csc/a-qna/">&lt;h3 id=&quot;고객-센터---자주-묻는-질문&quot;&gt;고객 센터 - &lt;em&gt;자주 묻는 질문&lt;/em&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/95394003/147546367-785a9a0d-0d8b-4194-9edf-7cd8fcaa836e.jpeg&quot; alt=&quot;에이전시 자주묻는질문&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;general&quot;&gt;GENERAL&lt;/h4&gt;
+
+&lt;h4 id=&quot;사용하지-않는-페이지입니다&quot;&gt;사용하지 않는 페이지입니다.&lt;/h4&gt;</content><author><name>정첨백</name><email>j06.k1ps@gmail.com</email></author><category term="agency CSC" /><category term="에이전시" /><category term="고객센터" /><category term="자주 묻는 질문" /><summary type="html">사용하지 않는 페이지입니다</summary></entry><entry><title type="html">로그인 ID관리 - 지사 ID 등록</title><link href="https://pointedpine.github.io//agency%20mm/branchIDenroll/" rel="alternate" type="text/html" title="로그인 ID관리 - 지사 ID 등록" /><published>2021-12-29T00:00:00+09:00</published><updated>2021-12-30T00:00:00+09:00</updated><id>https://pointedpine.github.io//agency%20mm/branchIDenroll</id><content type="html" xml:base="https://pointedpine.github.io//agency%20mm/branchIDenroll/">&lt;h3 id=&quot;멤버관리---지사-id등록&quot;&gt;멤버관리 - &lt;em&gt;지사 ID등록&lt;/em&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/95394003/147620920-2885475a-b228-411e-be28-cddc429c9a8b.jpeg&quot; alt=&quot;에이전시 지사 ID등록&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;구분-&quot;&gt;&lt;em&gt;구분&lt;/em&gt; &lt;br /&gt;&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;&amp;lt; 하위사용자 등록 가맹점사용자 등록 &amp;gt;&lt;/strong&gt;
+&lt;br /&gt;소속 선택, 아이디, 이름, 상태, 연락처, 권한, 기타거래 조회 권한, 전자계약서 사용 권한, 대출정산 조회 권한&lt;/p&gt;
+
+&lt;h4 id=&quot;description&quot;&gt;&lt;em&gt;Description&lt;/em&gt;&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;하위사용자 등록으로 지사를 선택하고&lt;br /&gt;아이디 및 권한 등의 정보 입력 후 아이디를 생성합니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;detail&quot;&gt;&lt;em&gt;Detail&lt;/em&gt;&lt;/h4&gt;
+
+&lt;h6 id=&quot;소속-선택&quot;&gt;소속 선택&lt;/h6&gt;
+&lt;p&gt;지사를 선택합니다.&lt;/p&gt;
+
+&lt;h6 id=&quot;아이디&quot;&gt;아이디&lt;/h6&gt;
+&lt;p&gt;사용할 아이디를 입력합니다.(5자 이상)&lt;/p&gt;
+
+&lt;h6 id=&quot;이름&quot;&gt;이름&lt;/h6&gt;
+&lt;p&gt;이름을 입력합니다.(3자 이상)&lt;/p&gt;
+
+&lt;h6 id=&quot;상태&quot;&gt;상태&lt;/h6&gt;
+&lt;p&gt;계정을 예비, 사용, 중지로 구분합니다.&lt;/p&gt;
+
+&lt;h6 id=&quot;연락처&quot;&gt;연락처&lt;/h6&gt;
+&lt;p&gt;연락처를 입력합니다.(9자 이상)&lt;/p&gt;
+
+&lt;h6 id=&quot;권한&quot;&gt;권한&lt;/h6&gt;
+&lt;p&gt;부여할 권한을 선택합니다. 일반, 관리자로 구분됩니다.&lt;/p&gt;
+
+&lt;h6 id=&quot;기타거래-조회-권한&quot;&gt;기타거래 조회 권한&lt;/h6&gt;
+&lt;p&gt;기타거래에 대해 조회할 권한을 설정합니다.&lt;br /&gt;미사용, 사용으로 구분됩니다.&lt;/p&gt;
+
+&lt;h6 id=&quot;전자계약서-사용-권한&quot;&gt;전자계약서 사용 권한&lt;/h6&gt;
+&lt;p&gt;전자계약서를 사용할 수 있는 권한을 설정합니다.&lt;br /&gt;미사용, 사용으로 구분됩니다.&lt;/p&gt;
+
+&lt;h6 id=&quot;대출정산-조회-권한&quot;&gt;대출정산 조회 권한&lt;/h6&gt;
+&lt;p&gt;대출정산에 대해 조회할 권한을 설정합니다.&lt;br /&gt;미사용, 사용으로 구분됩니다.&lt;/p&gt;</content><author><name>정첨백</name><email>j06.k1ps@gmail.com</email></author><category term="agency MM" /><category term="에이전시" /><category term="로그인 ID관리" /><category term="지사ID등록" /><summary type="html">하위사용자 등록, 가맹점사용자 등록</summary></entry></feed>
