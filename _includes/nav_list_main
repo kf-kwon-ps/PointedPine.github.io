@@ -182,7 +182,7 @@
                     {% endif %}
                 {% endfor %}
             </ul>
-        <span class="nav__sub-title">Biz4</span>
+        <span class="nav__sub-title">가맹점</span>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "affliated dashboard" %}
