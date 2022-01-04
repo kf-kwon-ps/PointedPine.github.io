@@ -1,5 +1,5 @@
 ---
-title: "가맹점"
+title: "Biz4"
 layout: archive
 permalink: categories/Biz4
 author_profile: true
