@@ -101,7 +101,7 @@ analytics:
 
 
 # Site Author
-author: 
+ author: 
   name             : "KwonPS 영업기획팀"
   avatar           : https://kwonps.com/wp-content/uploads/2021/09/mtouch_02-300x263.png # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Manual Upload"
@@ -285,7 +285,7 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: true
+      author_profile: false
       read_time: true
       comments: false
       share: false
