@@ -101,13 +101,13 @@ analytics:
 
 
 # Site Author
- author: 
-  name             : "KwonPS 영업기획팀"
-  avatar           : https://kwonps.com/wp-content/uploads/2021/09/mtouch_02-300x263.png # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Manual Upload"
-  location         : "(주)케이원피에스<br> 구로구 디지털로33길 27 514호"
-  email            : "j06.k1ps@gmail.com"
-  links:
+ #author: 
+  #name             : "KwonPS 영업기획팀"
+  #avatar           : https://kwonps.com/wp-content/uploads/2021/09/mtouch_02-300x263.png # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  #bio              : "Manual Upload"
+  #location         : "(주)케이원피에스<br> 구로구 디지털로33길 27 514호"
+  #email            : "j06.k1ps@gmail.com"
+  #links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       # url: "mailto:your.name@email.com"
