@@ -94,6 +94,7 @@ last_modified_at: 2021-12-27
 ![정산주기](https://user-images.githubusercontent.com/95394003/146488198-6ca8c161-13e2-48b5-825d-f89fe582569b.jpeg)<br>
 <br>정산주기를 선택합니다. (D+0~7, C+0~7, A+1, B+1)
 <br>
+<br>
 
 ![에이전시일시불부터소속](https://user-images.githubusercontent.com/95394003/147441675-735cf9bf-83c8-4f04-a686-2da6baba3902.jpeg)<br>
 **일시불/할부**<br>
