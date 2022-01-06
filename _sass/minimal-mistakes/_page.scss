@@ -113,7 +113,7 @@ body {
   p,
   li,
   dl {
-    font-size: 1em;
+    font-size: 0.750em;
   }
 
   /* paragraph indents */
@@ -134,7 +134,7 @@ body {
       text-decoration: underline;
 
       img {
-        box-shadow: 0 0 10px rgba(#000, 0.25);
+        box-shadow: 5 5 10px rgba(#000, 0.25);
       }
     }
   }
