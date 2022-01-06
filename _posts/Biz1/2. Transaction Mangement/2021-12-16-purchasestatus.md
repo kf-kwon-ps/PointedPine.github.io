@@ -43,7 +43,7 @@ last_modified_at: 2021-12-27
 <br>
 <br>
 
-![거래일자](https://user-images.githubusercontent.com/95394003/146482288-281b97a7-3e60-4c56-b40a-b5889a1299c7.jpeg)
+![거래일자](https://user-images.githubusercontent.com/95394003/146482288-281b97a7-3e60-4c56-b40a-b5889a1299c7.jpeg)<br>
 **거래일자**<br>
 거래일자에 대한 조회 기간을 설정합니다.<br>날짜부터 날짜로 설정 가능합니다.
 
@@ -135,7 +135,9 @@ VAN 종류를 선택합니다.
 ---
 
 #### 검색 결과
-체크박스, No, 거래일시, 승인번호, 매입번호, 거래번호, 가맹점,<br> 가맹점대표, 주문번호, 터미널ID, 매입구분, 신용/체크, 취소거래,<br> 금액, BIN, LAST4, 할부, 리스크
+체크박스, No, 거래일시, 승인번호, 매입번호, 거래번호, 가맹점,<br> 가맹점대표, 주문번호, 터미널ID, 매입구분, 신용/체크, 취소거래,<br> 금액, BIN, LAST4, 할부, 리스크<br>
+<br>
+
 ![조회결과](https://user-images.githubusercontent.com/95394003/146479953-2adedabb-d3a8-4b89-9aa9-31b72fe795e4.jpeg)
 **체크박스**<br>
 리스크를 변경하고자 하는 매입내역에 체크할 수 있습니다.
