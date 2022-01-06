@@ -30,8 +30,9 @@ last_modified_at: 2021-12-27
 
 #### 검색 조건 
 승인번호, 매입번호, 가맹점명<br>거래일자/지급일/정산예정일/입금예정일, 승인금액, 리스크,<br>터미널 번호, 카드BIN, 카드뒤4자리, 매입구분, 정산상태,정산주기,<br>일시불/할부, 신용/체크, 매입사, 가맹점 대표자, VAN,<br>취소구분, 취소원거래번호, 거래번호, 가맹점 ID, 입금상태, 소속 선택<br>
+<br>
 
-![image](https://user-images.githubusercontent.com/95394003/146481772-129ea77c-27de-4d95-84df-cc3dd5c0a795.jpeg)
+![image](https://user-images.githubusercontent.com/95394003/146481772-129ea77c-27de-4d95-84df-cc3dd5c0a795.jpeg)<br>
 **승인번호**<br>
 거래 승인번호를 입력합니다.
 
@@ -59,7 +60,7 @@ last_modified_at: 2021-12-27
 <br>
 <br>
 
-![승인금액리스크](https://user-images.githubusercontent.com/95394003/146482485-1c2ed337-0e12-433f-aed7-2443cd0e2c9d.jpeg)
+![승인금액리스크](https://user-images.githubusercontent.com/95394003/146482485-1c2ed337-0e12-433f-aed7-2443cd0e2c9d.jpeg)<br>
 **승인금액**<br>
 거래가 승인된 금액의 범위를 설정합니다.<br>금액부터 금액으로 설정 가능합니다.
 
@@ -69,7 +70,7 @@ last_modified_at: 2021-12-27
 <br>
 <br>
 
-![정산상태까지](https://user-images.githubusercontent.com/95394003/146488114-947dea4a-fc11-4f88-ab53-e2b30c04769c.jpeg)
+![정산상태까지](https://user-images.githubusercontent.com/95394003/146488114-947dea4a-fc11-4f88-ab53-e2b30c04769c.jpeg)<br>
 **터미널 번호**<br>
 터미널 번호를 입력합니다.
 
@@ -90,13 +91,12 @@ last_modified_at: 2021-12-27
 <br>
 
 **정산주기**<br>
-![정산주기](https://user-images.githubusercontent.com/95394003/146488198-6ca8c161-13e2-48b5-825d-f89fe582569b.jpeg)
-<p>정산주기를 선택합니다. (D+0~7, C+0~7, A+1, B+1)</p>
-<br>
+![정산주기](https://user-images.githubusercontent.com/95394003/146488198-6ca8c161-13e2-48b5-825d-f89fe582569b.jpeg)<br>
+정산주기를 선택합니다. (D+0~7, C+0~7, A+1, B+1)
 <br>
 <br>
 
-![일시불부터소속](https://user-images.githubusercontent.com/95394003/146488304-60edf6d2-7385-4d2b-bd54-94e67a10eda7.jpeg)
+![일시불부터소속](https://user-images.githubusercontent.com/95394003/146488304-60edf6d2-7385-4d2b-bd54-94e67a10eda7.jpeg)<br>
 **일시불/할부**<br>
 거래가 일시불인지 할부인지를 선택합니다.
 
@@ -138,7 +138,7 @@ VAN 종류를 선택합니다.
 체크박스, No, 거래일시, 승인번호, 매입번호, 거래번호, 가맹점,<br> 가맹점대표, 주문번호, 터미널ID, 매입구분, 신용/체크, 취소거래,<br> 금액, BIN, LAST4, 할부, 리스크<br>
 <br>
 
-![조회결과](https://user-images.githubusercontent.com/95394003/146479953-2adedabb-d3a8-4b89-9aa9-31b72fe795e4.jpeg)
+![조회결과](https://user-images.githubusercontent.com/95394003/146479953-2adedabb-d3a8-4b89-9aa9-31b72fe795e4.jpeg)<br>
 **체크박스**<br>
 리스크를 변경하고자 하는 매입내역에 체크할 수 있습니다.
 
