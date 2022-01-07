@@ -28,7 +28,7 @@ last_modified_at: 2021-12-29
 
 - 필요한 정보들을 입력하여 에이전시를 등록합니다.
 
-#### *Detail*
+
 <br>
 
 ![에이전시기본정보](https://user-images.githubusercontent.com/95394003/147034527-1cbfc2b4-6f05-4b35-b793-f0be3bd6e120.jpeg)

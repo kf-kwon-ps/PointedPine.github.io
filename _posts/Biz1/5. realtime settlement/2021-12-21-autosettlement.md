@@ -27,7 +27,7 @@ last_modified_at: 2021-12-21
 - 검색 조건을 입력 및 선택하여 자동정산내역을 조회합니다.
 
 
-#### *Detail*
+
 <br>
 
 ![자동정산내역검색조건](https://user-images.githubusercontent.com/95394003/146880454-30f8486f-4efc-4ef7-a1fc-a804bd954049.jpeg)

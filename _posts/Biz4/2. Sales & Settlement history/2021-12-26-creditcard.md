@@ -27,7 +27,7 @@ last_modified_at: 2021-12-29
 <br>
 <br>
 
-#### *Detail*
+
 <br>
 
 ![신용카드 정산 검색조건](https://user-images.githubusercontent.com/95394003/147635502-269bd217-416c-402e-a325-e029399d60ca.jpeg)

@@ -28,7 +28,7 @@ last_modified_at: 2021-12-29
 
 - 필요한 정보들을 입력하여 지사를 등록합니다.
 
-#### *Detail*
+
 <br>
 
 ![지사기본정보](https://user-images.githubusercontent.com/95394003/147036802-ed50a446-4246-4b9b-a309-4c0f9ac25ff9.jpeg)

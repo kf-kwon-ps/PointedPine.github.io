@@ -89,7 +89,7 @@ last_modified_at: 2021-12-22
 <p>12. Home > 내 정보 > 유저 정보<br>발급받은 임시 비밀번호에서 사용하고자 하는 비밀번호로<br>변경합니다.<br>
 <br>13. 로그인 사용자 생성 과정 완료, 해당 계정을 사용합니다.</p>
 
-#### *Detail*
+
 <br>
 
 ![가맹점등록검색조건](https://user-images.githubusercontent.com/95394003/146895834-1e256a99-512c-4cfa-ba32-4d4f0ea3f07a.jpeg)

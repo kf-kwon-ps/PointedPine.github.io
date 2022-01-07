@@ -29,7 +29,7 @@ last_modified_at: 2021-12-30
 
 - 필요한 정보들을 입력하여 지사를 등록합니다.
 
-#### *Detail*
+
 <br>
 
 ![에이전시지사등록기본정보](https://user-images.githubusercontent.com/95394003/147619678-94ea0877-2b68-4eb9-b574-fbb69c49f8cf.jpeg)

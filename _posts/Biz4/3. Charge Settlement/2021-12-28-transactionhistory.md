@@ -27,7 +27,7 @@ last_modified_at: 2021-12-29
 <br>
 <br>
 
-#### *Detail*
+
 <br>
 
 ![충전 거래내역 검색조건](https://user-images.githubusercontent.com/95394003/147639724-24b85cf5-5d37-4427-b7a3-10a4974da596.jpeg)

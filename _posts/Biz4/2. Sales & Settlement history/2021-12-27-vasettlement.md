@@ -27,7 +27,7 @@ last_modified_at: 2021-12-29
 <br>
 <br>
 
-#### *Detail*
+
 <br>
 
 ![가상계좌정산 검색조건](https://user-images.githubusercontent.com/95394003/147636144-b23d5a30-64ff-4195-be40-e647916edfcd.jpeg)

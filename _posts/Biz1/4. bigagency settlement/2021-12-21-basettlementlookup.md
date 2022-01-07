@@ -26,7 +26,7 @@ last_modified_at: 2021-12-28
 - 검색 조건을 입력 및 선택하여 대행사에 대한 정산 정보를<br>조회합니다.
 - 대상거래를 통해 해당 항목에 대한 상세 정보를 엑셀 파일로<br>다운로드할 수 있습니다.
 
-#### *Detail*
+
 <br>
 
 ![대행사정산검색조건](https://user-images.githubusercontent.com/95394003/146875869-6a0c4939-dbf5-4b49-81b1-6333d39cc8dc.jpeg)

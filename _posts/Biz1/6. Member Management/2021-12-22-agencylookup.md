@@ -26,7 +26,7 @@ last_modified_at: 2021-12-29
 - 등록된 에이전시를 조회합니다.
 - 아이디 또는 이름을 클릭하여 정보를 수정할 수 있습니다.
 
-#### *Detail*
+
 <br>
 
 ![에이전시조회검색조건](https://user-images.githubusercontent.com/95394003/147026932-89dbfd81-1304-4cfd-9cc5-fb899827855d.jpeg)
