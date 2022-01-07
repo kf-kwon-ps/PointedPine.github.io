@@ -18,7 +18,7 @@ last_modified_at: 2021-12-28
 ![지사 공지사항](https://user-images.githubusercontent.com/95394003/147545277-08e0abb9-1027-45e8-aba1-0c786dfc7b3f.jpeg)
 
  <br>
-**< 조회 항목 >** 
+**< 조회 항목 >**
 <br>No, 제목, 등록자, 등록일시
 
 
@@ -30,14 +30,14 @@ last_modified_at: 2021-12-28
 <br>
 
 ![공지사항조회항목](https://user-images.githubusercontent.com/95394003/147037538-f9a5683c-b98c-42be-aae6-b0ff34052cdc.jpeg)
-** No
+**No
 조회된 결과의 리스트 번호를 나타냅니다.
 
-** 제목
+**제목
 공지사항의 제목을 나타냅니다.
 
-** 등록자
+**등록자
 공지사항을 등록한 등록자를 나타냅니다.
 
-** 등록일시
+**등록일시
 공지사항이 등록된 일시를 나타냅니다.
