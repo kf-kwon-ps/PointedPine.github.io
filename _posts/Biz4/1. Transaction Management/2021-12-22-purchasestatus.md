@@ -60,7 +60,7 @@ last_modified_at: 2021-12-29
 <br>
 <br>
 
-![지사 승인금액 리스크](https://user-images.githubusercontent.com/95394003/147440848-18497c58-dec9-494f-a31e-e69c64973887.jpeg)
+![지사 승인금액 리스크](https://user-images.githubusercontent.com/95394003/147440848-18497c58-dec9-494f-a31e-e69c64973887.jpeg)<br>
 **승인금액**<br>
 거래가 승인된 금액의 범위를 설정합니다.<br>금액부터 금액으로 설정 가능합니다.
 
@@ -70,7 +70,7 @@ last_modified_at: 2021-12-29
 <br>
 <br>
 
-![지사 터미널번호부터 정산](https://user-images.githubusercontent.com/95394003/147441145-bad576a9-a7c3-4fff-b6d1-c8fb415994aa.jpeg)
+![지사 터미널번호부터 정산](https://user-images.githubusercontent.com/95394003/147441145-bad576a9-a7c3-4fff-b6d1-c8fb415994aa.jpeg)<br>
 **터미널 번호**<br>
 터미널 번호를 입력합니다.
 

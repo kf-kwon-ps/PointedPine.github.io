@@ -28,7 +28,7 @@ last_modified_at: 2021-12-29
 발행번호, 계좌번호, 예금주명, 거래추적번호, 발행유형, 지급대행, 은행<br>
 <br>
 
-![발행내역 검색조건(가맹)](https://user-images.githubusercontent.com/95394003/147632088-0842ba69-8999-4820-bdf4-df531107ce9a.jpeg)
+![발행내역 검색조건(가맹)](https://user-images.githubusercontent.com/95394003/147632088-0842ba69-8999-4820-bdf4-df531107ce9a.jpeg)<br>
 **발행번호**<br>
 발행번호를 입력합니다.
 
@@ -57,7 +57,7 @@ last_modified_at: 2021-12-29
 No, 발행번호, 은행, 계좌번호, 발행유형, 상태, 가맹점, 예금주명, 수식, 금액기준, 거래추적번호, 만료일시, Reason, 지급대행, 거래일시<br>
 <br>
 
-![조회결과](https://user-images.githubusercontent.com/95394003/146500756-81b301fb-ff81-4ad6-9504-59b5a504fad5.png)
+![조회결과](https://user-images.githubusercontent.com/95394003/146500756-81b301fb-ff81-4ad6-9504-59b5a504fad5.png)<br>
 **No**<br>
 조회된 결과의 리스트 번호를 나타냅니다.
 

@@ -31,7 +31,7 @@ last_modified_at: 2021-12-30
 승인번호, 가맹점명, 가맹점 대표자, 금액, 카드뒤4자리, 거래일자,<br>거래번호, 이름, 전화번호, 이메일, 소속 선택<br>
 <br>
 
-![검색조건](https://user-images.githubusercontent.com/95394003/146493012-fa410361-9c6c-4781-b1e9-c5b9a31eb1d0.jpeg)
+![검색조건](https://user-images.githubusercontent.com/95394003/146493012-fa410361-9c6c-4781-b1e9-c5b9a31eb1d0.jpeg)<br>
 **승인번호**<br>
 거래 승인번호를 입력합니다.
 
@@ -72,7 +72,7 @@ last_modified_at: 2021-12-30
 No, 거래번호, 가맹점, 가맹점대표, 주문번호, 터미널ID, 구매자명,<br>구매자전화번호, 금액, 거래일시, 매입사, 소속, 결과메세지<br>
 <br>
 
-![승인실패조회결과](https://user-images.githubusercontent.com/95394003/146496343-bbb2f54e-2779-4060-bc59-b0ebe54f987c.png)
+![승인실패조회결과](https://user-images.githubusercontent.com/95394003/146496343-bbb2f54e-2779-4060-bc59-b0ebe54f987c.png)<br>
 **No**<br>
 조회된 결과의 리스트 번호를 나타냅니다.
 <br>

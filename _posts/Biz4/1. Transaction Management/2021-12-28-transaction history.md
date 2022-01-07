@@ -28,7 +28,7 @@ last_modified_at: 2021-12-29
 가맹점아이디, 가맹점명, 거래구분, 주문번호, 금액,<br>계좌번호, 상태, 처리일시<br>
 <br>
 
-![지급대행거래내역 검색조건](https://user-images.githubusercontent.com/95394003/147633486-5097dae3-1352-4b66-bd81-a5acdd37f7d1.jpeg)
+![지급대행거래내역 검색조건](https://user-images.githubusercontent.com/95394003/147633486-5097dae3-1352-4b66-bd81-a5acdd37f7d1.jpeg)<br>
 **가맹점아이디**<br>
 가맹점 아이디를 입력합니다.
 
@@ -61,7 +61,7 @@ last_modified_at: 2021-12-29
 No, 가맹점아이디, 거래구분, 거래상세, 주문번호, 금액,<br>처리후잔액, 수수료, 은행수수료, 보낸사람, 상태, 결과코드,<br>결과메세지, 수신일자, 수신시간, 기록일시<br>
 <br>
 
-![지급대행 거래내역 결과](https://user-images.githubusercontent.com/95394003/147633742-8651bb14-7f54-42ab-bc66-b8dd207834bc.jpeg)
+![지급대행 거래내역 결과](https://user-images.githubusercontent.com/95394003/147633742-8651bb14-7f54-42ab-bc66-b8dd207834bc.jpeg)<br>
 **NO**<br>
 조회된 결과의 리스트 번호를 나타냅니다.
 
