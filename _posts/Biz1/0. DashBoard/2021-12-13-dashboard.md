@@ -17,7 +17,7 @@ last_modified_at: 2022-01-04
 ![image](https://user-images.githubusercontent.com/95394003/145782416-b20f8a59-b46f-4cbd-8b81-151b089f9c9d.jpeg)
 <br>
 
-#### *Description*
+
 - 일/월 기준 거래내역 및 거래추이 등을<br>한눈에 파악할 수 있습니다.
 
 - 최근 매입 내역, 연 한도 관리에 대한 정보를 표기합니다.
