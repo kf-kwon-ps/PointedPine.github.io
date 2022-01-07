@@ -28,7 +28,7 @@ last_modified_at: 2021-12-29
 가맹점ID, 가맹점명, 가맹점 대표자, 정산예정일, 정산번호,<br>지급 상태, 정산주기, 정산구분<br>
 <br>
 
-![신용카드 정산 검색조건](https://user-images.githubusercontent.com/95394003/147635502-269bd217-416c-402e-a325-e029399d60ca.jpeg)
+![신용카드 정산 검색조건](https://user-images.githubusercontent.com/95394003/147635502-269bd217-416c-402e-a325-e029399d60ca.jpeg)<br>
 **가맹점ID**<br>
 가맹점아이디를 입력합니다.
 
@@ -61,7 +61,7 @@ D+ 1~7, C+ 1~7 중 선택합니다.
 No, 정산구분, 정산번호, 지급상태, 정산일, 가맹점명, 가맹점ID,<br>가맹점대표자명, 대상거래 기간, 매출정보, 대출정산차감금액, 예수금(미출금),<br>실지급액, 지급정보<br>
 <br>
 
-![신용카드정산 검색결과](https://user-images.githubusercontent.com/95394003/147635503-b4865108-866d-4959-9e27-f252898b2387.jpeg)
+![신용카드정산 검색결과](https://user-images.githubusercontent.com/95394003/147635503-b4865108-866d-4959-9e27-f252898b2387.jpeg)<br>
 **No**<br>
 조회된 결과의 리스트 번호를 나타냅니다.
 
