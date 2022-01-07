@@ -15,7 +15,7 @@ last_modified_at: 2021-12-30
 ### 멤버 관리 - *지사 조회*
 ![에이전시지사조회](https://user-images.githubusercontent.com/95394003/147618367-63d58f68-459e-4853-bbc9-fb44686633f9.jpeg)
 
-#### *구분* <br>
+ <br>
 **< 검색 조건 >** **(3)**
 <br>지사명, 전화번호, 상태
 

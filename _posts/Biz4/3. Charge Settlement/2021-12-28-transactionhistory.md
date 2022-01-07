@@ -15,7 +15,7 @@ last_modified_at: 2021-12-29
 ### *거래내역 조회*
 ![충전 거래내역조회](https://user-images.githubusercontent.com/95394003/147639719-34267411-da15-465b-bddf-5bfb7215ae0f.jpeg)
 
-#### *구분* <br>
+ <br>
 **< 검색 조건 >** **(6)**
 <br>거래일자, 거래종류, 거래유형, 거래번호, 참조번호, 주문번호
 

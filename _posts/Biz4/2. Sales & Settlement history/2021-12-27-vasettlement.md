@@ -15,7 +15,7 @@ last_modified_at: 2021-12-29
 ### *가상계좌 정산 조회*
 ![가상계좌 정산](https://user-images.githubusercontent.com/95394003/147636140-cf646db4-3295-47f7-bcfe-a26653ce1107.jpeg)
 
-#### *구분* <br>
+ <br>
 **< 검색 조건 >** **(5)**
 <br>정산번호, 정산일자/지급일자, 정산구분, 확정 상태, 지급 상태
 

@@ -17,7 +17,7 @@ last_modified_at: 2021-12-29
 ### 고객 센터 - *공지사항*
 ![가맹점 공지사항](https://user-images.githubusercontent.com/95394003/147629141-9a1f9cfd-1749-4d28-bd6e-ef92c5025d2a.jpeg)
 
-#### *구분* <br>
+ <br>
 **< 조회 항목 >** 
 <br>No, 제목, 등록자, 등록일시
 

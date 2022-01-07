@@ -15,7 +15,7 @@ last_modified_at: 2021-12-28
 ### 대행사 정산 - *지사 정산 조회*
 ![지사 정산조회](https://user-images.githubusercontent.com/95394003/147530103-682b2dc3-3e94-4ebc-b564-587ea0ad53b8.jpeg)
 
-#### *구분* <br>
+ <br>
 **< 검색 조건 >** **(5)**
 <br>지사명, 정산번호, 정산일자/지급일, 확정 상태, 지급 상태
 

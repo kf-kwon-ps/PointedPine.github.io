@@ -16,7 +16,7 @@ last_modified_at: 2021-12-28
 ### 멤버관리 - *ID 조회*
 ![지사아이디조회](https://user-images.githubusercontent.com/95394003/147541912-b08ce3f9-788e-4268-9c8a-3ae5b851e7df.png)
 
-#### *구분* <br>
+ <br>
 **< 검색 조건 >** **(6)**
 <br>아이디, 이름, 등록일, 권한, 소속, 상태
 
