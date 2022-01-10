@@ -24,7 +24,7 @@ toc3:
           - page: 승인 실패 조회
             url: /transaction management/approvalfailure
           - page: 가상계좌 관리
-            url: /categories/transaction management/va
+            url: /categories/va
             subsubsubfolderitems:
               - page: 발행내역 조회
                 url: /va/publihistory
@@ -45,3 +45,11 @@ toc3:
             url: /sales management/ASM
           - page: 지사 매출관리
             url: /sales management/BSM
+          - page: 가맹점 매출관리
+            url: /sales management/FSM
+          - page: 월별 가맹점 매출관리
+            url: /sales management/MFSM
+          - page: 가맹점 정산 조회
+            url: /sales management/FSL
+
+            
