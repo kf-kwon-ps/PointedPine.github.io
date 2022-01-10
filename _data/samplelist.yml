@@ -2,9 +2,9 @@ toc2:
   - title: BizS
     subfolderitems:
       - page: DashBoard
-        url: /2021-12-13-dashboard.md
+        url: BizS DashBoard/dashboard
       - page: 가맹점 관리
-        url: /BizS DashBoard/dashboard
+        url: /categories/FM
         subsubfolderitems:
           - page: 가맹점 조회
             url: fm/ASlookup
@@ -14,4 +14,23 @@ toc2:
             url: fm/ASenroll
           - page: 미실적 가맹점 조회
             url: fm/underperforming
-          
+      - page: 거래 관리
+        url: /categories/transaction management
+        subsubfolderitems:
+          - page: 매입 현황 조회
+            url: transaction management/purchasestatus
+          - page: 승인 내역 조회
+            url: transaction management/
+          - page: 승인 실패 조회
+            url: transaction management/
+          - page: 가상계좌 관리
+            url:
+            subsubfolderitems:
+              - page: 발행내역 조회
+                url: 
+              - page: 거래내역 조회
+                url: 
+          - page: 리스크 관리
+            url: transaction management/riskmanagement
+          - page: 승인 취소내역 조회
+            url: transaction management/approvalcancellationhistory
