@@ -113,9 +113,9 @@ toc3:
               - page: 거래내역 조회
                 url: /ava/tranhistory
           - page: 리스크 관리
-            url: /agency tm/risk management
+            url: /agency tm/risk-management
           - page: 승인 취소내역 조회
-            url: /agency tm/cancle history
+            url: /agency tm/cancle-history
       - page: 매출 관리
         url: /categories/agency SM
         subsubfolderitems:
@@ -156,7 +156,7 @@ toc3:
         url: /categories/agency CSC
         subsubfolderitems:
           - page: 공지사항
-            url: /agency csc/a-informantion
+            url: /agency csc/a-information
           - page: 자주 묻는 질문
             url: /agency csc/a-qna
           - page: 작업 관리
