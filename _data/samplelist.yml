@@ -37,11 +37,11 @@ toc3:
       - page: 매출 관리
         url: /categories/sales management
         subsubfolderitems:
-          - page: 가맹점 조회
+          - page: 월별 매출관리
             url: /fm/ASlookup
-          - page: 터미널 조회
+          - page: 대행사 매출관리
             url: /fm/terminal
-          - page: 가맹점 등록
+          - page: 에이전시 매출관리
             url: /fm/ASenroll
-          - page: 미실적 가맹점 조회
+          - page: 지사 매출관리
             url: /fm/underperforming
