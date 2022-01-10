@@ -100,11 +100,11 @@ toc3:
         url: /categories/agency TM
         subsubfolderitems:
           - page: 매입 현황 조회
-            url: /agency tm
+            url: /agency tm/purchasestatus
           - page: 승인 내역 조회
-            url: /agency tm
+            url: /agency tm/ahlookup
           - page: 승인 실패 조회
-            url: /agency tm
+            url: /agency tm/failure
           - page: 가상계좌 관리
             url: /categories/ava
             subsubsubfolderitems:
@@ -142,7 +142,87 @@ toc3:
           - page: 자동 정산내역 조회
             url: /agency rs/a-autosettlement
       - page: 멤버 관리
-        url: /categories/member management
+        url: /categories/agency MM
+        subsubfolderitems:
+          - page: 로그인 아이디 관리
+            url: 
+          - page: 가맹점 등록
+            url: 
+          - page: 에이전시 관리
+            url: 
+          - page: 지사 관리
+            url: 
+      - page: 고객 센터
+        url: /categories/agency CSC
+        subsubfolderitems:
+          - page: 공지사항
+            url: /agency csc/a-informantion
+          - page: 자주 묻는 질문
+            url: /agency csc/a-qna
+          - page: 작업 관리
+            url: /agency csc/a-work
+  - title: BizB
+    subfolderitems:
+      - page: DashBoard
+        url: bizs dashboard/dashboard
+      - page: 가맹점 관리
+        url: /categories/branch FM
+        subsubfolderitems:
+          - page: 가맹점 조회
+            url: /agency fm/ASlookup
+          - page: 터미널 조회
+            url: /agency fm/terminal
+          - page: 가맹점 등록
+            url: /agency fm/ASenroll
+          - page: 미실적 가맹점 조회
+            url: /agency fm/underperforming
+      - page: 거래 관리
+        url: /categories/branch TM
+        subsubfolderitems:
+          - page: 매입 현황 조회
+            url: /agency tm
+          - page: 승인 내역 조회
+            url: /agency tm
+          - page: 승인 실패 조회
+            url: /agency tm
+          - page: 가상계좌 관리
+            url: /categories/ava
+            subsubsubfolderitems:
+              - page: 발행내역 조회
+                url: /ava/publihistory
+              - page: 거래내역 조회
+                url: /ava/tranhistory
+          - page: 리스크 관리
+            url: /agency tm/risk management
+          - page: 승인 취소내역 조회
+            url: /agency tm/cancle history
+      - page: 매출 관리
+        url: /categories/branch SM
+        subsubfolderitems:
+          - page: 월별 매출관리
+            url: /agency sm/a-MSM
+          - page: 에이전시 매출관리
+            url: /agency sm/a-ASM
+          - page: 지사 매출관리
+            url: /agency sm/a-BSM
+          - page: 가맹점 매출관리
+            url: /agency sm/a-FSM
+          - page: 월별 가맹점 매출관리
+            url: /agency sm/a-MFSM
+          - page: 가맹점 정산 조회
+            url: /agency sm/a-FSL
+      - page: 대행사 정산
+        url: /categories/branch settlement
+        subsubfolderitems:
+          - page: 대행사 정산 조회
+            url: /agency settlement/agency-settlement
+      - page: 실시간 정산
+        url: /categories/branch RS
+        subsubfolderitems:
+          - page: 자동 정산내역 조회
+            url: /agency rs/a-autosettlement
+      - page: 멤버 관리
+        url: /categories/branch MM
         subsubfolderitems:
           - page: 로그인 아이디 관리
             url: 
