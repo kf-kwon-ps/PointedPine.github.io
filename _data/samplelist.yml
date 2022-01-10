@@ -1,0 +1,11 @@
+toc2:
+  - title: BizS
+    subfolderitems:
+      - page: DashBoard
+        url: /2021-12-13-dashboard.md
+      - page: 가맹점 관리
+        url: /categories/FM
+        subsubfolderitems:
+          - page: 가맹점 조회
+            url: 2021-12-14-ASlookup.md
+     
