@@ -180,66 +180,62 @@ toc3:
         url: /categories/branch TM
         subsubfolderitems:
           - page: 매입 현황 조회
-            url: /agency tm
+            url: /branch tm/purchasestatus
           - page: 승인 내역 조회
-            url: /agency tm
+            url: /branch tm/ahlookup
           - page: 승인 실패 조회
-            url: /agency tm
+            url: /branch tm/failure
           - page: 가상계좌 관리
-            url: /categories/ava
+            url: /categories/bva
             subsubsubfolderitems:
               - page: 발행내역 조회
-                url: /ava/publihistory
+                url: /bva/publihistory
               - page: 거래내역 조회
-                url: /ava/tranhistory
+                url: /bva/tranhistory
           - page: 리스크 관리
-            url: /agency tm/risk management
+            url: /branch tm/risk-management
           - page: 승인 취소내역 조회
-            url: /agency tm/cancle history
+            url: /branch tm/cancle-history
       - page: 매출 관리
         url: /categories/branch SM
         subsubfolderitems:
           - page: 월별 매출관리
-            url: /agency sm/a-MSM
-          - page: 에이전시 매출관리
-            url: /agency sm/a-ASM
+            url: /branch sm/MSM
           - page: 지사 매출관리
-            url: /agency sm/a-BSM
+            url: /branch sm/BSM
           - page: 가맹점 매출관리
-            url: /agency sm/a-FSM
+            url: /branch sm/FSM
           - page: 월별 가맹점 매출관리
-            url: /agency sm/a-MFSM
-          - page: 가맹점 정산 조회
-            url: /agency sm/a-FSL
+            url: /branch sm/MFSM
       - page: 대행사 정산
         url: /categories/branch settlement
         subsubfolderitems:
           - page: 대행사 정산 조회
-            url: /agency settlement/agency-settlement
+            url: /branch settlement/branch-settlement
       - page: 실시간 정산
         url: /categories/branch RS
         subsubfolderitems:
           - page: 자동 정산내역 조회
-            url: /agency rs/a-autosettlement
+            url: /branch rs/b-autosettlement
       - page: 멤버 관리
         url: /categories/branch MM
         subsubfolderitems:
           - page: 로그인 아이디 관리
-            url: 
+            url: /branch mm/
           - page: 가맹점 등록
-            url: 
+            url: /branch mm/
           - page: 에이전시 관리
-            url: 
+            url: /branch mm/
           - page: 지사 관리
-            url: 
+            url: /branch mm/
       - page: 고객 센터
-        url: /categories/agency CSC
+        url: /categories/branch CSC
         subsubfolderitems:
           - page: 공지사항
-            url: /agency csc/a-informantion
+            url: /branch csc/3information
           - page: 자주 묻는 질문
-            url: /agency csc/a-qna
+            url: /branch csc/2qna
           - page: 작업 관리
-            url: /agency csc/a-work
+            url: /branch csc/1work
          
             

@@ -3,7 +3,7 @@ title:  "가상계좌 관리 - 거래내역 조회"
 excerpt: "검색 조건을 입력 및 선택하여 가상계좌에 대한 거래내역을 조회합니다"
 
 categories:
-  - branch TM
+  - bva
 tags:
   - [지사, 가상계좌관리, 거래내역 조회]
   
