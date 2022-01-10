@@ -51,5 +51,35 @@ toc3:
             url: /sales management/MFSM
           - page: 가맹점 정산 조회
             url: /sales management/FSL
-
+      - page: 대행사 정산
+        url: /categories/settlement
+        subsubfolderitems:
+          - page: 대행사 정산 조회
+            url: settlement/basettlementlookup
+      - page: 실시간 정산
+        url: /categories/realtime settlement
+        subsubfolderitems:
+          - page: 자동 정산내역 조회
+            url: /realtimesettlement/autosettlement
+      - page: 멤버 관리
+        url: /categories/member management
+        subsubfolderitems:
+          - page: 로그인 아이디 관리
+            url: 
+          - page: 가맹점 등록
+            url: 
+          - page: 에이전시 관리
+            url: 
+          - page: 지사 관리
+            url: 
+      - page: 고객 센터
+        url: /categories/customer service center
+        subsubfolderitems:
+          - page: 공지사항
+            url: /customer service center/information
+          - page: 자주 묻는 질문
+            url: /customer service center/qna
+          - page: 작업 관리
+            url: /customer service center/work
+         
             
