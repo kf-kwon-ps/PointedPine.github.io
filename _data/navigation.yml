@@ -19,12 +19,9 @@ docs:
     children:
       - title: "DashBoard"
         url: /categories/Biz1 DashBoard
-        category: "Biz1 DashBoard"
-           children:
-             - title: "DashBoard"
-               url: /categories/Biz1 DashBoard/dashboard
-               category: Biz1 DashBoard
-      - title: "가맹점 관리"
+        category: "Biz1 DashBoard
+      - title:
+       "가맹점 관리"
         url: /categories/FM
         category: "FM"
       - title: "거래 관리"
