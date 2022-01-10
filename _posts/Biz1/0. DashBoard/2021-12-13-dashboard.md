@@ -3,7 +3,7 @@ title: "Dashboard"
 excerpt: "Main page(Home)"
 
 categories: 
- - Biz1 DashBoard
+ - BizS DashBoard
 tags:
 - [대행사, DashBoard]
 
