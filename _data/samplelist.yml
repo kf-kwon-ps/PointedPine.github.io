@@ -169,13 +169,13 @@ toc3:
         url: /categories/branch FM
         subsubfolderitems:
           - page: 가맹점 조회
-            url: /agency fm/ASlookup
+            url: /branch fm/ASlookup
           - page: 터미널 조회
-            url: /agency fm/terminal
+            url: /branch fm/terminal
           - page: 가맹점 등록
-            url: /agency fm/ASenroll
+            url: /branch fm/ASenroll
           - page: 미실적 가맹점 조회
-            url: /agency fm/underperforming
+            url: /branch fm/underperforming
       - page: 거래 관리
         url: /categories/branch TM
         subsubfolderitems:
