@@ -1,20 +1,25 @@
-<h3>BIZ1</h3>
-<ul>
-    {% for doc in site.docs %}
-      {% if doc.category == "BIZ1" %}
-        <li><a href="{{ doc.url }}">{{ doc.title }}</a></li>
-      {% endif %}
-    {% endfor %}
-</ul>
-
-<h3>BIZ2</h3>
-<ul>
-    {% for doc in site.docs %}
-      {% if doc.category == "BIZ2" %}
-        <li><a href="{{ doc.url }}">{{ doc.title }}</a></li>
-      {% endif %}
-    {% endfor %}
-</ul>
+<div>
+    {% if site.data.samplelist.toc2[0] %}
+      {% for item in site.data.samplelist.toc2 %}
+        <h3>{{ item.title }}</h3>
+          {% if item.subfolderitems[0] %}
+            <ul>
+              {% for entry in item.subfolderitems %}
+                  <li><a href="{{ entry.url }}">{{ entry.page }}</a>
+                    {% if entry.subsubfolderitems[0] %}
+                      <ul>
+                      {% for subentry in entry.subsubfolderitems %}
+                          <li><a href="{{ subentry.url }}">{{ subentry.page }}</a></li>
+                      {% endfor %}
+                      </ul>
+                    {% endif %}
+                  </li>
+              {% endfor %}
+            </ul>
+          {% endif %}
+        {% endfor %}
+    {% endif %}
+    </div>
 
 
 {% assign sum = site.posts | size %}
