@@ -24,7 +24,7 @@ toc3:
           - page: 승인 실패 조회
             url: /transaction management/approvalfailure
           - page: 가상계좌 관리
-            url: /categories/va
+            url: /categories/transaction management/va
             subsubsubfolderitems:
               - page: 발행내역 조회
                 url: /va/publihistory
