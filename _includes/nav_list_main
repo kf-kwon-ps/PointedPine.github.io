@@ -13,6 +13,13 @@
                       {% endfor %}
                       </ul>
                     {% endif %}
+                       {% if entry.subsubsubfolderitems[0] %}
+                    <ul>
+                         {% for subsubentry in entry.subsubsubfolderitems %}
+                          <li><a href="{{ subsubentry.url }}">{{ subsubentry.page }}</a></li>
+                         {% endfor %}
+                    </ul>
+                       {% endif %}
                   </li>
               {% endfor %}
             </ul>
