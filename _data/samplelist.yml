@@ -2,7 +2,7 @@ toc2:
   - title: BizS
     subfolderitems:
       - page: DashBoard
-        url: BizS DashBoard/dashboard
+        url: bizs dashboard/dashboard
       - page: 가맹점 관리
         url: /categories/FM
         subsubfolderitems:
@@ -27,9 +27,9 @@ toc2:
             url:
             subsubfolderitems:
               - page: 발행내역 조회
-                url: 
+                url: /transaction management/publihistory
               - page: 거래내역 조회
-                url: 
+                url: /transaction management/tranhistory
           - page: 리스크 관리
             url: /transaction management/riskmanagement
           - page: 승인 취소내역 조회
