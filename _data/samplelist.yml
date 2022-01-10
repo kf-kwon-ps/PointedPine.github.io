@@ -55,12 +55,12 @@ toc3:
         url: /categories/settlement
         subsubfolderitems:
           - page: 대행사 정산 조회
-            url: settlement/basettlementlookup
+            url: /settlement/basettlementlookup
       - page: 실시간 정산
         url: /categories/realtime settlement
         subsubfolderitems:
           - page: 자동 정산내역 조회
-            url: /realtimesettlement/autosettlement
+            url: /realtime settlement/autosettlement
       - page: 멤버 관리
         url: /categories/member management
         subsubfolderitems:
@@ -81,5 +81,85 @@ toc3:
             url: /customer service center/qna
           - page: 작업 관리
             url: /customer service center/work
+  - title: BizA
+    subfolderitems:
+      - page: DashBoard
+        url: bizs dashboard/dashboard
+      - page: 가맹점 관리
+        url: /categories/agency FM
+        subsubfolderitems:
+          - page: 가맹점 조회
+            url: /agency FM/ASlookup
+          - page: 터미널 조회
+            url: /agency FM/terminal
+          - page: 가맹점 등록
+            url: /agency FM/ASenroll
+          - page: 미실적 가맹점 조회
+            url: /agency FM/underperforming
+      - page: 거래 관리
+        url: /categories/agency TM
+        subsubfolderitems:
+          - page: 매입 현황 조회
+            url: /agency TM
+          - page: 승인 내역 조회
+            url: /agency TM
+          - page: 승인 실패 조회
+            url: /agency TM
+          - page: 가상계좌 관리
+            url: /categories/ava
+            subsubsubfolderitems:
+              - page: 발행내역 조회
+                url: /ava/publihistory
+              - page: 거래내역 조회
+                url: /ava/tranhistory
+          - page: 리스크 관리
+            url: /agency TM
+          - page: 승인 취소내역 조회
+            url: /agency TM
+      - page: 매출 관리
+        url: /categories/agency SM
+        subsubfolderitems:
+          - page: 월별 매출관리
+            url: /agency SM/a-MSM
+          - page: 에이전시 매출관리
+            url: /agency SM/a-ASM
+          - page: 지사 매출관리
+            url: /agency SM/a-BSM
+          - page: 가맹점 매출관리
+            url: /agency SM/a-FSM
+          - page: 월별 가맹점 매출관리
+            url: /agency SM/a-MFSM
+          - page: 가맹점 정산 조회
+            url: /agency SM/a-FSL
+      - page: 대행사 정산
+        url: /categories/agency settlement
+        subsubfolderitems:
+          - page: 대행사 정산 조회
+            url: /agency settlement/agency-settlement
+      - page: 실시간 정산
+        url: /categories/agency RS
+        subsubfolderitems:
+          - page: 자동 정산내역 조회
+            url: /agency RS/a-autosettlement
+      - page: 멤버 관리
+        url: /categories/member management
+        subsubfolderitems:
+          - page: 로그인 아이디 관리
+            url: 
+          - page: 가맹점 등록
+            url: 
+          - page: 에이전시 관리
+            url: 
+          - page: 지사 관리
+            url: 
+      - page: 고객 센터
+        url: /categories/agency CSC
+        subsubfolderitems:
+          - page: 공지사항
+            url: /agency CSC/a-informantion
+          - page: 자주 묻는 질문
+            url: /agency CSC/a-qna
+          - page: 작업 관리
+            url: /agency CSC/a-work
          
             
