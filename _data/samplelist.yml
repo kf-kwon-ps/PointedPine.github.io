@@ -20,9 +20,9 @@ toc3:
           - page: 매입 현황 조회
             url: /transaction management/purchasestatus
           - page: 승인 내역 조회
-            url: /transaction management/
+            url: /transaction management/approvalhistorylookup
           - page: 승인 실패 조회
-            url: /transaction management/
+            url: /transaction management/approvalfailure
           - page: 가상계좌 관리
             url: /categories/va
             subsubfolderitems:
