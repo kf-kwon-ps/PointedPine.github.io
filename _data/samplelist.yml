@@ -4,8 +4,14 @@ toc2:
       - page: DashBoard
         url: /2021-12-13-dashboard.md
       - page: 가맹점 관리
-        url: /categories/FM
+        url: /BizS DashBoard/dashboard
         subsubfolderitems:
           - page: 가맹점 조회
-            url: 2021-12-14-ASlookup.md
-     
+            url: fm/ASlookup
+          - page: 터미널 조회
+            url: fm/terminal
+          - page: 가맹점 등록
+            url: fm/ASenroll
+          - page: 미실적 가맹점 조회
+            url: fm/underperforming
+          
