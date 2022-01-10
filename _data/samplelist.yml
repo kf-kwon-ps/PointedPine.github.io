@@ -25,7 +25,7 @@ toc3:
             url: /transaction management/approvalfailure
           - page: 가상계좌 관리
             url: /categories/va
-            subsubfolderitems:
+            subsubsubfolderitems:
               - page: 발행내역 조회
                 url: /va/publihistory
               - page: 거래내역 조회
@@ -34,3 +34,14 @@ toc3:
             url: /transaction management/riskmanagement
           - page: 승인 취소내역 조회
             url: /transaction management/approvalcancellationhistory
+      - page: 매출 관리
+        url: /categories/sales management
+        subsubfolderitems:
+          - page: 가맹점 조회
+            url: /fm/ASlookup
+          - page: 터미널 조회
+            url: /fm/terminal
+          - page: 가맹점 등록
+            url: /fm/ASenroll
+          - page: 미실적 가맹점 조회
+            url: /fm/underperforming
