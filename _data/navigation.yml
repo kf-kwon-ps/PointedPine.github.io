@@ -13,17 +13,3 @@ main:
 
   #- title: "Category"
     #url: https://KwonPS.github.io/categories
-
-docs:
-  - title: Database
-    children:
-      - title: "DashBoard"
-        url: /categories/Biz1 DashBoard
-        category: "Biz1 DashBoard
-      - title:
-       "가맹점 관리"
-        url: /categories/FM
-        category: "FM"
-      - title: "거래 관리"
-        url: /categories/transaction management
-        category: "transaction management"
