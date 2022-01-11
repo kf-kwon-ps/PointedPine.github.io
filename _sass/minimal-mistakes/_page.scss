@@ -120,9 +120,10 @@ body {
   p {
     margin: 0 5 $indent-var;
     img {
-      #border: 1px solid gray;
-      box-shadow: 3px 3px 8px gray;
-      margin: 5 0 5 0;
+      border: 1px solid lightgray;
+      box-shadow: 3px 3px 8px grey;
+      padding: 10px 10px 10px 10px;
+      margin: 0px 0px 50px 0px;
     }
     /* sibling indentation*/
     @if $paragraph-indent == true {
