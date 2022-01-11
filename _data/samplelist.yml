@@ -64,14 +64,19 @@ toc3:
       - page: 멤버 관리
         url: /categories/member management
         subsubfolderitems:
-          - page: 로그인 아이디 관리
-            url: 
+          - page: /로그인 ID 관리
+            url: /categories/login
+            subsubsubfolderitemss:
+              - page: ID 조회
+                url: /login/IDLookup
+              - page: 대행사/에이전시 등록
+                url: /login/agencyenrollment
           - page: 가맹점 등록
-            url: 
+            url: /member management/memberenrollment
           - page: 에이전시 관리
-            url: 
+            url: /categories/
           - page: 지사 관리
-            url: 
+            url: /categories/
       - page: 고객 센터
         url: /categories/customer service center
         subsubfolderitems:
