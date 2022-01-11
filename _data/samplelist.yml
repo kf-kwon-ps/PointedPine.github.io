@@ -236,14 +236,9 @@ toc3:
         url: /categories/branch MM
         subsubfolderitems:
           - page: 로그인 아이디 관리
-            url: /branch mm/
+            url: /branch mm/b-idlookup
           - page: 가맹점 등록
-            url: /branch mm/
-          - page: 에이전시 관리
-            url: /branch mm/
-          - page: 지사 관리
-            url: /branch mm/
-      - page: 고객 센터
+            url: /branch mm/branch-mr
         url: /categories/branch CSC
         subsubfolderitems:
           - page: 공지사항
