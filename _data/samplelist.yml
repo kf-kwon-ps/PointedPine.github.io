@@ -64,7 +64,7 @@ toc3:
       - page: 멤버 관리
         url: /categories/member management
         subsubfolderitems:
-          - page: /로그인 ID 관리
+          - page: 로그인 ID 관리
             url: /categories/login
             subsubsubfolderitemss:
               - page: ID 조회
