@@ -13,12 +13,12 @@
   }
 
   @include breakpoint($x-large) {
-    width: calc(100% - #{$right-sidebar-width});
+    width: calc(100% - #{$right-sidebar-width}-300px);
     padding-right: $right-sidebar-width;
   }
 
   @include breakpoint($max-width) {
-    width: calc(100% - #{$right-sidebar-width});
+    width: calc(100% - #{$right-sidebar-width}-300px);
     padding-right: $right-sidebar-width;
   }
 }
