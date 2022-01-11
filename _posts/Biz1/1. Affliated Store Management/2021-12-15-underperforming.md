@@ -29,7 +29,7 @@ last_modified_at: 2021-12-30
 
 #### 검색 조건
 가맹점명, 사업자(주민)번호, 가맹점 대표자, 전화번호, 대표자이름, 담당자이름, 업종, 업태, 상태, 소속 선택
-```
+<br>
 <br>
 
 ![image](https://user-images.githubusercontent.com/95394003/146146827-d911a985-4580-4f51-b9f5-5ea1d294d74f.jpeg)
