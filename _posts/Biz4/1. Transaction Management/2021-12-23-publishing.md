@@ -3,7 +3,7 @@ title:  "가상계좌 관리 - 발행내역 조회"
 excerpt: "검색 조건을 입력 및 선택하여 가상계좌에 대한 발행내역을 조회합니다"
 
 categories:
-  - affliated TM
+  - afva
 tags:
   - [가맹점, 가상계좌관리, 발행내역 조회]
   
