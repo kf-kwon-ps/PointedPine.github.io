@@ -260,12 +260,12 @@ toc3:
           - page: 승인 실패 조회
             url: /affliated tm/failure
           - page: 지급대행 관리
-            url: /categories/ 
+            url: /categories/pam
             subsubsubfolderitems:
               - page: 거래내역 조회
-                url: /transaction history    
+                url: pam/transaction history    
               - page: 인증내역 조회
-                url: /certification history   
+                url: pam/certification history   
       - page: 매출 및 정산 내역
         url: /categories/affliated SS
         subsubfolderitems:
