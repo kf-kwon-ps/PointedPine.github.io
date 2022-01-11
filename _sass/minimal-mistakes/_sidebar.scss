@@ -42,7 +42,7 @@
 
   //test
   @include breakpoint($max-width) {
-    width: calc(#{$right-sidebar-width} - 0.5em);
+    width: 500px; //calc(#{$right-sidebar-width} - 0.5em);
   }
 
   > * {
