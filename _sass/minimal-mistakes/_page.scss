@@ -91,8 +91,14 @@ body {
   h2 {
     padding-bottom: 0.5em;
     border-bottom: 1px solid $border-color;
+    
   }
 
+  img {
+      #border: 1px solid gray;
+      box-shadow: 5px 5px 8px lightgray;
+  }
+  
 	h1, h2, h3, h4, h5, h6 {
 		.header-link {
 			position: relative;
