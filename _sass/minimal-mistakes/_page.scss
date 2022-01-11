@@ -118,10 +118,11 @@ body {
 
   /* paragraph indents */
   p {
-    margin: 3 0 $indent-var;
+    margin: 0 5 $indent-var;
     img {
-        #border: 1px solid gray;
-        box-shadow: 5px 5px 8px lightgray;
+      #border: 1px solid gray;
+      box-shadow: 3px 3px 8px gray;
+      margin: 5 0 5 0;
     }
     /* sibling indentation*/
     @if $paragraph-indent == true {
