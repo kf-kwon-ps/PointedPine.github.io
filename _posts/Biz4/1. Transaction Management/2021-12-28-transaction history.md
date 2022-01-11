@@ -3,7 +3,7 @@ title:  "지급대행 관리 - 거래내역 조회"
 excerpt: "지급대행에 대한 거래내역을 조회합니다."
 
 categories:
-  - affliated TM
+  - pam
 tags:
   - [가맹점, 지급대행 관리, 거래내역 조회]
 toc: true
