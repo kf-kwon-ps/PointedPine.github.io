@@ -13,12 +13,12 @@
   }
 
   @include breakpoint($x-large) {
-    width: calc(100% - #{$right-sidebar-width}-300px);
+    width: calc(100% - #{$right-sidebar-width});
     padding-right: $right-sidebar-width;
   }
 
   @include breakpoint($max-width) {
-    width: calc(100% - #{$right-sidebar-width}-300px);
+    width: calc(100% - #{$right-sidebar-width});
     padding-right: $right-sidebar-width;
   }
 }
@@ -154,6 +154,10 @@
     }
 
     @include breakpoint($x-large) {
+      margin-right: -1 * $right-sidebar-width;
+    }
+
+    @include breakpoint($max-width) {
       margin-right: -1 * $right-sidebar-width;
     }
   }
