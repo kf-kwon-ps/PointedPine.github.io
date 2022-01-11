@@ -40,6 +40,11 @@
     width: calc(#{$right-sidebar-width} - 1em);
   }
 
+  //test
+  @include breakpoint($max-width) {
+    width: calc(#{$right-sidebar-width} - 0.5em);
+  }
+
   > * {
     margin-top: 1em;
     margin-bottom: 1em;
