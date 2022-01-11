@@ -27,7 +27,7 @@ last_modified_at: 2021-12-29
 ---
 
 #### 검색 조건
-지사명, 전화번호, 상태<br>
+```지사명, 전화번호, 상태<br>
 <br>
 
 ![지사검색조건](https://user-images.githubusercontent.com/95394003/147035345-d81a2551-c042-40be-a5cf-071d1c24d44f.jpeg)<br>
