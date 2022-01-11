@@ -16,6 +16,11 @@
     width: calc(100% - #{$right-sidebar-width});
     padding-right: $right-sidebar-width;
   }
+
+  @include breakpoint($max-width) {
+    width: calc(100% - #{$right-sidebar-width}-300px);
+    padding-right: $right-sidebar-width;
+  }
 }
 
 .archive__item {
