@@ -27,9 +27,10 @@
   </head>
 
   <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}">
-    {% include_cached skip-links.html %}
+    <!-- {% include_cached skip-links.html %}
     {% include_cached browser-upgrade.html %}
-    {% include_cached masthead.html %}
+    {% include_cached masthead.html %} -->    
+    <!--위 3줄 주석처리함-->
 
     <div class="initial-content">
       {{ content }}
