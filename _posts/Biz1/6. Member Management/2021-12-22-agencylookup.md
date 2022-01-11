@@ -3,7 +3,7 @@ title:  "에이전시 관리 - 에이전시 조회"
 excerpt: "등록된 에이전시를 조회합니다"
 
 categories:
-  - member management
+  - agencymanagement
 tags:
   - [대행사, 에이전시 관리, 에이전시 조회]
 toc: true

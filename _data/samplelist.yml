@@ -74,9 +74,19 @@ toc3:
           - page: 가맹점 등록
             url: /member management/memberenrollment
           - page: 에이전시 관리
-            url: /categories/
+            url: /categories/agencymanagement
+            subsubsubfolderitems: 
+              - page: 에이전시 조회
+                url: /agencymanagement/agencylookup
+              - page: 에이전시 등록
+                url: /agencymanagement/agencyenrollment
           - page: 지사 관리
-            url: /categories/
+            url: /categories/branchmanagement
+            subsubsubfolderitems:
+              - page: 지사 조회
+                url: /branchmanagement/branchlookup
+              - page: 지사 등록
+                url: /branchmanagement/branchenrollment
       - page: 고객 센터
         url: /categories/customer service center
         subsubfolderitems:

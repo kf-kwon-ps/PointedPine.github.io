@@ -3,7 +3,7 @@ title:  "지사 관리 - 지사 등록"
 excerpt: "지사를 등록합니다"
 
 categories:
-  - member management
+  - branchmanagement
 tags:
   - [대행사, 지사 관리, 지사 등록]
 toc: true
