@@ -160,18 +160,21 @@ toc3:
         url: /categories/agency MM
         subsubfolderitems:
           - page: 로그인 아이디 관리
-            url: 
+            url: /categories/agencylogin
             subsubsubfolderitems:
               - page: ID조회
-                url:
-              - page: ID등록
-                url: 
+                url: /agencylogin/idlookup
+              - page: 지사 ID등록
+                url: /agencylogin/branchIDenroll
           - page: 가맹점 등록
             url: /agency mm/agency-mr
-          - page: 에이전시 관리
-            url: 
           - page: 지사 관리
-            url: 
+            url: /categories/abm
+            subsubsubfolderitems:
+              - page: 지사 조회
+                url: /abm/branchlookup
+              - page: 지사 등록
+                url: /abm/branchenroll
       - page: 고객 센터
         url: /categories/agency CSC
         subsubfolderitems:
