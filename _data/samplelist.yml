@@ -235,7 +235,7 @@ toc3:
       - page: 멤버 관리
         url: /categories/branch MM
         subsubfolderitems:
-          - page: 로그인 아이디 관리
+          - page: 로그인 ID 관리
             url: /branch mm/b-idlookup
           - page: 가맹점 등록
             url: /branch mm/branch-mr
