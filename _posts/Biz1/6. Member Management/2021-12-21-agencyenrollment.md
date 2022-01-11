@@ -3,7 +3,7 @@ title:  "로그인 ID관리 - 대행사/에이전시 등록"
 excerpt: "하위사용자 등록, 가맹점사용자 등록"
 
 categories:
-  - member management
+  - login
 tags:
   - [대행사, 대행사 등록, 에이전시 등록]
 toc: true
