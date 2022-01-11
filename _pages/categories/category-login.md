@@ -1,7 +1,7 @@
 ---
 title: "로그인 ID 관리"
 layout: archive
-permalink: categories/pam
+permalink: categories/login
 author_profile: true
 sidebar_main: true
 ---
