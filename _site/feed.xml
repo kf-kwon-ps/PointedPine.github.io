@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2022-01-12T13:15:56+09:00</updated><id>/feed.xml</id><title type="html">KwonPS</title><subtitle>KwonPS_영업기획_대외배포용_매뉴얼_제작</subtitle><entry><title type="html">매입 현황 조회</title><link href="/agency%20tm/purchasestatus/" rel="alternate" type="text/html" title="매입 현황 조회" /><published>2021-12-30T00:00:00+09:00</published><updated>2021-12-27T00:00:00+09:00</updated><id>/agency%20tm/purchasestatus</id><content type="html" xml:base="/agency%20tm/purchasestatus/">&lt;h3 id=&quot;거래-관리---매입-현황-조회&quot;&gt;거래 관리 - &lt;em&gt;매입 현황 조회&lt;/em&gt;&lt;/h3&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-01-12T14:03:29+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">KwonPS</title><subtitle>KwonPS_영업기획_대외배포용_매뉴얼_제작</subtitle><entry><title type="html">매입 현황 조회</title><link href="http://localhost:4000/agency%20tm/purchasestatus/" rel="alternate" type="text/html" title="매입 현황 조회" /><published>2021-12-30T00:00:00+09:00</published><updated>2021-12-27T00:00:00+09:00</updated><id>http://localhost:4000/agency%20tm/purchasestatus</id><content type="html" xml:base="http://localhost:4000/agency%20tm/purchasestatus/">&lt;h3 id=&quot;거래-관리---매입-현황-조회&quot;&gt;거래 관리 - &lt;em&gt;매입 현황 조회&lt;/em&gt;&lt;/h3&gt;
 &lt;ul&gt;
   &lt;li&gt;
     &lt;p&gt;검색 조건을 입력하여 거래건별 승인내역 등 매입 현황을&lt;br /&gt;조회합니다.&lt;/p&gt;
@@ -194,7 +194,7 @@ VAN 종류를 선택합니다.&lt;/p&gt;
 일시불 거래일 경우 00으로 표기됩니다.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;리스크&lt;/strong&gt;&lt;br /&gt;
-리스크를 구분해서 나타냅니다.&lt;/p&gt;</content><author><name></name></author><category term="agency TM" /><category term="에이전시" /><category term="매입 현황 조회" /><summary type="html">검색 조건을 입력하여 매입 현황을 조회합니다</summary></entry><entry><title type="html">월별 매출관리</title><link href="/branch%20sm/MSM/" rel="alternate" type="text/html" title="월별 매출관리" /><published>2021-12-30T00:00:00+09:00</published><updated>2021-12-27T00:00:00+09:00</updated><id>/branch%20sm/MSM</id><content type="html" xml:base="/branch%20sm/MSM/">&lt;h3 id=&quot;매출-관리---월별-매출관리&quot;&gt;매출 관리 - &lt;em&gt;월별 매출관리&lt;/em&gt;&lt;/h3&gt;
+리스크를 구분해서 나타냅니다.&lt;/p&gt;</content><author><name></name></author><category term="agency TM" /><category term="에이전시" /><category term="매입 현황 조회" /><summary type="html">검색 조건을 입력하여 매입 현황을 조회합니다</summary></entry><entry><title type="html">월별 매출관리</title><link href="http://localhost:4000/branch%20sm/MSM/" rel="alternate" type="text/html" title="월별 매출관리" /><published>2021-12-30T00:00:00+09:00</published><updated>2021-12-27T00:00:00+09:00</updated><id>http://localhost:4000/branch%20sm/MSM</id><content type="html" xml:base="http://localhost:4000/branch%20sm/MSM/">&lt;h3 id=&quot;매출-관리---월별-매출관리&quot;&gt;매출 관리 - &lt;em&gt;월별 매출관리&lt;/em&gt;&lt;/h3&gt;
 &lt;ul&gt;
   &lt;li&gt;
     &lt;p&gt;조회할 기간을 설정하여 해당 월별 매출을 조회합니다.&lt;/p&gt;
@@ -260,7 +260,7 @@ VAN 종류를 선택합니다.&lt;/p&gt;
 정산 금액이 얼마인지를 나타냅니다.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;가맹점수수료&lt;/strong&gt;&lt;br /&gt;
-가맹점 수수료가 얼마인지를 나타냅니다.&lt;/p&gt;</content><author><name></name></author><category term="branch SM" /><category term="지사" /><category term="월별 매출관리" /><summary type="html">조회할 기간을 설정하여 해당 월별 매출을 조회합니다</summary></entry><entry><title type="html">가맹점 조회</title><link href="/branch%20fm/ASLookup/" rel="alternate" type="text/html" title="가맹점 조회" /><published>2021-12-30T00:00:00+09:00</published><updated>2021-12-30T00:00:00+09:00</updated><id>/branch%20fm/ASLookup</id><content type="html" xml:base="/branch%20fm/ASLookup/">&lt;h3 id=&quot;가맹점-관리---가맹점-조회&quot;&gt;가맹점 관리 - &lt;em&gt;가맹점 조회&lt;/em&gt;&lt;/h3&gt;
+가맹점 수수료가 얼마인지를 나타냅니다.&lt;/p&gt;</content><author><name></name></author><category term="branch SM" /><category term="지사" /><category term="월별 매출관리" /><summary type="html">조회할 기간을 설정하여 해당 월별 매출을 조회합니다</summary></entry><entry><title type="html">가맹점 조회</title><link href="http://localhost:4000/branch%20fm/ASLookup/" rel="alternate" type="text/html" title="가맹점 조회" /><published>2021-12-30T00:00:00+09:00</published><updated>2021-12-30T00:00:00+09:00</updated><id>http://localhost:4000/branch%20fm/ASLookup</id><content type="html" xml:base="http://localhost:4000/branch%20fm/ASLookup/">&lt;h3 id=&quot;가맹점-관리---가맹점-조회&quot;&gt;가맹점 관리 - &lt;em&gt;가맹점 조회&lt;/em&gt;&lt;/h3&gt;
 &lt;ul&gt;
   &lt;li&gt;
     &lt;p&gt;검색 조건을 입력하여 등록된 가맹점을 조회합니다.&lt;br /&gt;&lt;/p&gt;
@@ -378,7 +378,7 @@ VAN 종류를 선택합니다.&lt;/p&gt;
 &lt;br /&gt;해당 가맹점 정보를 등록한 관리자의 아이디입니다.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;등록일시&lt;/strong&gt;
-&lt;br /&gt;해당 내용을 등록한 날짜와 시간입니다.&lt;/p&gt;</content><author><name></name></author><category term="branch FM" /><category term="지사" /><category term="가맹점 조회" /><summary type="html">등록된 가맹점을 조회합니다.</summary></entry><entry><title type="html">공지사항</title><link href="/agency%20csc/a-information/" rel="alternate" type="text/html" title="공지사항" /><published>2021-12-30T00:00:00+09:00</published><updated>2021-12-30T00:00:00+09:00</updated><id>/agency%20csc/a-information</id><content type="html" xml:base="/agency%20csc/a-information/">&lt;h3 id=&quot;고객-센터---공지사항&quot;&gt;고객 센터 - &lt;em&gt;공지사항&lt;/em&gt;&lt;/h3&gt;
+&lt;br /&gt;해당 내용을 등록한 날짜와 시간입니다.&lt;/p&gt;</content><author><name></name></author><category term="branch FM" /><category term="지사" /><category term="가맹점 조회" /><summary type="html">등록된 가맹점을 조회합니다.</summary></entry><entry><title type="html">공지사항</title><link href="http://localhost:4000/agency%20csc/a-information/" rel="alternate" type="text/html" title="공지사항" /><published>2021-12-30T00:00:00+09:00</published><updated>2021-12-30T00:00:00+09:00</updated><id>http://localhost:4000/agency%20csc/a-information</id><content type="html" xml:base="http://localhost:4000/agency%20csc/a-information/">&lt;h3 id=&quot;고객-센터---공지사항&quot;&gt;고객 센터 - &lt;em&gt;공지사항&lt;/em&gt;&lt;/h3&gt;
 &lt;ul&gt;
   &lt;li&gt;
     &lt;p&gt;등록된 공지사항을 조회하는 페이지입니다.&lt;/p&gt;
@@ -408,7 +408,7 @@ VAN 종류를 선택합니다.&lt;/p&gt;
 공지사항을 등록한 등록자를 나타냅니다.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;등록일시&lt;/strong&gt;&lt;br /&gt;
-공지사항이 등록된 일시를 나타냅니다.&lt;/p&gt;</content><author><name></name></author><category term="agency CSC" /><category term="에이전시" /><category term="고객센터" /><category term="공지사항" /><summary type="html">공지사항 조회 페이지입니다</summary></entry><entry><title type="html">로그인 ID관리 - ID 조회</title><link href="/agencylogin/idlookup/" rel="alternate" type="text/html" title="로그인 ID관리 - ID 조회" /><published>2021-12-30T00:00:00+09:00</published><updated>2021-12-30T00:00:00+09:00</updated><id>/agencylogin/idlookup</id><content type="html" xml:base="/agencylogin/idlookup/">&lt;h3 id=&quot;멤버관리---id-조회&quot;&gt;멤버관리 - &lt;em&gt;ID 조회&lt;/em&gt;&lt;/h3&gt;
+공지사항이 등록된 일시를 나타냅니다.&lt;/p&gt;</content><author><name></name></author><category term="agency CSC" /><category term="에이전시" /><category term="고객센터" /><category term="공지사항" /><summary type="html">공지사항 조회 페이지입니다</summary></entry><entry><title type="html">로그인 ID관리 - ID 조회</title><link href="http://localhost:4000/agencylogin/idlookup/" rel="alternate" type="text/html" title="로그인 ID관리 - ID 조회" /><published>2021-12-30T00:00:00+09:00</published><updated>2021-12-30T00:00:00+09:00</updated><id>http://localhost:4000/agencylogin/idlookup</id><content type="html" xml:base="http://localhost:4000/agencylogin/idlookup/">&lt;h3 id=&quot;멤버관리---id-조회&quot;&gt;멤버관리 - &lt;em&gt;ID 조회&lt;/em&gt;&lt;/h3&gt;
 &lt;ul&gt;
   &lt;li&gt;
     &lt;p&gt;검색 조건을 입력 및 선택하여 등록된 로그인 ID를 조회합니다.&lt;/p&gt;
@@ -489,7 +489,7 @@ VAN 종류를 선택합니다.&lt;/p&gt;
 해당 계정을 등록한 등록자를 나타냅니다.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;등록일시&lt;/strong&gt;&lt;br /&gt;
-해당 계정이 등록된 일시를 나타냅니다.&lt;br /&gt;연, 월, 일, 시간으로 표기됩니다.&lt;/p&gt;</content><author><name></name></author><category term="agencylogin" /><category term="에이전시" /><category term="멤버관리" /><category term="로그인 ID관리" /><category term="ID 조회" /><summary type="html">등록된 로그인 ID를 조회합니다</summary></entry><entry><title type="html">월별 매출관리</title><link href="/agency%20sm/a-MSM/" rel="alternate" type="text/html" title="월별 매출관리" /><published>2021-12-30T00:00:00+09:00</published><updated>2021-12-30T00:00:00+09:00</updated><id>/agency%20sm/a-MSM</id><content type="html" xml:base="/agency%20sm/a-MSM/">&lt;h3 id=&quot;매출-관리---월별-매출관리&quot;&gt;매출 관리 - &lt;em&gt;월별 매출관리&lt;/em&gt;&lt;/h3&gt;
+해당 계정이 등록된 일시를 나타냅니다.&lt;br /&gt;연, 월, 일, 시간으로 표기됩니다.&lt;/p&gt;</content><author><name></name></author><category term="agencylogin" /><category term="에이전시" /><category term="멤버관리" /><category term="로그인 ID관리" /><category term="ID 조회" /><summary type="html">등록된 로그인 ID를 조회합니다</summary></entry><entry><title type="html">월별 매출관리</title><link href="http://localhost:4000/agency%20sm/a-MSM/" rel="alternate" type="text/html" title="월별 매출관리" /><published>2021-12-30T00:00:00+09:00</published><updated>2021-12-30T00:00:00+09:00</updated><id>http://localhost:4000/agency%20sm/a-MSM</id><content type="html" xml:base="http://localhost:4000/agency%20sm/a-MSM/">&lt;h3 id=&quot;매출-관리---월별-매출관리&quot;&gt;매출 관리 - &lt;em&gt;월별 매출관리&lt;/em&gt;&lt;/h3&gt;
 &lt;ul&gt;
   &lt;li&gt;
     &lt;p&gt;조회할 기간을 설정하여 해당 월별 매출을 조회합니다.&lt;/p&gt;
@@ -558,7 +558,7 @@ VAN 종류를 선택합니다.&lt;/p&gt;
 정산 금액이 얼마인지를 나타냅니다.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;가맹점수수료&lt;/strong&gt;&lt;br /&gt;
-가맹점 수수료가 얼마인지를 나타냅니다.&lt;/p&gt;</content><author><name></name></author><category term="agency SM" /><category term="에이전시" /><category term="월별 매출관리" /><summary type="html">조회할 기간을 설정하여 해당 월별 매출을 조회합니다</summary></entry><entry><title type="html">공지사항</title><link href="/affliated%20csc/information/" rel="alternate" type="text/html" title="공지사항" /><published>2021-12-29T00:00:00+09:00</published><updated>2021-12-29T00:00:00+09:00</updated><id>/affliated%20csc/information</id><content type="html" xml:base="/affliated%20csc/information/">&lt;h3 id=&quot;고객-센터---공지사항&quot;&gt;고객 센터 - &lt;em&gt;공지사항&lt;/em&gt;&lt;/h3&gt;
+가맹점 수수료가 얼마인지를 나타냅니다.&lt;/p&gt;</content><author><name></name></author><category term="agency SM" /><category term="에이전시" /><category term="월별 매출관리" /><summary type="html">조회할 기간을 설정하여 해당 월별 매출을 조회합니다</summary></entry><entry><title type="html">공지사항</title><link href="http://localhost:4000/affliated%20csc/information/" rel="alternate" type="text/html" title="공지사항" /><published>2021-12-29T00:00:00+09:00</published><updated>2021-12-29T00:00:00+09:00</updated><id>http://localhost:4000/affliated%20csc/information</id><content type="html" xml:base="http://localhost:4000/affliated%20csc/information/">&lt;h3 id=&quot;고객-센터---공지사항&quot;&gt;고객 센터 - &lt;em&gt;공지사항&lt;/em&gt;&lt;/h3&gt;
 &lt;ul&gt;
   &lt;li&gt;
     &lt;p&gt;등록된 공지사항을 조회하는 페이지입니다.&lt;/p&gt;
@@ -588,7 +588,7 @@ VAN 종류를 선택합니다.&lt;/p&gt;
 공지사항을 등록한 등록자를 나타냅니다.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;등록일시&lt;/strong&gt;&lt;br /&gt;
-공지사항이 등록된 일시를 나타냅니다.&lt;/p&gt;</content><author><name></name></author><category term="affliated CSC" /><category term="가맹점" /><category term="고객센터" /><category term="공지사항" /><summary type="html">공지사항 조회 페이지입니다</summary></entry><entry><title type="html">거래내역 조회</title><link href="/affliated%20cs/transactionhistory/" rel="alternate" type="text/html" title="거래내역 조회" /><published>2021-12-29T00:00:00+09:00</published><updated>2021-12-29T00:00:00+09:00</updated><id>/affliated%20cs/transactionhistory</id><content type="html" xml:base="/affliated%20cs/transactionhistory/">&lt;h3 id=&quot;충전-정산---거래내역-조회&quot;&gt;충전 정산 - &lt;em&gt;거래내역 조회&lt;/em&gt;&lt;/h3&gt;
+공지사항이 등록된 일시를 나타냅니다.&lt;/p&gt;</content><author><name></name></author><category term="affliated CSC" /><category term="가맹점" /><category term="고객센터" /><category term="공지사항" /><summary type="html">공지사항 조회 페이지입니다</summary></entry><entry><title type="html">거래내역 조회</title><link href="http://localhost:4000/affliated%20cs/transactionhistory/" rel="alternate" type="text/html" title="거래내역 조회" /><published>2021-12-29T00:00:00+09:00</published><updated>2021-12-29T00:00:00+09:00</updated><id>http://localhost:4000/affliated%20cs/transactionhistory</id><content type="html" xml:base="http://localhost:4000/affliated%20cs/transactionhistory/">&lt;h3 id=&quot;충전-정산---거래내역-조회&quot;&gt;충전 정산 - &lt;em&gt;거래내역 조회&lt;/em&gt;&lt;/h3&gt;
 &lt;ul&gt;
   &lt;li&gt;
     &lt;p&gt;검색조건을 입력 및 선택하여 충전정산에 대한 거래내역을 조회합니다.&lt;/p&gt;
@@ -681,7 +681,7 @@ VAN 종류를 선택합니다.&lt;/p&gt;
 해당 거래에 대해 등록한 아이디를 나타냅니다.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;거래일시&lt;/strong&gt;&lt;br /&gt;
-거래일시가 언제인지를 나타냅니다.&lt;/p&gt;</content><author><name></name></author><category term="affliated CS" /><category term="가맹점" /><category term="충전정산" /><category term="거래내역 조회" /><summary type="html">충전정산에 대한 거래내역을 조회합니다.</summary></entry><entry><title type="html">신용카드 정산 조회</title><link href="/affliated%20ss/creditcard/" rel="alternate" type="text/html" title="신용카드 정산 조회" /><published>2021-12-29T00:00:00+09:00</published><updated>2021-12-29T00:00:00+09:00</updated><id>/affliated%20ss/creditcard</id><content type="html" xml:base="/affliated%20ss/creditcard/">&lt;h3 id=&quot;매출-및-정산-내역---신용카드-정산-조회&quot;&gt;매출 및 정산 내역 - &lt;em&gt;신용카드 정산 조회&lt;/em&gt;&lt;/h3&gt;
+거래일시가 언제인지를 나타냅니다.&lt;/p&gt;</content><author><name></name></author><category term="affliated CS" /><category term="가맹점" /><category term="충전정산" /><category term="거래내역 조회" /><summary type="html">충전정산에 대한 거래내역을 조회합니다.</summary></entry><entry><title type="html">신용카드 정산 조회</title><link href="http://localhost:4000/affliated%20ss/creditcard/" rel="alternate" type="text/html" title="신용카드 정산 조회" /><published>2021-12-29T00:00:00+09:00</published><updated>2021-12-29T00:00:00+09:00</updated><id>http://localhost:4000/affliated%20ss/creditcard</id><content type="html" xml:base="http://localhost:4000/affliated%20ss/creditcard/">&lt;h3 id=&quot;매출-및-정산-내역---신용카드-정산-조회&quot;&gt;매출 및 정산 내역 - &lt;em&gt;신용카드 정산 조회&lt;/em&gt;&lt;/h3&gt;
 &lt;ul&gt;
   &lt;li&gt;
     &lt;p&gt;검색 조건을 입력 및 선택하여 신용카드에 대한 정산 정보를 조회합니다.&lt;/p&gt;
@@ -805,7 +805,7 @@ D+ 1~7, C+ 1~7 중 선택합니다.&lt;/p&gt;
 계좌 정보를 표기합니다.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;정산수수료율&lt;/strong&gt;&lt;br /&gt;
-정산 수수료율이 몇 %인지를 나타냅니다.&lt;/p&gt;</content><author><name></name></author><category term="affliated SS" /><category term="가맹점" /><category term="매출 및 정산 내역" /><category term="신용카드 정산 조회" /><summary type="html">신용카드에 대한 정산정보를 조회합니다</summary></entry><entry><title type="html">매입 현황 조회</title><link href="/affliated%20tm/purchasestatus/" rel="alternate" type="text/html" title="매입 현황 조회" /><published>2021-12-29T00:00:00+09:00</published><updated>2021-12-29T00:00:00+09:00</updated><id>/affliated%20tm/purchasestatus</id><content type="html" xml:base="/affliated%20tm/purchasestatus/">&lt;h3 id=&quot;거래-관리---매입-현황-조회&quot;&gt;거래 관리 - &lt;em&gt;매입 현황 조회&lt;/em&gt;&lt;/h3&gt;
+정산 수수료율이 몇 %인지를 나타냅니다.&lt;/p&gt;</content><author><name></name></author><category term="affliated SS" /><category term="가맹점" /><category term="매출 및 정산 내역" /><category term="신용카드 정산 조회" /><summary type="html">신용카드에 대한 정산정보를 조회합니다</summary></entry><entry><title type="html">매입 현황 조회</title><link href="http://localhost:4000/affliated%20tm/purchasestatus/" rel="alternate" type="text/html" title="매입 현황 조회" /><published>2021-12-29T00:00:00+09:00</published><updated>2021-12-29T00:00:00+09:00</updated><id>http://localhost:4000/affliated%20tm/purchasestatus</id><content type="html" xml:base="http://localhost:4000/affliated%20tm/purchasestatus/">&lt;h3 id=&quot;거래-관리---매입-현황-조회&quot;&gt;거래 관리 - &lt;em&gt;매입 현황 조회&lt;/em&gt;&lt;/h3&gt;
 &lt;ul&gt;
   &lt;li&gt;
     &lt;p&gt;검색 조건을 입력하여 거래건별 승인내역 등 매입 현황을&lt;br /&gt;조회합니다.&lt;/p&gt;
