@@ -6,44 +6,44 @@
             <ul>
               {% for entry in item.subfolderitems %}
                 <li>
-                  <!-- 하위 구조에 따른 링크 분기 시작 1depth-->
-                    <!-- 1detph의 하위가 있을 경우 -->
-                    
-
-                    {% if item.subsubfolderitems[0] %}
-                      <!-- 항목명만 표시 -->
-                      {{ entry.page }}
-                    <!-- 1depth 하위가 없을 경우 -->
-                    {% else %}
-                      <!-- 이동 링크 제공 -->
-                      <a href="{{ entry.url }}">{{ entry.page }}</a>
-                    {% endif %}
-                    
-                  <!-- 하위 구조에 따른 링크 분기 종료 1depth-->
                   
-                      {% if entry.subsubfolderitems[0] %}
+                  <!-- 하위 구조에 따른 링크 분기 시작 1depth-->                    
+                    {% if entry.subsubfolderitems[0]  %}     <!-- 1detph의 하위 메뉴 존재 여부 확인 -->                 
+                      {{ entry.page }}  <!-- 항목명만 표시 -->                    
+                    {% else %}  <!-- 1depth 하위가 없을 경우 -->
+                      <a href="{{ entry.url }}"> {{ entry.page }} </a>  <!-- 이동 링크 제공 -->
+                    {% endif %}
+                  <!-- 하위 구조에 따른 링크 분기 종료 1depth-->                  
+                  
+                    {% if entry.subsubfolderitems[0] %}
                       <ul>
-                      {% for subentry in entry.subsubfolderitems[0] %}
+                      {% for subentry in entry.subsubfolderitems %}
                           <li>
-                            {% if item.subsubsubfolderitems[0] %}
-                                {{ subentry.page }}
-                            {% else %}
-                                <a href="{{ subentry.url }}">{{ subentry.page }}</a>
-                            {% endif %}
+                            
+                            <!-- 하위 구조에 따른 링크 분기 시작 2depth-->
+                              {% if entry.subsubsubfolderitems[0] %}
+                                {{ subentry.page }} 
+                              {% else %}
+                                <a href="{{ subentry.url }}"> {{ subentry.page }} </a>
+                              {% endif %}
+                            <!-- 하위 구조에 따른 링크 분기 종료 2depth-->
+                            
                           </li>
                       {% endfor %}
                       </ul>
                     {% endif %}
 
-                  <!-- 하위 구조에 따른 링크 분기 시작 2depth-->
+                  
                     
-                       {% if entry.subsubsubfolderitems[0] %}
-                    <ul>
-                         {% for subsubentry in entry.subsubsubfolderitems %}
-                          <li><a href="{{ subsubentry.url }}">{{ subsubentry.page }}</a></li>
-                         {% endfor %}
-                    </ul>
-                       {% endif %}
+                    {% if entry.subsubsubfolderitems[0] %}
+                        <ul>
+                            {% for subsubentry in entry.subsubsubfolderitems %}
+                            <li> 
+                                <a href=" {{ subsubentry.url }} "> {{ subsubentry.page }} 3depth </a> 
+                            </li>
+                            {% endfor %}
+                        </ul>
+                    {% endif %}
                   </li>
               {% endfor %}
             </ul>
