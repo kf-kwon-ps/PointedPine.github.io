@@ -1,0 +1,57 @@
+toc3:
+  - title: 가맹점
+    subfolderitems:
+      - page: DashBoard
+        url: affliated dashboard/dashboard
+      - page: 거래 관리
+        url: /categories/affliated TM
+        subsubfolderitems:  
+          - page: 매입 현황 조회
+            url: /affliated tm/purchasestatus  
+          - page: 가상계좌 관리
+            url: /categories/afva
+            subsubsubfolderitems:
+              - page: 발행내역 조회
+                url: afva/publishing
+              - page: 거래내역 조회
+                url: afva/tranhistory     
+          - page: 리스크 관리
+            url: /affliated tm/riskmanagement  
+          - page: 승인 내역 조회
+            url: /affliated tm/ahlookup  
+          - page: 승인 실패 조회
+            url: /affliated tm/failure
+          - page: 지급대행 관리
+            url: /categories/pam
+            subsubsubfolderitems:
+              - page: 거래내역 조회
+                url: /pam/transaction history    
+              - page: 인증내역 조회
+                url: /pam/certification history   
+      - page: 매출 및 정산 내역
+        url: /categories/affliated SS
+        subsubfolderitems:
+          - page: 신용카드 정산 조회
+            url: /affliated ss/creditcard
+          - page: 가상계좌 정산 조회
+            url: /affliated ss/vasettlement
+          - page: 기간별 매출관리
+            url: /affliated ss/term
+          - page: 월별 매출관리
+            url: /affliated ss/monthly
+      - page: 충전 정산
+        url: /categories/affliated CS
+        subsubfolderitems:
+          - page: 거래내역 조회
+            url: /affliated cs/transactionhistory
+          - page: 오류내역 조회
+            url: /affliated cs/error
+      - page: 고객 센터
+        url: /categories/affliated CSC
+        subsubfolderitems:
+          - page: 공지사항
+            url: /affliated csc/information
+          - page: 자주 묻는 질문
+            url: /affliated csc/qna
+          - page: 작업 관리
+            url: /affliated csc/work    
