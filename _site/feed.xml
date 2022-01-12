@@ -1,1002 +1,824 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-01-12T14:03:29+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">KwonPS</title><subtitle>KwonPS_영업기획_대외배포용_매뉴얼_제작</subtitle><entry><title type="html">매입 현황 조회</title><link href="http://localhost:4000/agency%20tm/purchasestatus/" rel="alternate" type="text/html" title="매입 현황 조회" /><published>2021-12-30T00:00:00+09:00</published><updated>2021-12-27T00:00:00+09:00</updated><id>http://localhost:4000/agency%20tm/purchasestatus</id><content type="html" xml:base="http://localhost:4000/agency%20tm/purchasestatus/">&lt;h3 id=&quot;거래-관리---매입-현황-조회&quot;&gt;거래 관리 - &lt;em&gt;매입 현황 조회&lt;/em&gt;&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;검색 조건을 입력하여 거래건별 승인내역 등 매입 현황을&lt;br /&gt;조회합니다.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;승인번호 ~ 소속 선택까지 23가지 검색 조건을 입력 및 선택할 수 있습니다.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;검색 결과는 체크박스 ~ 리스크까지 18가지의 항목들로 구분됩니다.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;조회 결과 항목 중 매입 번호를 통해 매입정보, 취소요청,&lt;br /&gt;KSPAY 영수증 조회 등 매입내역에 대한 상세 정보를&lt;br /&gt;확인할 수 있습니다.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;KSPAY 영수증 조회를 클릭하여 조회 및 VAN 매출전표를&lt;br /&gt;출력할 수 있습니다.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-01-12T14:45:00+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">KwonPS</title><subtitle>KwonPS_영업기획_대외배포용_매뉴얼_제작</subtitle><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/mysite/jekyll/update/welcome-to-jekyll/" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2022-01-12T14:07:15+09:00</published><updated>2022-01-12T14:07:15+09:00</updated><id>http://localhost:4000/mysite/jekyll/update/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/mysite/jekyll/update/welcome-to-jekyll/"><![CDATA[<p>You’ll find this post in your <code class="language-plaintext highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="language-plaintext highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
 
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/95394003/147441443-9dcf55d9-48f7-448e-a599-ff965e5a4b4b.jpeg&quot; alt=&quot;에이전시 매입현황조회&quot; /&gt;&lt;/p&gt;
+<p>Jekyll requires blog post files to be named according to the following format:</p>
 
-&lt;hr /&gt;
+<p><code class="language-plaintext highlighter-rouge">YEAR-MONTH-DAY-title.MARKUP</code></p>
 
-&lt;h4 id=&quot;검색-조건&quot;&gt;검색 조건&lt;/h4&gt;
+<p>Where <code class="language-plaintext highlighter-rouge">YEAR</code> is a four-digit number, <code class="language-plaintext highlighter-rouge">MONTH</code> and <code class="language-plaintext highlighter-rouge">DAY</code> are both two-digit numbers, and <code class="language-plaintext highlighter-rouge">MARKUP</code> is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
 
-&lt;p&gt;승인번호, 매입번호, 가맹점명&lt;br /&gt;거래일자/지급일/정산예정일/입금예정일, 승인금액, 리스크,&lt;br /&gt;터미널 번호, 카드BIN, 카드뒤4자리, 매입구분, 정산상태,정산주기,&lt;br /&gt;일시불/할부, 신용/체크, 매입사, 가맹점 대표자, VAN,&lt;br /&gt;취소구분, 취소원거래번호, 거래번호, 가맹점 ID, 입금상태, 소속 선택&lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;
+<p>Jekyll also offers powerful support for code snippets:</p>
 
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/95394003/146481772-129ea77c-27de-4d95-84df-cc3dd5c0a795.jpeg&quot; alt=&quot;image&quot; /&gt;&lt;br /&gt;
-&lt;strong&gt;승인번호&lt;/strong&gt;&lt;br /&gt;
-거래 승인번호를 입력합니다.&lt;/p&gt;
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
+  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
+<span class="k">end</span>
+<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
+<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
 
-&lt;p&gt;&lt;strong&gt;매입번호&lt;/strong&gt;&lt;br /&gt;
-거래 매입번호를 입력합니다.&lt;/p&gt;
+<p>Check out the <a href="https://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>]]></content><author><name></name></author><category term="mysite" /><category term="jekyll" /><category term="update" /><summary type="html"><![CDATA[You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.]]></summary></entry><entry><title type="html">매입 현황 조회</title><link href="http://localhost:4000/agency%20tm/purchasestatus/" rel="alternate" type="text/html" title="매입 현황 조회" /><published>2021-12-30T00:00:00+09:00</published><updated>2021-12-27T00:00:00+09:00</updated><id>http://localhost:4000/agency%20tm/purchasestatus</id><content type="html" xml:base="http://localhost:4000/agency%20tm/purchasestatus/"><![CDATA[<h3 id="거래-관리---매입-현황-조회">거래 관리 - <em>매입 현황 조회</em></h3>
+<ul>
+  <li>
+    <p>검색 조건을 입력하여 거래건별 승인내역 등 매입 현황을<br />조회합니다.</p>
+  </li>
+  <li>
+    <p>승인번호 ~ 소속 선택까지 23가지 검색 조건을 입력 및 선택할 수 있습니다.</p>
+  </li>
+  <li>
+    <p>검색 결과는 체크박스 ~ 리스크까지 18가지의 항목들로 구분됩니다.</p>
+  </li>
+  <li>
+    <p>조회 결과 항목 중 매입 번호를 통해 매입정보, 취소요청,<br />KSPAY 영수증 조회 등 매입내역에 대한 상세 정보를<br />확인할 수 있습니다.</p>
+  </li>
+  <li>
+    <p>KSPAY 영수증 조회를 클릭하여 조회 및 VAN 매출전표를<br />출력할 수 있습니다.</p>
+  </li>
+</ul>
 
-&lt;p&gt;&lt;strong&gt;가맹점명&lt;/strong&gt;&lt;br /&gt;
+<p><img src="https://user-images.githubusercontent.com/95394003/147441443-9dcf55d9-48f7-448e-a599-ff965e5a4b4b.jpeg" alt="에이전시 매입현황조회" /></p>
+
+<hr />
+
+<h4 id="검색-조건">검색 조건</h4>
+
+<p>승인번호, 매입번호, 가맹점명<br />거래일자/지급일/정산예정일/입금예정일, 승인금액, 리스크,<br />터미널 번호, 카드BIN, 카드뒤4자리, 매입구분, 정산상태,정산주기,<br />일시불/할부, 신용/체크, 매입사, 가맹점 대표자, VAN,<br />취소구분, 취소원거래번호, 거래번호, 가맹점 ID, 입금상태, 소속 선택<br />
+<br /></p>
+
+<p><img src="https://user-images.githubusercontent.com/95394003/146481772-129ea77c-27de-4d95-84df-cc3dd5c0a795.jpeg" alt="image" /><br />
+<strong>승인번호</strong><br />
+거래 승인번호를 입력합니다.</p>
+
+<p><strong>매입번호</strong><br />
+거래 매입번호를 입력합니다.</p>
+
+<p><strong>가맹점명</strong><br />
 거래가 발생한 가맹점의 이름을 입력합니다
-&lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;
+<br />
+<br /></p>
 
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/95394003/146482288-281b97a7-3e60-4c56-b40a-b5889a1299c7.jpeg&quot; alt=&quot;거래일자&quot; /&gt;&lt;br /&gt;
-&lt;strong&gt;거래일자&lt;/strong&gt;&lt;br /&gt;
-거래일자에 대한 조회 기간을 설정합니다.&lt;br /&gt;날짜부터 날짜로 설정 가능합니다.&lt;/p&gt;
+<p><img src="https://user-images.githubusercontent.com/95394003/146482288-281b97a7-3e60-4c56-b40a-b5889a1299c7.jpeg" alt="거래일자" /><br />
+<strong>거래일자</strong><br />
+거래일자에 대한 조회 기간을 설정합니다.<br />날짜부터 날짜로 설정 가능합니다.</p>
 
-&lt;p&gt;&lt;strong&gt;지급일&lt;/strong&gt;&lt;br /&gt;
-지급일에 대한 조회 기간을 설정합니다.&lt;br /&gt;날짜부터 날짜로 설정 가능합니다.&lt;/p&gt;
+<p><strong>지급일</strong><br />
+지급일에 대한 조회 기간을 설정합니다.<br />날짜부터 날짜로 설정 가능합니다.</p>
 
-&lt;p&gt;&lt;strong&gt;정산예정일&lt;/strong&gt;&lt;br /&gt;
-정산예정일에 대한 조회 기간을 설정합니다.&lt;br /&gt;날짜부터 날짜로 설정 가능합니다.&lt;/p&gt;
+<p><strong>정산예정일</strong><br />
+정산예정일에 대한 조회 기간을 설정합니다.<br />날짜부터 날짜로 설정 가능합니다.</p>
 
-&lt;p&gt;&lt;strong&gt;입금예정일&lt;/strong&gt;&lt;br /&gt;
-입금예정일에 대한 조회 기간을 설정합니다.&lt;br /&gt;날짜부터 날짜로 설정 가능합니다.
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;
+<p><strong>입금예정일</strong><br />
+입금예정일에 대한 조회 기간을 설정합니다.<br />날짜부터 날짜로 설정 가능합니다.
+<br />
+<br />
+<br /></p>
 
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/95394003/146482485-1c2ed337-0e12-433f-aed7-2443cd0e2c9d.jpeg&quot; alt=&quot;승인금액리스크&quot; /&gt;&lt;br /&gt;
-&lt;strong&gt;승인금액&lt;/strong&gt;&lt;br /&gt;
-거래가 승인된 금액의 범위를 설정합니다.&lt;br /&gt;금액부터 금액으로 설정 가능합니다.&lt;/p&gt;
+<p><img src="https://user-images.githubusercontent.com/95394003/146482485-1c2ed337-0e12-433f-aed7-2443cd0e2c9d.jpeg" alt="승인금액리스크" /><br />
+<strong>승인금액</strong><br />
+거래가 승인된 금액의 범위를 설정합니다.<br />금액부터 금액으로 설정 가능합니다.</p>
 
-&lt;p&gt;&lt;strong&gt;리스크&lt;/strong&gt;&lt;br /&gt;
-리스크 종류를 선택합니다.&lt;br /&gt;
-전체, 건한도, 중복, 고액, 최소금액, 야간할부, 1일중복, 주간할부,&lt;br /&gt; 야간건한도, 위험, 관리자설정
-&lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;
+<p><strong>리스크</strong><br />
+리스크 종류를 선택합니다.<br />
+전체, 건한도, 중복, 고액, 최소금액, 야간할부, 1일중복, 주간할부,<br /> 야간건한도, 위험, 관리자설정
+<br />
+<br /></p>
 
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/95394003/146488114-947dea4a-fc11-4f88-ab53-e2b30c04769c.jpeg&quot; alt=&quot;정산상태까지&quot; /&gt;&lt;br /&gt;
-&lt;strong&gt;터미널 번호&lt;/strong&gt;&lt;br /&gt;
-터미널 번호를 입력합니다.&lt;/p&gt;
+<p><img src="https://user-images.githubusercontent.com/95394003/146488114-947dea4a-fc11-4f88-ab53-e2b30c04769c.jpeg" alt="정산상태까지" /><br />
+<strong>터미널 번호</strong><br />
+터미널 번호를 입력합니다.</p>
 
-&lt;p&gt;&lt;strong&gt;카드 BIN&lt;/strong&gt;&lt;br /&gt;
-카드의 정보를 구분할 수 있는 BIN 번호를 입력합니다.&lt;br /&gt;
-카드번호의 첫번째 자리부터 여섯번째 자리까지 입력합니다.&lt;/p&gt;
+<p><strong>카드 BIN</strong><br />
+카드의 정보를 구분할 수 있는 BIN 번호를 입력합니다.<br />
+카드번호의 첫번째 자리부터 여섯번째 자리까지 입력합니다.</p>
 
-&lt;p&gt;&lt;strong&gt;카드뒤4자리&lt;/strong&gt;&lt;br /&gt;
-카드번호 끝 4자리를 입력합니다.&lt;/p&gt;
+<p><strong>카드뒤4자리</strong><br />
+카드번호 끝 4자리를 입력합니다.</p>
 
-&lt;p&gt;&lt;strong&gt;매입구분&lt;/strong&gt;&lt;br /&gt;
-매입에 대한 구분을 전체, 매입, 매입취소 중에 선택합니다.&lt;/p&gt;
+<p><strong>매입구분</strong><br />
+매입에 대한 구분을 전체, 매입, 매입취소 중에 선택합니다.</p>
 
-&lt;p&gt;&lt;strong&gt;정산상태&lt;/strong&gt;&lt;br /&gt;
-정산에 대한 상태를 선택합니다.&lt;br /&gt;
+<p><strong>정산상태</strong><br />
+정산에 대한 상태를 선택합니다.<br />
 전체, 대기, 확정, 보류, 완료 중에 선택합니다.
-&lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;
+<br />
+<br /></p>
 
-&lt;p&gt;&lt;strong&gt;정산주기&lt;/strong&gt;&lt;br /&gt;
-&lt;img src=&quot;https://user-images.githubusercontent.com/95394003/146488198-6ca8c161-13e2-48b5-825d-f89fe582569b.jpeg&quot; alt=&quot;정산주기&quot; /&gt;&lt;br /&gt;
-&lt;br /&gt;정산주기를 선택합니다. (D+0~7, C+0~7, A+1, B+1)
-&lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;
+<p><strong>정산주기</strong><br />
+<img src="https://user-images.githubusercontent.com/95394003/146488198-6ca8c161-13e2-48b5-825d-f89fe582569b.jpeg" alt="정산주기" /><br />
+<br />정산주기를 선택합니다. (D+0~7, C+0~7, A+1, B+1)
+<br />
+<br /></p>
 
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/95394003/147441675-735cf9bf-83c8-4f04-a686-2da6baba3902.jpeg&quot; alt=&quot;에이전시일시불부터소속&quot; /&gt;&lt;br /&gt;
-&lt;strong&gt;일시불/할부&lt;/strong&gt;&lt;br /&gt;
-거래가 일시불인지 할부인지를 선택합니다.&lt;/p&gt;
+<p><img src="https://user-images.githubusercontent.com/95394003/147441675-735cf9bf-83c8-4f04-a686-2da6baba3902.jpeg" alt="에이전시일시불부터소속" /><br />
+<strong>일시불/할부</strong><br />
+거래가 일시불인지 할부인지를 선택합니다.</p>
 
-&lt;p&gt;&lt;strong&gt;신용/체크&lt;/strong&gt;&lt;br /&gt;
-결제한 카드가 신용카드인지 체크카드인지를 구분합니다.&lt;/p&gt;
+<p><strong>신용/체크</strong><br />
+결제한 카드가 신용카드인지 체크카드인지를 구분합니다.</p>
 
-&lt;p&gt;&lt;strong&gt;매입사&lt;/strong&gt;&lt;br /&gt;
-결제한 카드 매입사를 선택합니다.&lt;br /&gt;
-(전체, 국민, 농협, 롯데, 비씨, 삼성, 하나, 현대, 기타)&lt;/p&gt;
+<p><strong>매입사</strong><br />
+결제한 카드 매입사를 선택합니다.<br />
+(전체, 국민, 농협, 롯데, 비씨, 삼성, 하나, 현대, 기타)</p>
 
-&lt;p&gt;&lt;strong&gt;가맹점 대표자&lt;/strong&gt;&lt;br /&gt;
-가맹점 대표자를 입력합니다.&lt;/p&gt;
+<p><strong>가맹점 대표자</strong><br />
+가맹점 대표자를 입력합니다.</p>
 
-&lt;p&gt;&lt;strong&gt;VAN&lt;/strong&gt;&lt;br /&gt;
-VAN 종류를 선택합니다.&lt;/p&gt;
+<p><strong>VAN</strong><br />
+VAN 종류를 선택합니다.</p>
 
-&lt;p&gt;&lt;strong&gt;취소구분&lt;/strong&gt;&lt;br /&gt;
-취소구분을 선택합니다. 전체와 부분으로 구분됩니다.&lt;/p&gt;
+<p><strong>취소구분</strong><br />
+취소구분을 선택합니다. 전체와 부분으로 구분됩니다.</p>
 
-&lt;p&gt;&lt;strong&gt;취소원거래번호&lt;/strong&gt;&lt;br /&gt;
-취소원거래번호를 입력합니다.&lt;/p&gt;
+<p><strong>취소원거래번호</strong><br />
+취소원거래번호를 입력합니다.</p>
 
-&lt;p&gt;&lt;strong&gt;거래번호&lt;/strong&gt;&lt;br /&gt;
-거래번호를 입력합니다.&lt;/p&gt;
+<p><strong>거래번호</strong><br />
+거래번호를 입력합니다.</p>
 
-&lt;p&gt;&lt;strong&gt;가맹점 ID&lt;/strong&gt;&lt;br /&gt;
-가맹점 ID를 입력합니다.&lt;/p&gt;
+<p><strong>가맹점 ID</strong><br />
+가맹점 ID를 입력합니다.</p>
 
-&lt;p&gt;&lt;strong&gt;입금상태&lt;/strong&gt;&lt;br /&gt;
-입금상태를 선택합니다. 전체, 입금대기, 입금완료로 구분됩니다.&lt;/p&gt;
+<p><strong>입금상태</strong><br />
+입금상태를 선택합니다. 전체, 입금대기, 입금완료로 구분됩니다.</p>
 
-&lt;p&gt;&lt;strong&gt;소속 선택&lt;/strong&gt;&lt;br /&gt;
+<p><strong>소속 선택</strong><br />
 지사를 선택합니다.
-&lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;
+<br />
+<br /></p>
 
-&lt;hr /&gt;
+<hr />
 
-&lt;h4 id=&quot;검색-결과&quot;&gt;검색 결과&lt;/h4&gt;
-&lt;p&gt;체크박스, No, 거래일시, 승인번호, 매입번호, 거래번호, 가맹점,&lt;br /&gt; 가맹점대표, 주문번호, 터미널ID, 매입구분, 신용/체크, 취소거래,&lt;br /&gt; 금액, BIN, LAST4, 할부, 리스크&lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;
+<h4 id="검색-결과">검색 결과</h4>
+<p>체크박스, No, 거래일시, 승인번호, 매입번호, 거래번호, 가맹점,<br /> 가맹점대표, 주문번호, 터미널ID, 매입구분, 신용/체크, 취소거래,<br /> 금액, BIN, LAST4, 할부, 리스크<br />
+<br /></p>
 
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/95394003/146479953-2adedabb-d3a8-4b89-9aa9-31b72fe795e4.jpeg&quot; alt=&quot;조회결과&quot; /&gt;&lt;br /&gt;
-&lt;strong&gt;체크박스&lt;/strong&gt;&lt;br /&gt;
-리스크를 변경하고자 하는 매입내역에 체크할 수 있습니다.&lt;/p&gt;
+<p><img src="https://user-images.githubusercontent.com/95394003/146479953-2adedabb-d3a8-4b89-9aa9-31b72fe795e4.jpeg" alt="조회결과" /><br />
+<strong>체크박스</strong><br />
+리스크를 변경하고자 하는 매입내역에 체크할 수 있습니다.</p>
 
-&lt;p&gt;&lt;strong&gt;No&lt;/strong&gt;&lt;br /&gt;
-조회된 결과의 리스트 번호를 나타냅니다.&lt;/p&gt;
+<p><strong>No</strong><br />
+조회된 결과의 리스트 번호를 나타냅니다.</p>
 
-&lt;p&gt;&lt;strong&gt;거래일시&lt;/strong&gt;&lt;br /&gt;
-거래가 이루어진 날짜와 시간을 나타냅니다.&lt;/p&gt;
+<p><strong>거래일시</strong><br />
+거래가 이루어진 날짜와 시간을 나타냅니다.</p>
 
-&lt;p&gt;&lt;strong&gt;승인번호&lt;/strong&gt;&lt;br /&gt;
+<p><strong>승인번호</strong><br />
 거래의 승인번호를 나타냅니다.
-&lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;
+<br />
+<br /></p>
 
-&lt;p&gt;&lt;strong&gt;매입번호&lt;/strong&gt;&lt;br /&gt;
-&lt;img src=&quot;https://user-images.githubusercontent.com/95394003/147442074-d093c8d0-b87d-4029-aa27-84a1eeda66ad.png&quot; alt=&quot;image&quot; /&gt;
-&lt;br /&gt;매입번호를 나타냅니다.&lt;br /&gt;클릭하면 매입내역에 대한 상세정보를 확인할 수 있습니다. &lt;br /&gt;
+<p><strong>매입번호</strong><br />
+<img src="https://user-images.githubusercontent.com/95394003/147442074-d093c8d0-b87d-4029-aa27-84a1eeda66ad.png" alt="image" />
+<br />매입번호를 나타냅니다.<br />클릭하면 매입내역에 대한 상세정보를 확인할 수 있습니다. <br />
 매입 정보를 조회하고 취소를 요청할 수도 있습니다.
-&lt;br /&gt;&lt;/p&gt;
+<br /></p>
 
-&lt;p&gt;&lt;strong&gt;거래번호&lt;/strong&gt;&lt;br /&gt;
-거래번호를 나타냅니다.&lt;/p&gt;
+<p><strong>거래번호</strong><br />
+거래번호를 나타냅니다.</p>
 
-&lt;p&gt;&lt;strong&gt;가맹점&lt;/strong&gt;&lt;br /&gt;
-거래가 이루어진 가맹점을 표기합니다.&lt;/p&gt;
+<p><strong>가맹점</strong><br />
+거래가 이루어진 가맹점을 표기합니다.</p>
 
-&lt;p&gt;&lt;strong&gt;가맹점대표&lt;/strong&gt;&lt;br /&gt;
-해당 가맹점의 대표자 이름을 나타냅니다.&lt;/p&gt;
+<p><strong>가맹점대표</strong><br />
+해당 가맹점의 대표자 이름을 나타냅니다.</p>
 
-&lt;p&gt;&lt;strong&gt;주문번호&lt;/strong&gt;&lt;br /&gt;
-주문 번호를 나타냅니다.&lt;/p&gt;
+<p><strong>주문번호</strong><br />
+주문 번호를 나타냅니다.</p>
 
-&lt;p&gt;&lt;strong&gt;터미널ID&lt;/strong&gt;&lt;br /&gt;
-터미널 ID를 나타냅니다.&lt;/p&gt;
+<p><strong>터미널ID</strong><br />
+터미널 ID를 나타냅니다.</p>
 
-&lt;p&gt;&lt;strong&gt;매입구분&lt;/strong&gt;&lt;br /&gt;
-매입에 대한 구분을 나타내는데 매입과 취소로 구분됩니다.&lt;/p&gt;
+<p><strong>매입구분</strong><br />
+매입에 대한 구분을 나타내는데 매입과 취소로 구분됩니다.</p>
 
-&lt;p&gt;&lt;strong&gt;신용/체크&lt;/strong&gt;&lt;br /&gt;
-거래한 카드가 신용카드인지 체크카드인지를 나타냅니다.&lt;/p&gt;
+<p><strong>신용/체크</strong><br />
+거래한 카드가 신용카드인지 체크카드인지를 나타냅니다.</p>
 
-&lt;p&gt;&lt;strong&gt;취소거래&lt;/strong&gt;&lt;br /&gt;
-취소 거래일 경우 취소거래번호를 나타냅니다.&lt;/p&gt;
+<p><strong>취소거래</strong><br />
+취소 거래일 경우 취소거래번호를 나타냅니다.</p>
 
-&lt;p&gt;&lt;strong&gt;금액&lt;/strong&gt;&lt;br /&gt;
-거래 금액을 표기합니다.&lt;/p&gt;
+<p><strong>금액</strong><br />
+거래 금액을 표기합니다.</p>
 
-&lt;p&gt;&lt;strong&gt;BIN&lt;/strong&gt;&lt;br /&gt;
-카드의 정보를 구분할 수 있는 BIN 번호를 나타냅니다.&lt;br /&gt;
-카드번호의 첫번째 자리부터 여섯번째 자리까지 보여줍니다.&lt;/p&gt;
+<p><strong>BIN</strong><br />
+카드의 정보를 구분할 수 있는 BIN 번호를 나타냅니다.<br />
+카드번호의 첫번째 자리부터 여섯번째 자리까지 보여줍니다.</p>
 
-&lt;p&gt;&lt;strong&gt;LAST4&lt;/strong&gt;&lt;br /&gt;
-카드번호 끝 4자리입니다.&lt;br /&gt;
-암호화가 되어있을 수도 있습니다.&lt;/p&gt;
+<p><strong>LAST4</strong><br />
+카드번호 끝 4자리입니다.<br />
+암호화가 되어있을 수도 있습니다.</p>
 
-&lt;p&gt;&lt;strong&gt;할부&lt;/strong&gt;&lt;br /&gt;
-할부 기간을 나타냅니다.&lt;br /&gt;
-일시불 거래일 경우 00으로 표기됩니다.&lt;/p&gt;
+<p><strong>할부</strong><br />
+할부 기간을 나타냅니다.<br />
+일시불 거래일 경우 00으로 표기됩니다.</p>
 
-&lt;p&gt;&lt;strong&gt;리스크&lt;/strong&gt;&lt;br /&gt;
-리스크를 구분해서 나타냅니다.&lt;/p&gt;</content><author><name></name></author><category term="agency TM" /><category term="에이전시" /><category term="매입 현황 조회" /><summary type="html">검색 조건을 입력하여 매입 현황을 조회합니다</summary></entry><entry><title type="html">월별 매출관리</title><link href="http://localhost:4000/branch%20sm/MSM/" rel="alternate" type="text/html" title="월별 매출관리" /><published>2021-12-30T00:00:00+09:00</published><updated>2021-12-27T00:00:00+09:00</updated><id>http://localhost:4000/branch%20sm/MSM</id><content type="html" xml:base="http://localhost:4000/branch%20sm/MSM/">&lt;h3 id=&quot;매출-관리---월별-매출관리&quot;&gt;매출 관리 - &lt;em&gt;월별 매출관리&lt;/em&gt;&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;조회할 기간을 설정하여 해당 월별 매출을 조회합니다.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;조회 시작월과 조회 종료월, 2가지 검색 조건을 선택할 수 있습니다.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;검색 결과는 No ~ 지사 수익까지 6가지의 항목들로 구분됩니다.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;매입 현황과 매입 취소 현황, 합계 금액, 건수 및 지사 수익을&lt;br /&gt;조회할 수 있습니다.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
+<p><strong>리스크</strong><br />
+리스크를 구분해서 나타냅니다.</p>]]></content><author><name></name></author><category term="agency TM" /><category term="에이전시" /><category term="매입 현황 조회" /><summary type="html"><![CDATA[검색 조건을 입력하여 매입 현황을 조회합니다]]></summary></entry><entry><title type="html">월별 매출관리</title><link href="http://localhost:4000/branch%20sm/MSM/" rel="alternate" type="text/html" title="월별 매출관리" /><published>2021-12-30T00:00:00+09:00</published><updated>2021-12-27T00:00:00+09:00</updated><id>http://localhost:4000/branch%20sm/MSM</id><content type="html" xml:base="http://localhost:4000/branch%20sm/MSM/"><![CDATA[<h3 id="매출-관리---월별-매출관리">매출 관리 - <em>월별 매출관리</em></h3>
+<ul>
+  <li>
+    <p>조회할 기간을 설정하여 해당 월별 매출을 조회합니다.</p>
+  </li>
+  <li>
+    <p>조회 시작월과 조회 종료월, 2가지 검색 조건을 선택할 수 있습니다.</p>
+  </li>
+  <li>
+    <p>검색 결과는 No ~ 지사 수익까지 6가지의 항목들로 구분됩니다.</p>
+  </li>
+  <li>
+    <p>매입 현황과 매입 취소 현황, 합계 금액, 건수 및 지사 수익을<br />조회할 수 있습니다.</p>
+  </li>
+</ul>
 
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/95394003/147454096-9b104ab7-283e-4143-8fdb-77a39ae607b9.jpeg&quot; alt=&quot;지사 월별매출관리&quot; /&gt;&lt;/p&gt;
+<p><img src="https://user-images.githubusercontent.com/95394003/147454096-9b104ab7-283e-4143-8fdb-77a39ae607b9.jpeg" alt="지사 월별매출관리" /></p>
 
-&lt;hr /&gt;
+<hr />
 
-&lt;h4 id=&quot;검색-조건&quot;&gt;검색 조건&lt;/h4&gt;
-&lt;p&gt;조회 시작월, 조회 종료월&lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;
+<h4 id="검색-조건">검색 조건</h4>
+<p>조회 시작월, 조회 종료월<br />
+<br /></p>
 
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/95394003/147454212-a6b45bf9-4709-4105-9912-92ee73e9b085.jpeg&quot; alt=&quot;지사 월별매출관리검색조건&quot; /&gt;&lt;br /&gt;
-&lt;strong&gt;조회 시작월&lt;/strong&gt;&lt;br /&gt;
-조회를 시직할 연도와 월을 설정할 수 있습니다.&lt;br /&gt;2019년 07월부터 조회가 가능합니다.&lt;/p&gt;
+<p><img src="https://user-images.githubusercontent.com/95394003/147454212-a6b45bf9-4709-4105-9912-92ee73e9b085.jpeg" alt="지사 월별매출관리검색조건" /><br />
+<strong>조회 시작월</strong><br />
+조회를 시직할 연도와 월을 설정할 수 있습니다.<br />2019년 07월부터 조회가 가능합니다.</p>
 
-&lt;p&gt;&lt;strong&gt;조회 종료월&lt;/strong&gt;&lt;br /&gt;
-조회를 종료할 연도와 월을 설정할 수 있습니다.&lt;br /&gt;2019년 07월부터 조회가 가능합니다.&lt;/p&gt;
+<p><strong>조회 종료월</strong><br />
+조회를 종료할 연도와 월을 설정할 수 있습니다.<br />2019년 07월부터 조회가 가능합니다.</p>
 
-&lt;hr /&gt;
+<hr />
 
-&lt;h4 id=&quot;검색-결과&quot;&gt;검색 결과&lt;/h4&gt;
-&lt;p&gt;No, 매입월, 매입현황, 매입취소현황,&lt;br /&gt;합계(금액/건수/정산금액/가맹점수수료), 지사 수익&lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;
+<h4 id="검색-결과">검색 결과</h4>
+<p>No, 매입월, 매입현황, 매입취소현황,<br />합계(금액/건수/정산금액/가맹점수수료), 지사 수익<br />
+<br /></p>
 
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/95394003/147457161-321a3afd-2dc6-40fe-a1fd-3c10e8edc2f1.jpeg&quot; alt=&quot;지사월별매출관리검색결과&quot; /&gt;&lt;br /&gt;
-&lt;strong&gt;No&lt;/strong&gt;&lt;br /&gt;
-조회된 결과의 리스트 번호를 나타냅니다.&lt;/p&gt;
+<p><img src="https://user-images.githubusercontent.com/95394003/147457161-321a3afd-2dc6-40fe-a1fd-3c10e8edc2f1.jpeg" alt="지사월별매출관리검색결과" /><br />
+<strong>No</strong><br />
+조회된 결과의 리스트 번호를 나타냅니다.</p>
 
-&lt;p&gt;&lt;strong&gt;매입월&lt;/strong&gt;&lt;br /&gt;
-연도 - 월 을 나타냅니다.&lt;/p&gt;
+<p><strong>매입월</strong><br />
+연도 - 월 을 나타냅니다.</p>
 
-&lt;p&gt;&lt;strong&gt;매입현황&lt;/strong&gt;&lt;br /&gt;
-해당 월의 매입 금액과 건수를 나타냅니다.&lt;/p&gt;
+<p><strong>매입현황</strong><br />
+해당 월의 매입 금액과 건수를 나타냅니다.</p>
 
-&lt;p&gt;&lt;strong&gt;매입취소현황&lt;/strong&gt;&lt;br /&gt;
-해당 월의 매입 취소 금액과 건수를 나타냅니다.&lt;/p&gt;
+<p><strong>매입취소현황</strong><br />
+해당 월의 매입 취소 금액과 건수를 나타냅니다.</p>
 
-&lt;p&gt;&lt;strong&gt;합계&lt;/strong&gt;&lt;br /&gt;
-월별 매입현황과 매입취소현황에 대한 금액, 건수의 합계와&lt;br /&gt;그에 따른 합계 정산금액, 가맹점수수료를 나타냅니다.&lt;/p&gt;
+<p><strong>합계</strong><br />
+월별 매입현황과 매입취소현황에 대한 금액, 건수의 합계와<br />그에 따른 합계 정산금액, 가맹점수수료를 나타냅니다.</p>
 
-&lt;p&gt;&lt;strong&gt;지사 수익&lt;/strong&gt;&lt;br /&gt;
-지사의 수익이 얼마인지를 나타냅니다.&lt;/p&gt;
+<p><strong>지사 수익</strong><br />
+지사의 수익이 얼마인지를 나타냅니다.</p>
 
-&lt;p&gt;&lt;strong&gt;금액&lt;/strong&gt;&lt;br /&gt;
-금액을 표기합니다.&lt;/p&gt;
+<p><strong>금액</strong><br />
+금액을 표기합니다.</p>
 
-&lt;p&gt;&lt;strong&gt;건수&lt;/strong&gt;&lt;br /&gt;
-건수를 표기합니다.&lt;/p&gt;
+<p><strong>건수</strong><br />
+건수를 표기합니다.</p>
 
-&lt;p&gt;&lt;strong&gt;정산금액&lt;/strong&gt;&lt;br /&gt;
-정산 금액이 얼마인지를 나타냅니다.&lt;/p&gt;
+<p><strong>정산금액</strong><br />
+정산 금액이 얼마인지를 나타냅니다.</p>
 
-&lt;p&gt;&lt;strong&gt;가맹점수수료&lt;/strong&gt;&lt;br /&gt;
-가맹점 수수료가 얼마인지를 나타냅니다.&lt;/p&gt;</content><author><name></name></author><category term="branch SM" /><category term="지사" /><category term="월별 매출관리" /><summary type="html">조회할 기간을 설정하여 해당 월별 매출을 조회합니다</summary></entry><entry><title type="html">가맹점 조회</title><link href="http://localhost:4000/branch%20fm/ASLookup/" rel="alternate" type="text/html" title="가맹점 조회" /><published>2021-12-30T00:00:00+09:00</published><updated>2021-12-30T00:00:00+09:00</updated><id>http://localhost:4000/branch%20fm/ASLookup</id><content type="html" xml:base="http://localhost:4000/branch%20fm/ASLookup/">&lt;h3 id=&quot;가맹점-관리---가맹점-조회&quot;&gt;가맹점 관리 - &lt;em&gt;가맹점 조회&lt;/em&gt;&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;검색 조건을 입력하여 등록된 가맹점을 조회합니다.&lt;br /&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;아이디부터 등록일시까지 간단한 정보가 목록화되어 표기됩니다.&lt;br /&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;특정 가맹점의 세부 정보를 수정 및 조회하려면 결과 항목 중&lt;br /&gt; 아이디 또는 이름을 클릭하여 가맹점페이지로 이동합니다.&lt;strong&gt;&lt;br /&gt;&lt;/strong&gt;(지불 및 정산정보 포함 - 등록 및 수정 가능)&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;아이디 ~ 담당자이름까지 8가지 검색 조건을 입력 및 선택합니다.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;검색 결과는 No ~ 등록일시까지 12가지의 항목들로 구분됩니다.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
+<p><strong>가맹점수수료</strong><br />
+가맹점 수수료가 얼마인지를 나타냅니다.</p>]]></content><author><name></name></author><category term="branch SM" /><category term="지사" /><category term="월별 매출관리" /><summary type="html"><![CDATA[조회할 기간을 설정하여 해당 월별 매출을 조회합니다]]></summary></entry><entry><title type="html">가맹점 조회</title><link href="http://localhost:4000/branch%20fm/ASLookup/" rel="alternate" type="text/html" title="가맹점 조회" /><published>2021-12-30T00:00:00+09:00</published><updated>2021-12-30T00:00:00+09:00</updated><id>http://localhost:4000/branch%20fm/ASLookup</id><content type="html" xml:base="http://localhost:4000/branch%20fm/ASLookup/"><![CDATA[<h3 id="가맹점-관리---가맹점-조회">가맹점 관리 - <em>가맹점 조회</em></h3>
+<ul>
+  <li>
+    <p>검색 조건을 입력하여 등록된 가맹점을 조회합니다.<br /></p>
+  </li>
+  <li>
+    <p>아이디부터 등록일시까지 간단한 정보가 목록화되어 표기됩니다.<br /></p>
+  </li>
+  <li>
+    <p>특정 가맹점의 세부 정보를 수정 및 조회하려면 결과 항목 중<br /> 아이디 또는 이름을 클릭하여 가맹점페이지로 이동합니다.<strong><br /></strong>(지불 및 정산정보 포함 - 등록 및 수정 가능)</p>
+  </li>
+  <li>
+    <p>아이디 ~ 담당자이름까지 8가지 검색 조건을 입력 및 선택합니다.</p>
+  </li>
+  <li>
+    <p>검색 결과는 No ~ 등록일시까지 12가지의 항목들로 구분됩니다.</p>
+  </li>
+</ul>
 
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/95394003/147434994-7da94462-42cc-4546-9afa-536bec476193.jpeg&quot; alt=&quot;지사 가맹점조회&quot; /&gt;
-&lt;br /&gt;&lt;/p&gt;
+<p><img src="https://user-images.githubusercontent.com/95394003/147434994-7da94462-42cc-4546-9afa-536bec476193.jpeg" alt="지사 가맹점조회" />
+<br /></p>
 
-&lt;p&gt;&lt;em&gt;가맹점 페이지&lt;/em&gt;
- [Home &amp;gt; 가맹점 관리 &amp;gt; 가맹점 페이지]
-&lt;img src=&quot;https://user-images.githubusercontent.com/95394003/147906061-227ad3ac-3575-457a-b5fb-023ac6651d84.png&quot; alt=&quot;image&quot; /&gt;
-&lt;br /&gt;&lt;/p&gt;
+<p><em>가맹점 페이지</em>
+ [Home &gt; 가맹점 관리 &gt; 가맹점 페이지]
+<img src="https://user-images.githubusercontent.com/95394003/147906061-227ad3ac-3575-457a-b5fb-023ac6651d84.png" alt="image" />
+<br /></p>
 
-&lt;hr /&gt;
+<hr />
 
-&lt;h4 id=&quot;검색-조건&quot;&gt;검색 조건&lt;/h4&gt;
-&lt;p&gt;아이디, 가맹점명, 사업자(주민)번호, 상태, 대표자이름, 전화번호,&lt;br /&gt;정산주기, 담당자이름
+<h4 id="검색-조건">검색 조건</h4>
+<p>아이디, 가맹점명, 사업자(주민)번호, 상태, 대표자이름, 전화번호,<br />정산주기, 담당자이름
 ```
-&lt;img src=&quot;https://user-images.githubusercontent.com/95394003/146112518-8ff9309c-a45d-4596-a1c1-64e64d521a90.jpeg&quot; alt=&quot;아이디가맹점사업자&quot; /&gt; &lt;br /&gt;
-&lt;strong&gt;아이디&lt;/strong&gt;
-&lt;br /&gt;등록된 가맹점 ID를 입력합니다.&lt;/p&gt;
+<img src="https://user-images.githubusercontent.com/95394003/146112518-8ff9309c-a45d-4596-a1c1-64e64d521a90.jpeg" alt="아이디가맹점사업자" /> <br />
+<strong>아이디</strong>
+<br />등록된 가맹점 ID를 입력합니다.</p>
 
-&lt;p&gt;&lt;strong&gt;가맹점명&lt;/strong&gt;
-&lt;br /&gt;등록된 가맹점의 이름을 입력합니다.&lt;/p&gt;
+<p><strong>가맹점명</strong>
+<br />등록된 가맹점의 이름을 입력합니다.</p>
 
-&lt;p&gt;&lt;strong&gt;사업자(주민)번호&lt;/strong&gt;
-&lt;br /&gt;등록된 사업자번호 또는 주민등록번호를 입력합니다.
-&lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;
+<p><strong>사업자(주민)번호</strong>
+<br />등록된 사업자번호 또는 주민등록번호를 입력합니다.
+<br />
+<br /></p>
 
-&lt;p&gt;&lt;strong&gt;상태&lt;/strong&gt;&lt;br /&gt;
-&lt;img src=&quot;https://user-images.githubusercontent.com/95394003/146114750-edd257df-fd47-466e-b0a1-4751523fa8a1.jpeg&quot; alt=&quot;상태&quot; /&gt;&lt;br /&gt;
-계정의 상태를 선택합니다. &lt;br /&gt;
+<p><strong>상태</strong><br />
+<img src="https://user-images.githubusercontent.com/95394003/146114750-edd257df-fd47-466e-b0a1-4751523fa8a1.jpeg" alt="상태" /><br />
+계정의 상태를 선택합니다. <br />
 상태/ 예비 / 승인대기 / 사용 / 중지 중 선택합니다.
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;
+<br />
+<br />
+<br /></p>
 
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/95394003/146112941-83cdaa8f-e2fe-47a0-8efc-a7bacf4831c3.jpeg&quot; alt=&quot;대표자담당자&quot; /&gt;
-&lt;strong&gt;대표자이름&lt;/strong&gt;
-&lt;br /&gt;등록된 대표자의 이름을 입력합니다.&lt;/p&gt;
+<p><img src="https://user-images.githubusercontent.com/95394003/146112941-83cdaa8f-e2fe-47a0-8efc-a7bacf4831c3.jpeg" alt="대표자담당자" />
+<strong>대표자이름</strong>
+<br />등록된 대표자의 이름을 입력합니다.</p>
 
-&lt;p&gt;&lt;strong&gt;담당자이름&lt;/strong&gt;
-&lt;br /&gt;등록된 담당자의 이름을 입력합니다.(등록하지 않은 경우도 있습니다)&lt;/p&gt;
+<p><strong>담당자이름</strong>
+<br />등록된 담당자의 이름을 입력합니다.(등록하지 않은 경우도 있습니다)</p>
 
-&lt;p&gt;&lt;strong&gt;전화번호&lt;/strong&gt;
-&lt;br /&gt;등록된 전화번호를 입력합니다.
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;
+<p><strong>전화번호</strong>
+<br />등록된 전화번호를 입력합니다.
+<br />
+<br />
+<br /></p>
 
-&lt;p&gt;&lt;strong&gt;정산주기&lt;/strong&gt;&lt;br /&gt;
-&lt;img src=&quot;https://user-images.githubusercontent.com/95394003/146113348-cbe31c00-e08b-4e43-8e6e-92b0e4f1ec94.jpeg&quot; alt=&quot;정산주기&quot; /&gt;
-&lt;br /&gt;전체/ D+0 / A+1 / D+1 / D+5 중 선택합니다.
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;
+<p><strong>정산주기</strong><br />
+<img src="https://user-images.githubusercontent.com/95394003/146113348-cbe31c00-e08b-4e43-8e6e-92b0e4f1ec94.jpeg" alt="정산주기" />
+<br />전체/ D+0 / A+1 / D+1 / D+5 중 선택합니다.
+<br />
+<br />
+<br /></p>
 
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/95394003/145962859-5a6bdfe6-eae1-4270-a66f-7301f41da9e7.jpeg&quot; alt=&quot;reset,search&quot; /&gt;&lt;br /&gt;
-&lt;strong&gt;reset&lt;/strong&gt;&lt;br /&gt;
+<p><img src="https://user-images.githubusercontent.com/95394003/145962859-5a6bdfe6-eae1-4270-a66f-7301f41da9e7.jpeg" alt="reset,search" /><br />
+<strong>reset</strong><br />
 입력한 검색 조건 내용을 초기화합니다.
-&lt;strong&gt;search&lt;/strong&gt;&lt;br /&gt;
+<strong>search</strong><br />
 입력한 검색 조건에 대한 결과를 보여줍니다.
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;
+<br />
+<br />
+<br /></p>
 
-&lt;h4 id=&quot;검색-결과&quot;&gt;검색 결과&lt;/h4&gt;
-&lt;p&gt;No, 아이디, 이름, 사업자(주민)번호, 대표자이름, 상태, 지사,&lt;br /&gt;예수금, 정산주기, 수수료, 등록자, 등록일시
-&lt;img src=&quot;https://user-images.githubusercontent.com/95394003/147435076-59816b60-2dce-4a8c-8e6a-3d3eb39f94be.jpeg&quot; alt=&quot;지사 가맹점조회 조회결과&quot; /&gt;
-&lt;strong&gt;No&lt;/strong&gt;
-&lt;br /&gt;조회된 결과의 리스트 번호를 나타냅니다.&lt;/p&gt;
+<h4 id="검색-결과">검색 결과</h4>
+<p>No, 아이디, 이름, 사업자(주민)번호, 대표자이름, 상태, 지사,<br />예수금, 정산주기, 수수료, 등록자, 등록일시
+<img src="https://user-images.githubusercontent.com/95394003/147435076-59816b60-2dce-4a8c-8e6a-3d3eb39f94be.jpeg" alt="지사 가맹점조회 조회결과" />
+<strong>No</strong>
+<br />조회된 결과의 리스트 번호를 나타냅니다.</p>
 
-&lt;p&gt;&lt;strong&gt;아이디&lt;/strong&gt;
-&lt;br /&gt;해당 가맹점의 아이디입니다.&lt;br /&gt;클릭하면 가맹점 페이지로 이동합니다.&lt;/p&gt;
+<p><strong>아이디</strong>
+<br />해당 가맹점의 아이디입니다.<br />클릭하면 가맹점 페이지로 이동합니다.</p>
 
-&lt;p&gt;&lt;strong&gt;이름&lt;/strong&gt;
-&lt;br /&gt;해당 가맹점의 대표자(담당자) 이름입니다.&lt;br /&gt;클릭하면 가맹점 페이지로 이동합니다.&lt;/p&gt;
+<p><strong>이름</strong>
+<br />해당 가맹점의 대표자(담당자) 이름입니다.<br />클릭하면 가맹점 페이지로 이동합니다.</p>
 
-&lt;p&gt;&lt;strong&gt;사업자(주민)번호&lt;/strong&gt;
-&lt;br /&gt;해당 가맹점에 등록된 사업자번호 또는 주민등록번호입니다.&lt;/p&gt;
+<p><strong>사업자(주민)번호</strong>
+<br />해당 가맹점에 등록된 사업자번호 또는 주민등록번호입니다.</p>
 
-&lt;p&gt;&lt;strong&gt;대표자이름&lt;/strong&gt;
-&lt;br /&gt;해당 가맹점의 대표자 이름입니다.&lt;/p&gt;
+<p><strong>대표자이름</strong>
+<br />해당 가맹점의 대표자 이름입니다.</p>
 
-&lt;p&gt;&lt;strong&gt;상태&lt;/strong&gt;
-&lt;br /&gt;해당 가맹점 계정의 상태입니다. &lt;br /&gt;예비, 승인대기, 사용, 중지로 구분됩니다.&lt;/p&gt;
+<p><strong>상태</strong>
+<br />해당 가맹점 계정의 상태입니다. <br />예비, 승인대기, 사용, 중지로 구분됩니다.</p>
 
-&lt;p&gt;&lt;strong&gt;지사&lt;/strong&gt;
-&lt;br /&gt;해당 가맹점이 소속되어있는 지사입니다.&lt;/p&gt;
+<p><strong>지사</strong>
+<br />해당 가맹점이 소속되어있는 지사입니다.</p>
 
-&lt;p&gt;&lt;strong&gt;예수금&lt;/strong&gt;
-&lt;br /&gt;해당 가맹점의 잔여 예수금을 나타냅니다.&lt;br /&gt;클릭하면 예수금 조회 페이지로 이동하여&lt;br /&gt;조회 및 수기입력이 가능합니다.&lt;/p&gt;
+<p><strong>예수금</strong>
+<br />해당 가맹점의 잔여 예수금을 나타냅니다.<br />클릭하면 예수금 조회 페이지로 이동하여<br />조회 및 수기입력이 가능합니다.</p>
 
-&lt;p&gt;&lt;strong&gt;정산주기&lt;/strong&gt;
-&lt;br /&gt;해당 가맹점의 정산주기입니다.&lt;/p&gt;
+<p><strong>정산주기</strong>
+<br />해당 가맹점의 정산주기입니다.</p>
 
-&lt;p&gt;&lt;strong&gt;수수료&lt;/strong&gt;
-&lt;br /&gt;해당 가맹점에 책정된 수수료(%)입니다.&lt;/p&gt;
+<p><strong>수수료</strong>
+<br />해당 가맹점에 책정된 수수료(%)입니다.</p>
 
-&lt;p&gt;&lt;strong&gt;등록자&lt;/strong&gt;
-&lt;br /&gt;해당 가맹점 정보를 등록한 관리자의 아이디입니다.&lt;/p&gt;
+<p><strong>등록자</strong>
+<br />해당 가맹점 정보를 등록한 관리자의 아이디입니다.</p>
 
-&lt;p&gt;&lt;strong&gt;등록일시&lt;/strong&gt;
-&lt;br /&gt;해당 내용을 등록한 날짜와 시간입니다.&lt;/p&gt;</content><author><name></name></author><category term="branch FM" /><category term="지사" /><category term="가맹점 조회" /><summary type="html">등록된 가맹점을 조회합니다.</summary></entry><entry><title type="html">공지사항</title><link href="http://localhost:4000/agency%20csc/a-information/" rel="alternate" type="text/html" title="공지사항" /><published>2021-12-30T00:00:00+09:00</published><updated>2021-12-30T00:00:00+09:00</updated><id>http://localhost:4000/agency%20csc/a-information</id><content type="html" xml:base="http://localhost:4000/agency%20csc/a-information/">&lt;h3 id=&quot;고객-센터---공지사항&quot;&gt;고객 센터 - &lt;em&gt;공지사항&lt;/em&gt;&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;등록된 공지사항을 조회하는 페이지입니다.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;목록화 되어 있고 공지사항 각 제목을 클릭하면 상세내용을&lt;br /&gt;확인할 수 있습니다.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
+<p><strong>등록일시</strong>
+<br />해당 내용을 등록한 날짜와 시간입니다.</p>]]></content><author><name></name></author><category term="branch FM" /><category term="지사" /><category term="가맹점 조회" /><summary type="html"><![CDATA[등록된 가맹점을 조회합니다.]]></summary></entry><entry><title type="html">공지사항</title><link href="http://localhost:4000/agency%20csc/a-information/" rel="alternate" type="text/html" title="공지사항" /><published>2021-12-30T00:00:00+09:00</published><updated>2021-12-30T00:00:00+09:00</updated><id>http://localhost:4000/agency%20csc/a-information</id><content type="html" xml:base="http://localhost:4000/agency%20csc/a-information/"><![CDATA[<h3 id="고객-센터---공지사항">고객 센터 - <em>공지사항</em></h3>
+<ul>
+  <li>
+    <p>등록된 공지사항을 조회하는 페이지입니다.</p>
+  </li>
+  <li>
+    <p>목록화 되어 있고 공지사항 각 제목을 클릭하면 상세내용을<br />확인할 수 있습니다.</p>
+  </li>
+</ul>
 
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/95394003/147546203-add7b935-9fc6-464d-9040-a0ad426c5c18.jpeg&quot; alt=&quot;에이전시 공지사항&quot; /&gt;
-&lt;br /&gt;&lt;/p&gt;
+<p><img src="https://user-images.githubusercontent.com/95394003/147546203-add7b935-9fc6-464d-9040-a0ad426c5c18.jpeg" alt="에이전시 공지사항" />
+<br /></p>
 
-&lt;hr /&gt;
+<hr />
 
-&lt;h4 id=&quot;조회-항목&quot;&gt;조회 항목&lt;/h4&gt;
-&lt;p&gt;No, 제목, 등록자, 등록일시&lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;
+<h4 id="조회-항목">조회 항목</h4>
+<p>No, 제목, 등록자, 등록일시<br />
+<br /></p>
 
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/95394003/147037538-f9a5683c-b98c-42be-aae6-b0ff34052cdc.jpeg&quot; alt=&quot;공지사항조회항목&quot; /&gt;
-&lt;strong&gt;No&lt;/strong&gt;&lt;br /&gt;
-조회된 결과의 리스트 번호를 나타냅니다.&lt;/p&gt;
+<p><img src="https://user-images.githubusercontent.com/95394003/147037538-f9a5683c-b98c-42be-aae6-b0ff34052cdc.jpeg" alt="공지사항조회항목" />
+<strong>No</strong><br />
+조회된 결과의 리스트 번호를 나타냅니다.</p>
 
-&lt;p&gt;&lt;strong&gt;제목&lt;/strong&gt;&lt;br /&gt;
-공지사항의 제목을 나타냅니다.&lt;/p&gt;
+<p><strong>제목</strong><br />
+공지사항의 제목을 나타냅니다.</p>
 
-&lt;p&gt;&lt;strong&gt;등록자&lt;/strong&gt;&lt;br /&gt;
-공지사항을 등록한 등록자를 나타냅니다.&lt;/p&gt;
+<p><strong>등록자</strong><br />
+공지사항을 등록한 등록자를 나타냅니다.</p>
 
-&lt;p&gt;&lt;strong&gt;등록일시&lt;/strong&gt;&lt;br /&gt;
-공지사항이 등록된 일시를 나타냅니다.&lt;/p&gt;</content><author><name></name></author><category term="agency CSC" /><category term="에이전시" /><category term="고객센터" /><category term="공지사항" /><summary type="html">공지사항 조회 페이지입니다</summary></entry><entry><title type="html">로그인 ID관리 - ID 조회</title><link href="http://localhost:4000/agencylogin/idlookup/" rel="alternate" type="text/html" title="로그인 ID관리 - ID 조회" /><published>2021-12-30T00:00:00+09:00</published><updated>2021-12-30T00:00:00+09:00</updated><id>http://localhost:4000/agencylogin/idlookup</id><content type="html" xml:base="http://localhost:4000/agencylogin/idlookup/">&lt;h3 id=&quot;멤버관리---id-조회&quot;&gt;멤버관리 - &lt;em&gt;ID 조회&lt;/em&gt;&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;검색 조건을 입력 및 선택하여 등록된 로그인 ID를 조회합니다.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;아이디 ~ 상태까지 6가지 검색 조건을 입력 및 선택할 수 있습니다.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;검색 결과는 No ~ 등록일시까지 11가지의 항목들로 구분됩니다.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
+<p><strong>등록일시</strong><br />
+공지사항이 등록된 일시를 나타냅니다.</p>]]></content><author><name></name></author><category term="agency CSC" /><category term="에이전시" /><category term="고객센터" /><category term="공지사항" /><summary type="html"><![CDATA[공지사항 조회 페이지입니다]]></summary></entry><entry><title type="html">로그인 ID관리 - ID 조회</title><link href="http://localhost:4000/agencylogin/idlookup/" rel="alternate" type="text/html" title="로그인 ID관리 - ID 조회" /><published>2021-12-30T00:00:00+09:00</published><updated>2021-12-30T00:00:00+09:00</updated><id>http://localhost:4000/agencylogin/idlookup</id><content type="html" xml:base="http://localhost:4000/agencylogin/idlookup/"><![CDATA[<h3 id="멤버관리---id-조회">멤버관리 - <em>ID 조회</em></h3>
+<ul>
+  <li>
+    <p>검색 조건을 입력 및 선택하여 등록된 로그인 ID를 조회합니다.</p>
+  </li>
+  <li>
+    <p>아이디 ~ 상태까지 6가지 검색 조건을 입력 및 선택할 수 있습니다.</p>
+  </li>
+  <li>
+    <p>검색 결과는 No ~ 등록일시까지 11가지의 항목들로 구분됩니다.</p>
+  </li>
+</ul>
 
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/95394003/147540804-5ea774ea-d6af-44bf-85b9-99a1e2424f7c.png&quot; alt=&quot;에이전시아이디조회&quot; /&gt;
-&lt;br /&gt;&lt;/p&gt;
+<p><img src="https://user-images.githubusercontent.com/95394003/147540804-5ea774ea-d6af-44bf-85b9-99a1e2424f7c.png" alt="에이전시아이디조회" />
+<br /></p>
 
-&lt;hr /&gt;
+<hr />
 
-&lt;h4 id=&quot;검색-조건&quot;&gt;검색 조건&lt;/h4&gt;
-&lt;p&gt;아이디, 이름, 등록일, 권한, 소속, 상태&lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;
+<h4 id="검색-조건">검색 조건</h4>
+<p>아이디, 이름, 등록일, 권한, 소속, 상태<br />
+<br /></p>
 
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/95394003/146885311-b63104fc-ad9a-4f81-8c9d-363fb430c48e.jpeg&quot; alt=&quot;아이디조회검색조건&quot; /&gt;&lt;br /&gt;
-&lt;strong&gt;아이디&lt;/strong&gt;&lt;br /&gt;
-아이디를 입력합니다.&lt;/p&gt;
+<p><img src="https://user-images.githubusercontent.com/95394003/146885311-b63104fc-ad9a-4f81-8c9d-363fb430c48e.jpeg" alt="아이디조회검색조건" /><br />
+<strong>아이디</strong><br />
+아이디를 입력합니다.</p>
 
-&lt;p&gt;&lt;strong&gt;이름&lt;/strong&gt;&lt;br /&gt;
-이름을 입력합니다.&lt;/p&gt;
+<p><strong>이름</strong><br />
+이름을 입력합니다.</p>
 
-&lt;p&gt;&lt;strong&gt;등록일&lt;/strong&gt;&lt;br /&gt;
-등록일을 설정합니다. 날짜부터 날짜로 설정 가능합니다.&lt;/p&gt;
+<p><strong>등록일</strong><br />
+등록일을 설정합니다. 날짜부터 날짜로 설정 가능합니다.</p>
 
-&lt;p&gt;&lt;strong&gt;권한&lt;/strong&gt;&lt;br /&gt;
-권한을 선택합니다. 일반, 관리자, 마스터로 구분됩니다.&lt;/p&gt;
+<p><strong>권한</strong><br />
+권한을 선택합니다. 일반, 관리자, 마스터로 구분됩니다.</p>
 
-&lt;p&gt;&lt;strong&gt;소속&lt;/strong&gt;&lt;br /&gt;
-소속을 선택합니다. 본사, 대행사, 에이전시, 지사로 구분됩니다.&lt;/p&gt;
+<p><strong>소속</strong><br />
+소속을 선택합니다. 본사, 대행사, 에이전시, 지사로 구분됩니다.</p>
 
-&lt;p&gt;&lt;strong&gt;상태&lt;/strong&gt;&lt;br /&gt;
+<p><strong>상태</strong><br />
 상태를 선택합니다. 예비, 사용, 중지로 구분됩니다.
-&lt;br /&gt;&lt;/p&gt;
+<br /></p>
 
-&lt;hr /&gt;
+<hr />
 
-&lt;h4 id=&quot;검색-결과&quot;&gt;검색 결과&lt;/h4&gt;
-&lt;p&gt;No, 아이디, 이름, 소속, 권한, 기타거래, 상태, 대출정산, 전화번호,&lt;br /&gt;등록자, 등록일시&lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;
+<h4 id="검색-결과">검색 결과</h4>
+<p>No, 아이디, 이름, 소속, 권한, 기타거래, 상태, 대출정산, 전화번호,<br />등록자, 등록일시<br />
+<br /></p>
 
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/95394003/147541226-6a04fd54-4733-4400-a7d8-b180ae21344d.png&quot; alt=&quot;image&quot; /&gt;&lt;br /&gt;
-&lt;strong&gt;No&lt;/strong&gt;&lt;br /&gt;
-조회된 결과의 리스트 번호를 나타냅니다.&lt;/p&gt;
+<p><img src="https://user-images.githubusercontent.com/95394003/147541226-6a04fd54-4733-4400-a7d8-b180ae21344d.png" alt="image" /><br />
+<strong>No</strong><br />
+조회된 결과의 리스트 번호를 나타냅니다.</p>
 
-&lt;p&gt;&lt;strong&gt;아이디&lt;/strong&gt;&lt;br /&gt;
-아이디를 나타냅니다.&lt;/p&gt;
+<p><strong>아이디</strong><br />
+아이디를 나타냅니다.</p>
 
-&lt;p&gt;&lt;strong&gt;이름&lt;/strong&gt;&lt;br /&gt;
-이름을 나타냅니다.&lt;/p&gt;
+<p><strong>이름</strong><br />
+이름을 나타냅니다.</p>
 
-&lt;p&gt;&lt;strong&gt;소속&lt;/strong&gt;&lt;br /&gt;
-소속이 어디인지를 나타냅니다.&lt;br /&gt;
-본사, 대행사, 에이전시, 지사, 가맹점으로 구분됩니다.&lt;/p&gt;
+<p><strong>소속</strong><br />
+소속이 어디인지를 나타냅니다.<br />
+본사, 대행사, 에이전시, 지사, 가맹점으로 구분됩니다.</p>
 
-&lt;p&gt;&lt;strong&gt;권한&lt;/strong&gt;&lt;br /&gt;
-해당 계정의 권한을 나타냅니다.&lt;/p&gt;
+<p><strong>권한</strong><br />
+해당 계정의 권한을 나타냅니다.</p>
 
-&lt;p&gt;&lt;strong&gt;기타거래&lt;/strong&gt;&lt;br /&gt;
-기타거래에 대한 사용여부를 나타냅니다.&lt;/p&gt;
+<p><strong>기타거래</strong><br />
+기타거래에 대한 사용여부를 나타냅니다.</p>
 
-&lt;p&gt;&lt;strong&gt;상태&lt;/strong&gt;&lt;br /&gt;
-상태를 나타냅니다. 예비, 사용, 중지로 구분됩니다.&lt;/p&gt;
+<p><strong>상태</strong><br />
+상태를 나타냅니다. 예비, 사용, 중지로 구분됩니다.</p>
 
-&lt;p&gt;&lt;strong&gt;대출정산&lt;/strong&gt;&lt;br /&gt;
-대출정산에 대한 사용 여부를 나타냅니다.&lt;/p&gt;
+<p><strong>대출정산</strong><br />
+대출정산에 대한 사용 여부를 나타냅니다.</p>
 
-&lt;p&gt;&lt;strong&gt;전화번호&lt;/strong&gt;&lt;br /&gt;
-전화번호를 나타냅니다.&lt;/p&gt;
+<p><strong>전화번호</strong><br />
+전화번호를 나타냅니다.</p>
 
-&lt;p&gt;&lt;strong&gt;등록자&lt;/strong&gt;&lt;br /&gt;
-해당 계정을 등록한 등록자를 나타냅니다.&lt;/p&gt;
+<p><strong>등록자</strong><br />
+해당 계정을 등록한 등록자를 나타냅니다.</p>
 
-&lt;p&gt;&lt;strong&gt;등록일시&lt;/strong&gt;&lt;br /&gt;
-해당 계정이 등록된 일시를 나타냅니다.&lt;br /&gt;연, 월, 일, 시간으로 표기됩니다.&lt;/p&gt;</content><author><name></name></author><category term="agencylogin" /><category term="에이전시" /><category term="멤버관리" /><category term="로그인 ID관리" /><category term="ID 조회" /><summary type="html">등록된 로그인 ID를 조회합니다</summary></entry><entry><title type="html">월별 매출관리</title><link href="http://localhost:4000/agency%20sm/a-MSM/" rel="alternate" type="text/html" title="월별 매출관리" /><published>2021-12-30T00:00:00+09:00</published><updated>2021-12-30T00:00:00+09:00</updated><id>http://localhost:4000/agency%20sm/a-MSM</id><content type="html" xml:base="http://localhost:4000/agency%20sm/a-MSM/">&lt;h3 id=&quot;매출-관리---월별-매출관리&quot;&gt;매출 관리 - &lt;em&gt;월별 매출관리&lt;/em&gt;&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;조회할 기간을 설정하여 해당 월별 매출을 조회합니다.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;소속선택 ~ 조회 종료월까지 3가지 검색 조건을 선택할 수 있습니다.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;검색 결과는 No ~ 에이전시 수익까지 6가지의 항목들로 구분됩니다.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;매입 현황과 매입 취소 현황, 합계 금액, 건수 및 에이전시 수익을&lt;br /&gt;조회할 수 있습니다.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
+<p><strong>등록일시</strong><br />
+해당 계정이 등록된 일시를 나타냅니다.<br />연, 월, 일, 시간으로 표기됩니다.</p>]]></content><author><name></name></author><category term="agencylogin" /><category term="에이전시" /><category term="멤버관리" /><category term="로그인 ID관리" /><category term="ID 조회" /><summary type="html"><![CDATA[등록된 로그인 ID를 조회합니다]]></summary></entry><entry><title type="html">월별 매출관리</title><link href="http://localhost:4000/agency%20sm/a-MSM/" rel="alternate" type="text/html" title="월별 매출관리" /><published>2021-12-30T00:00:00+09:00</published><updated>2021-12-30T00:00:00+09:00</updated><id>http://localhost:4000/agency%20sm/a-MSM</id><content type="html" xml:base="http://localhost:4000/agency%20sm/a-MSM/"><![CDATA[<h3 id="매출-관리---월별-매출관리">매출 관리 - <em>월별 매출관리</em></h3>
+<ul>
+  <li>
+    <p>조회할 기간을 설정하여 해당 월별 매출을 조회합니다.</p>
+  </li>
+  <li>
+    <p>소속선택 ~ 조회 종료월까지 3가지 검색 조건을 선택할 수 있습니다.</p>
+  </li>
+  <li>
+    <p>검색 결과는 No ~ 에이전시 수익까지 6가지의 항목들로 구분됩니다.</p>
+  </li>
+  <li>
+    <p>매입 현황과 매입 취소 현황, 합계 금액, 건수 및 에이전시 수익을<br />조회할 수 있습니다.</p>
+  </li>
+</ul>
 
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/95394003/147454461-e8f9a62a-e17e-44d4-ac34-7faeb57e8a04.jpeg&quot; alt=&quot;에이전시 월별매출관리&quot; /&gt;&lt;/p&gt;
+<p><img src="https://user-images.githubusercontent.com/95394003/147454461-e8f9a62a-e17e-44d4-ac34-7faeb57e8a04.jpeg" alt="에이전시 월별매출관리" /></p>
 
-&lt;hr /&gt;
+<hr />
 
-&lt;h4 id=&quot;검색-조건&quot;&gt;검색 조건&lt;/h4&gt;
-&lt;p&gt;소속 선택, 조회 시작월, 조회 종료월&lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;
+<h4 id="검색-조건">검색 조건</h4>
+<p>소속 선택, 조회 시작월, 조회 종료월<br />
+<br /></p>
 
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/95394003/147454561-1d032e50-30f6-44d8-a542-41ce3d0b84e7.jpeg&quot; alt=&quot;에이전시 월별매출관리검색조건&quot; /&gt;&lt;br /&gt;
-&lt;strong&gt;소속 선택&lt;/strong&gt;&lt;br /&gt;
-지사를 선택합니다.&lt;/p&gt;
+<p><img src="https://user-images.githubusercontent.com/95394003/147454561-1d032e50-30f6-44d8-a542-41ce3d0b84e7.jpeg" alt="에이전시 월별매출관리검색조건" /><br />
+<strong>소속 선택</strong><br />
+지사를 선택합니다.</p>
 
-&lt;p&gt;&lt;strong&gt;조회 시작월&lt;/strong&gt;&lt;br /&gt;
-조회를 시직할 연도와 월을 설정할 수 있습니다.&lt;br /&gt;2019년 07월부터 조회가 가능합니다.&lt;/p&gt;
+<p><strong>조회 시작월</strong><br />
+조회를 시직할 연도와 월을 설정할 수 있습니다.<br />2019년 07월부터 조회가 가능합니다.</p>
 
-&lt;p&gt;&lt;strong&gt;조회 종료월&lt;/strong&gt;&lt;br /&gt;
-조회를 종료할 연도와 월을 설정할 수 있습니다.&lt;br /&gt;2019년 07월부터 조회가 가능합니다.&lt;/p&gt;
+<p><strong>조회 종료월</strong><br />
+조회를 종료할 연도와 월을 설정할 수 있습니다.<br />2019년 07월부터 조회가 가능합니다.</p>
 
-&lt;hr /&gt;
+<hr />
 
-&lt;h4 id=&quot;검색-결과&quot;&gt;검색 결과&lt;/h4&gt;
-&lt;p&gt;No, 매입월, 매입현황, 매입취소현황,&lt;br /&gt;합계(금액/건수/정산금액/가맹점수수료), 에이전시 수익&lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;
+<h4 id="검색-결과">검색 결과</h4>
+<p>No, 매입월, 매입현황, 매입취소현황,<br />합계(금액/건수/정산금액/가맹점수수료), 에이전시 수익<br />
+<br /></p>
 
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/95394003/146702711-840d85cb-b22b-4497-8d4f-3c75939d1e2c.jpeg&quot; alt=&quot;월별매출관리조회결과&quot; /&gt;&lt;br /&gt;
-&lt;strong&gt;No&lt;/strong&gt;&lt;br /&gt;
-조회된 결과의 리스트 번호를 나타냅니다.&lt;/p&gt;
+<p><img src="https://user-images.githubusercontent.com/95394003/146702711-840d85cb-b22b-4497-8d4f-3c75939d1e2c.jpeg" alt="월별매출관리조회결과" /><br />
+<strong>No</strong><br />
+조회된 결과의 리스트 번호를 나타냅니다.</p>
 
-&lt;p&gt;&lt;strong&gt;매입월&lt;/strong&gt;&lt;br /&gt;
-연도 - 월 을 나타냅니다.&lt;/p&gt;
+<p><strong>매입월</strong><br />
+연도 - 월 을 나타냅니다.</p>
 
-&lt;p&gt;&lt;strong&gt;매입현황&lt;/strong&gt;&lt;br /&gt;
-해당 월의 매입 금액과 건수를 나타냅니다.&lt;/p&gt;
+<p><strong>매입현황</strong><br />
+해당 월의 매입 금액과 건수를 나타냅니다.</p>
 
-&lt;p&gt;&lt;strong&gt;매입취소현황&lt;/strong&gt;&lt;br /&gt;
-해당 월의 매입 취소 금액과 건수를 나타냅니다.&lt;/p&gt;
+<p><strong>매입취소현황</strong><br />
+해당 월의 매입 취소 금액과 건수를 나타냅니다.</p>
 
-&lt;p&gt;&lt;strong&gt;합계&lt;/strong&gt;&lt;br /&gt;
-월별 매입현황과 매입취소현황에 대한 금액, 건수의 합계와&lt;br /&gt;그에 따른 합계 정산금액, 가맹점수수료를 나타냅니다.&lt;/p&gt;
+<p><strong>합계</strong><br />
+월별 매입현황과 매입취소현황에 대한 금액, 건수의 합계와<br />그에 따른 합계 정산금액, 가맹점수수료를 나타냅니다.</p>
 
-&lt;p&gt;&lt;strong&gt;에이전시 수익&lt;/strong&gt;&lt;br /&gt;
-에이전시의 수익이 얼마인지를 나타냅니다.&lt;/p&gt;
+<p><strong>에이전시 수익</strong><br />
+에이전시의 수익이 얼마인지를 나타냅니다.</p>
 
-&lt;p&gt;&lt;strong&gt;금액&lt;/strong&gt;&lt;br /&gt;
-금액을 표기합니다.&lt;/p&gt;
+<p><strong>금액</strong><br />
+금액을 표기합니다.</p>
 
-&lt;p&gt;&lt;strong&gt;건수&lt;/strong&gt;&lt;br /&gt;
-건수를 표기합니다.&lt;/p&gt;
+<p><strong>건수</strong><br />
+건수를 표기합니다.</p>
 
-&lt;p&gt;&lt;strong&gt;정산금액&lt;/strong&gt;&lt;br /&gt;
-정산 금액이 얼마인지를 나타냅니다.&lt;/p&gt;
+<p><strong>정산금액</strong><br />
+정산 금액이 얼마인지를 나타냅니다.</p>
 
-&lt;p&gt;&lt;strong&gt;가맹점수수료&lt;/strong&gt;&lt;br /&gt;
-가맹점 수수료가 얼마인지를 나타냅니다.&lt;/p&gt;</content><author><name></name></author><category term="agency SM" /><category term="에이전시" /><category term="월별 매출관리" /><summary type="html">조회할 기간을 설정하여 해당 월별 매출을 조회합니다</summary></entry><entry><title type="html">공지사항</title><link href="http://localhost:4000/affliated%20csc/information/" rel="alternate" type="text/html" title="공지사항" /><published>2021-12-29T00:00:00+09:00</published><updated>2021-12-29T00:00:00+09:00</updated><id>http://localhost:4000/affliated%20csc/information</id><content type="html" xml:base="http://localhost:4000/affliated%20csc/information/">&lt;h3 id=&quot;고객-센터---공지사항&quot;&gt;고객 센터 - &lt;em&gt;공지사항&lt;/em&gt;&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;등록된 공지사항을 조회하는 페이지입니다.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;목록화 되어 있고 공지사항 각 제목을 클릭하면 상세내용을&lt;br /&gt;확인할 수 있습니다.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
+<p><strong>가맹점수수료</strong><br />
+가맹점 수수료가 얼마인지를 나타냅니다.</p>]]></content><author><name></name></author><category term="agency SM" /><category term="에이전시" /><category term="월별 매출관리" /><summary type="html"><![CDATA[조회할 기간을 설정하여 해당 월별 매출을 조회합니다]]></summary></entry><entry><title type="html">공지사항</title><link href="http://localhost:4000/affliated%20csc/information/" rel="alternate" type="text/html" title="공지사항" /><published>2021-12-29T00:00:00+09:00</published><updated>2021-12-29T00:00:00+09:00</updated><id>http://localhost:4000/affliated%20csc/information</id><content type="html" xml:base="http://localhost:4000/affliated%20csc/information/"><![CDATA[<h3 id="고객-센터---공지사항">고객 센터 - <em>공지사항</em></h3>
+<ul>
+  <li>
+    <p>등록된 공지사항을 조회하는 페이지입니다.</p>
+  </li>
+  <li>
+    <p>목록화 되어 있고 공지사항 각 제목을 클릭하면 상세내용을<br />확인할 수 있습니다.</p>
+  </li>
+</ul>
 
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/95394003/147629141-9a1f9cfd-1749-4d28-bd6e-ef92c5025d2a.jpeg&quot; alt=&quot;가맹점 공지사항&quot; /&gt;
-&lt;br /&gt;&lt;/p&gt;
+<p><img src="https://user-images.githubusercontent.com/95394003/147629141-9a1f9cfd-1749-4d28-bd6e-ef92c5025d2a.jpeg" alt="가맹점 공지사항" />
+<br /></p>
 
-&lt;hr /&gt;
+<hr />
 
-&lt;h4 id=&quot;조회-항목&quot;&gt;조회 항목&lt;/h4&gt;
-&lt;p&gt;No, 제목, 등록자, 등록일시&lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;
+<h4 id="조회-항목">조회 항목</h4>
+<p>No, 제목, 등록자, 등록일시<br />
+<br /></p>
 
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/95394003/147037538-f9a5683c-b98c-42be-aae6-b0ff34052cdc.jpeg&quot; alt=&quot;공지사항조회항목&quot; /&gt;&lt;br /&gt;
-&lt;strong&gt;No&lt;/strong&gt;&lt;br /&gt;
-조회된 결과의 리스트 번호를 나타냅니다.&lt;/p&gt;
+<p><img src="https://user-images.githubusercontent.com/95394003/147037538-f9a5683c-b98c-42be-aae6-b0ff34052cdc.jpeg" alt="공지사항조회항목" /><br />
+<strong>No</strong><br />
+조회된 결과의 리스트 번호를 나타냅니다.</p>
 
-&lt;p&gt;&lt;strong&gt;제목&lt;/strong&gt;&lt;br /&gt;
-공지사항의 제목을 나타냅니다.&lt;/p&gt;
+<p><strong>제목</strong><br />
+공지사항의 제목을 나타냅니다.</p>
 
-&lt;p&gt;&lt;strong&gt;등록자&lt;/strong&gt;&lt;br /&gt;
-공지사항을 등록한 등록자를 나타냅니다.&lt;/p&gt;
+<p><strong>등록자</strong><br />
+공지사항을 등록한 등록자를 나타냅니다.</p>
 
-&lt;p&gt;&lt;strong&gt;등록일시&lt;/strong&gt;&lt;br /&gt;
-공지사항이 등록된 일시를 나타냅니다.&lt;/p&gt;</content><author><name></name></author><category term="affliated CSC" /><category term="가맹점" /><category term="고객센터" /><category term="공지사항" /><summary type="html">공지사항 조회 페이지입니다</summary></entry><entry><title type="html">거래내역 조회</title><link href="http://localhost:4000/affliated%20cs/transactionhistory/" rel="alternate" type="text/html" title="거래내역 조회" /><published>2021-12-29T00:00:00+09:00</published><updated>2021-12-29T00:00:00+09:00</updated><id>http://localhost:4000/affliated%20cs/transactionhistory</id><content type="html" xml:base="http://localhost:4000/affliated%20cs/transactionhistory/">&lt;h3 id=&quot;충전-정산---거래내역-조회&quot;&gt;충전 정산 - &lt;em&gt;거래내역 조회&lt;/em&gt;&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;검색조건을 입력 및 선택하여 충전정산에 대한 거래내역을 조회합니다.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;거래일자 ~ 주문번호까지 6가지 검색 조건을 입력 및 선택할 수 있습니다.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;검색 결과는 No ~ 거래일시까지 15가지의 항목들로 구분됩니다.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
+<p><strong>등록일시</strong><br />
+공지사항이 등록된 일시를 나타냅니다.</p>]]></content><author><name></name></author><category term="affliated CSC" /><category term="가맹점" /><category term="고객센터" /><category term="공지사항" /><summary type="html"><![CDATA[공지사항 조회 페이지입니다]]></summary></entry><entry><title type="html">거래내역 조회</title><link href="http://localhost:4000/affliated%20cs/transactionhistory/" rel="alternate" type="text/html" title="거래내역 조회" /><published>2021-12-29T00:00:00+09:00</published><updated>2021-12-29T00:00:00+09:00</updated><id>http://localhost:4000/affliated%20cs/transactionhistory</id><content type="html" xml:base="http://localhost:4000/affliated%20cs/transactionhistory/"><![CDATA[<h3 id="충전-정산---거래내역-조회">충전 정산 - <em>거래내역 조회</em></h3>
+<ul>
+  <li>
+    <p>검색조건을 입력 및 선택하여 충전정산에 대한 거래내역을 조회합니다.</p>
+  </li>
+  <li>
+    <p>거래일자 ~ 주문번호까지 6가지 검색 조건을 입력 및 선택할 수 있습니다.</p>
+  </li>
+  <li>
+    <p>검색 결과는 No ~ 거래일시까지 15가지의 항목들로 구분됩니다.</p>
+  </li>
+</ul>
 
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/95394003/147639719-34267411-da15-465b-bddf-5bfb7215ae0f.jpeg&quot; alt=&quot;충전 거래내역조회&quot; /&gt;
-&lt;br /&gt;&lt;/p&gt;
+<p><img src="https://user-images.githubusercontent.com/95394003/147639719-34267411-da15-465b-bddf-5bfb7215ae0f.jpeg" alt="충전 거래내역조회" />
+<br /></p>
 
-&lt;hr /&gt;
+<hr />
 
-&lt;h4 id=&quot;검색-조건&quot;&gt;검색 조건&lt;/h4&gt;
-&lt;p&gt;거래일자, 거래종류, 거래유형, 거래번호, 참조번호, 주문번호&lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;
+<h4 id="검색-조건">검색 조건</h4>
+<p>거래일자, 거래종류, 거래유형, 거래번호, 참조번호, 주문번호<br />
+<br /></p>
 
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/95394003/147639724-24b85cf5-5d37-4427-b7a3-10a4974da596.jpeg&quot; alt=&quot;충전 거래내역 검색조건&quot; /&gt;&lt;br /&gt;
-&lt;strong&gt;거래일자&lt;/strong&gt;&lt;br /&gt;
-거래일자를 설정합니다. 날짜부터 날짜로 설정할 수 있습니다.&lt;/p&gt;
+<p><img src="https://user-images.githubusercontent.com/95394003/147639724-24b85cf5-5d37-4427-b7a3-10a4974da596.jpeg" alt="충전 거래내역 검색조건" /><br />
+<strong>거래일자</strong><br />
+거래일자를 설정합니다. 날짜부터 날짜로 설정할 수 있습니다.</p>
 
-&lt;p&gt;&lt;strong&gt;거래종류&lt;/strong&gt;&lt;br /&gt;
-거래종류를 선택합니다. 입금과 출금으로 구분됩니다.&lt;/p&gt;
+<p><strong>거래종류</strong><br />
+거래종류를 선택합니다. 입금과 출금으로 구분됩니다.</p>
 
-&lt;p&gt;&lt;strong&gt;거래유형&lt;/strong&gt;&lt;br /&gt;
-거래의 유형을 선택합니다.&lt;br /&gt;신용카드정산, 가상계좌정산, 펌뱅킹으로 구분됩니다.&lt;/p&gt;
+<p><strong>거래유형</strong><br />
+거래의 유형을 선택합니다.<br />신용카드정산, 가상계좌정산, 펌뱅킹으로 구분됩니다.</p>
 
-&lt;p&gt;&lt;strong&gt;거래번호&lt;/strong&gt;&lt;br /&gt;
-거래번호를 입력합니다.&lt;/p&gt;
+<p><strong>거래번호</strong><br />
+거래번호를 입력합니다.</p>
 
-&lt;p&gt;&lt;strong&gt;참조번호&lt;/strong&gt;&lt;br /&gt;
-참조번호를 입력합니다.&lt;/p&gt;
+<p><strong>참조번호</strong><br />
+참조번호를 입력합니다.</p>
 
-&lt;p&gt;&lt;strong&gt;주문번호&lt;/strong&gt;&lt;br /&gt;
+<p><strong>주문번호</strong><br />
 주문번호를 입력합니다.
-&lt;br /&gt;&lt;/p&gt;
+<br /></p>
 
-&lt;hr /&gt;
+<hr />
 
-&lt;h4 id=&quot;검색-결과&quot;&gt;검색 결과&lt;/h4&gt;
-&lt;p&gt;No, 거래번호, 거래종류, 거래유형, 가맹점, 가맹점아이디, 주문번호,&lt;br /&gt;참조번호, 입출금원금, 수수료, 수수료부가세, 계정실출금액, 거래후잔액,&lt;br /&gt;등록자, 거래일시&lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;
+<h4 id="검색-결과">검색 결과</h4>
+<p>No, 거래번호, 거래종류, 거래유형, 가맹점, 가맹점아이디, 주문번호,<br />참조번호, 입출금원금, 수수료, 수수료부가세, 계정실출금액, 거래후잔액,<br />등록자, 거래일시<br />
+<br /></p>
 
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/95394003/147639729-7a8e162f-3f1e-47e8-a873-339542ce1a27.jpeg&quot; alt=&quot;충전 거래내역 검색결과&quot; /&gt;&lt;br /&gt;
-&lt;strong&gt;No&lt;/strong&gt;&lt;br /&gt;
-조회된 결과의 리스트 번호를 나타냅니다.&lt;/p&gt;
+<p><img src="https://user-images.githubusercontent.com/95394003/147639729-7a8e162f-3f1e-47e8-a873-339542ce1a27.jpeg" alt="충전 거래내역 검색결과" /><br />
+<strong>No</strong><br />
+조회된 결과의 리스트 번호를 나타냅니다.</p>
 
-&lt;p&gt;&lt;strong&gt;거래번호&lt;/strong&gt;&lt;br /&gt;
-거래번호를 나타냅니다.&lt;/p&gt;
+<p><strong>거래번호</strong><br />
+거래번호를 나타냅니다.</p>
 
-&lt;p&gt;&lt;strong&gt;거래종류&lt;/strong&gt;&lt;br /&gt;
-거래의 종류가 입금인지 출금인지를 나타냅니다.&lt;/p&gt;
+<p><strong>거래종류</strong><br />
+거래의 종류가 입금인지 출금인지를 나타냅니다.</p>
 
-&lt;p&gt;&lt;strong&gt;거래유형&lt;/strong&gt;&lt;br /&gt;
-거래의 유형을 나타냅니다.&lt;br /&gt;
-신용카드정산, 가상계좌정산, 펌뱅킹으로 구분됩니다.&lt;/p&gt;
+<p><strong>거래유형</strong><br />
+거래의 유형을 나타냅니다.<br />
+신용카드정산, 가상계좌정산, 펌뱅킹으로 구분됩니다.</p>
 
-&lt;p&gt;&lt;strong&gt;가맹점&lt;/strong&gt;&lt;br /&gt;
-해당 가맹점을 표기합니다.&lt;/p&gt;
+<p><strong>가맹점</strong><br />
+해당 가맹점을 표기합니다.</p>
 
-&lt;p&gt;&lt;strong&gt;가맹점아이디&lt;/strong&gt;&lt;br /&gt;
-해당 가맹점아이디를 표기합니다.&lt;/p&gt;
+<p><strong>가맹점아이디</strong><br />
+해당 가맹점아이디를 표기합니다.</p>
 
-&lt;p&gt;&lt;strong&gt;주문번호&lt;/strong&gt;&lt;br /&gt;
-주문번호를 나타냅니다.&lt;/p&gt;
+<p><strong>주문번호</strong><br />
+주문번호를 나타냅니다.</p>
 
-&lt;p&gt;&lt;strong&gt;참조번호&lt;/strong&gt;&lt;br /&gt;
-참조번호를 나타냅니다.&lt;/p&gt;
+<p><strong>참조번호</strong><br />
+참조번호를 나타냅니다.</p>
 
-&lt;p&gt;&lt;strong&gt;입출금원금&lt;/strong&gt;&lt;br /&gt;
-입출금원금이 얼마인지를 나타냅니다.&lt;/p&gt;
+<p><strong>입출금원금</strong><br />
+입출금원금이 얼마인지를 나타냅니다.</p>
 
-&lt;p&gt;&lt;strong&gt;수수료&lt;/strong&gt;&lt;br /&gt;
-수수료가 얼마인지를 나타냅니다.&lt;/p&gt;
+<p><strong>수수료</strong><br />
+수수료가 얼마인지를 나타냅니다.</p>
 
-&lt;p&gt;&lt;strong&gt;수수료부가세&lt;/strong&gt;&lt;br /&gt;
-수수료부가세가 얼마인지를 표기합니다.&lt;/p&gt;
+<p><strong>수수료부가세</strong><br />
+수수료부가세가 얼마인지를 표기합니다.</p>
 
-&lt;p&gt;&lt;strong&gt;계정실출금액&lt;/strong&gt;&lt;br /&gt;
-계정실출금액이 얼마인지를 나타냅니다.&lt;/p&gt;
+<p><strong>계정실출금액</strong><br />
+계정실출금액이 얼마인지를 나타냅니다.</p>
 
-&lt;p&gt;&lt;strong&gt;거래후잔액&lt;/strong&gt;&lt;br /&gt;
-거래 후 잔액이 얼마 남았는지를 표기합니다.&lt;/p&gt;
+<p><strong>거래후잔액</strong><br />
+거래 후 잔액이 얼마 남았는지를 표기합니다.</p>
 
-&lt;p&gt;&lt;strong&gt;등록자&lt;/strong&gt;&lt;br /&gt;
-해당 거래에 대해 등록한 아이디를 나타냅니다.&lt;/p&gt;
+<p><strong>등록자</strong><br />
+해당 거래에 대해 등록한 아이디를 나타냅니다.</p>
 
-&lt;p&gt;&lt;strong&gt;거래일시&lt;/strong&gt;&lt;br /&gt;
-거래일시가 언제인지를 나타냅니다.&lt;/p&gt;</content><author><name></name></author><category term="affliated CS" /><category term="가맹점" /><category term="충전정산" /><category term="거래내역 조회" /><summary type="html">충전정산에 대한 거래내역을 조회합니다.</summary></entry><entry><title type="html">신용카드 정산 조회</title><link href="http://localhost:4000/affliated%20ss/creditcard/" rel="alternate" type="text/html" title="신용카드 정산 조회" /><published>2021-12-29T00:00:00+09:00</published><updated>2021-12-29T00:00:00+09:00</updated><id>http://localhost:4000/affliated%20ss/creditcard</id><content type="html" xml:base="http://localhost:4000/affliated%20ss/creditcard/">&lt;h3 id=&quot;매출-및-정산-내역---신용카드-정산-조회&quot;&gt;매출 및 정산 내역 - &lt;em&gt;신용카드 정산 조회&lt;/em&gt;&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;검색 조건을 입력 및 선택하여 신용카드에 대한 정산 정보를 조회합니다.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;가맹점ID ~ 정산구분까지 8가지 검색 조건을 입력 및 선택할 수 있습니다.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;검색 결과는 No ~ 지급 정보까지 14가지의 항목들로 구분됩니다.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
+<p><strong>거래일시</strong><br />
+거래일시가 언제인지를 나타냅니다.</p>]]></content><author><name></name></author><category term="affliated CS" /><category term="가맹점" /><category term="충전정산" /><category term="거래내역 조회" /><summary type="html"><![CDATA[충전정산에 대한 거래내역을 조회합니다.]]></summary></entry><entry><title type="html">신용카드 정산 조회</title><link href="http://localhost:4000/affliated%20ss/creditcard/" rel="alternate" type="text/html" title="신용카드 정산 조회" /><published>2021-12-29T00:00:00+09:00</published><updated>2021-12-29T00:00:00+09:00</updated><id>http://localhost:4000/affliated%20ss/creditcard</id><content type="html" xml:base="http://localhost:4000/affliated%20ss/creditcard/"><![CDATA[<h3 id="매출-및-정산-내역---신용카드-정산-조회">매출 및 정산 내역 - <em>신용카드 정산 조회</em></h3>
+<ul>
+  <li>
+    <p>검색 조건을 입력 및 선택하여 신용카드에 대한 정산 정보를 조회합니다.</p>
+  </li>
+  <li>
+    <p>가맹점ID ~ 정산구분까지 8가지 검색 조건을 입력 및 선택할 수 있습니다.</p>
+  </li>
+  <li>
+    <p>검색 결과는 No ~ 지급 정보까지 14가지의 항목들로 구분됩니다.</p>
+  </li>
+</ul>
 
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/95394003/147635498-0b79433d-b908-45eb-bcf5-4de63266a8fc.jpeg&quot; alt=&quot;신용카드 정산조회&quot; /&gt;
-&lt;br /&gt;&lt;/p&gt;
+<p><img src="https://user-images.githubusercontent.com/95394003/147635498-0b79433d-b908-45eb-bcf5-4de63266a8fc.jpeg" alt="신용카드 정산조회" />
+<br /></p>
 
-&lt;hr /&gt;
+<hr />
 
-&lt;h4 id=&quot;검색-조건&quot;&gt;검색 조건&lt;/h4&gt;
-&lt;p&gt;가맹점ID, 가맹점명, 가맹점 대표자, 정산예정일, 정산번호,&lt;br /&gt;지급 상태, 정산주기, 정산구분&lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;
+<h4 id="검색-조건">검색 조건</h4>
+<p>가맹점ID, 가맹점명, 가맹점 대표자, 정산예정일, 정산번호,<br />지급 상태, 정산주기, 정산구분<br />
+<br /></p>
 
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/95394003/147635502-269bd217-416c-402e-a325-e029399d60ca.jpeg&quot; alt=&quot;신용카드 정산 검색조건&quot; /&gt;&lt;br /&gt;
-&lt;strong&gt;가맹점ID&lt;/strong&gt;&lt;br /&gt;
-가맹점아이디를 입력합니다.&lt;/p&gt;
+<p><img src="https://user-images.githubusercontent.com/95394003/147635502-269bd217-416c-402e-a325-e029399d60ca.jpeg" alt="신용카드 정산 검색조건" /><br />
+<strong>가맹점ID</strong><br />
+가맹점아이디를 입력합니다.</p>
 
-&lt;p&gt;&lt;strong&gt;가맹점명&lt;/strong&gt;&lt;br /&gt;
-가맹점명을 입력합니다.&lt;/p&gt;
+<p><strong>가맹점명</strong><br />
+가맹점명을 입력합니다.</p>
 
-&lt;p&gt;&lt;strong&gt;가맹점 대표자&lt;/strong&gt;&lt;br /&gt;
-가맹점 대표자를 입력합니다.&lt;/p&gt;
+<p><strong>가맹점 대표자</strong><br />
+가맹점 대표자를 입력합니다.</p>
 
-&lt;p&gt;&lt;strong&gt;정산예정일&lt;/strong&gt;&lt;br /&gt;
-정산예정일의 기간을 설정합니다. 날짜부터 날짜로 설정할 수 있습니다.&lt;/p&gt;
+<p><strong>정산예정일</strong><br />
+정산예정일의 기간을 설정합니다. 날짜부터 날짜로 설정할 수 있습니다.</p>
 
-&lt;p&gt;&lt;strong&gt;정산번호&lt;/strong&gt;&lt;br /&gt;
-정산번호를 입력합니다.&lt;/p&gt;
+<p><strong>정산번호</strong><br />
+정산번호를 입력합니다.</p>
 
-&lt;p&gt;&lt;strong&gt;지급 상태&lt;/strong&gt;&lt;br /&gt;
-지급 상태를 선택합니다.&lt;br /&gt;지급대기, 지급완료, 지급보류, 지급실패로 구분됩니다.&lt;/p&gt;
+<p><strong>지급 상태</strong><br />
+지급 상태를 선택합니다.<br />지급대기, 지급완료, 지급보류, 지급실패로 구분됩니다.</p>
 
-&lt;p&gt;&lt;strong&gt;정산주기&lt;/strong&gt;&lt;br /&gt;
-정산주기를 선택합니다.&lt;br /&gt;
-D+ 1~7, C+ 1~7 중 선택합니다.&lt;/p&gt;
+<p><strong>정산주기</strong><br />
+정산주기를 선택합니다.<br />
+D+ 1~7, C+ 1~7 중 선택합니다.</p>
 
-&lt;p&gt;&lt;strong&gt;정산구분&lt;/strong&gt;&lt;br /&gt;
+<p><strong>정산구분</strong><br />
 정산의 종류를 구분합니다. 일반, 충전정산으로 구분됩니다.
-&lt;br /&gt;&lt;/p&gt;
+<br /></p>
 
-&lt;hr /&gt;
+<hr />
 
-&lt;h4 id=&quot;검색-결과&quot;&gt;검색 결과&lt;/h4&gt;
-&lt;p&gt;No, 정산구분, 정산번호, 지급상태, 정산일, 가맹점명, 가맹점ID,&lt;br /&gt;가맹점대표자명, 대상거래 기간, 매출정보, 대출정산차감금액,&lt;br /&gt;예수금(미출금), 실지급액, 지급정보&lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;
+<h4 id="검색-결과">검색 결과</h4>
+<p>No, 정산구분, 정산번호, 지급상태, 정산일, 가맹점명, 가맹점ID,<br />가맹점대표자명, 대상거래 기간, 매출정보, 대출정산차감금액,<br />예수금(미출금), 실지급액, 지급정보<br />
+<br /></p>
 
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/95394003/147635503-b4865108-866d-4959-9e27-f252898b2387.jpeg&quot; alt=&quot;신용카드정산 검색결과&quot; /&gt;&lt;br /&gt;
-&lt;strong&gt;No&lt;/strong&gt;&lt;br /&gt;
-조회된 결과의 리스트 번호를 나타냅니다.&lt;/p&gt;
+<p><img src="https://user-images.githubusercontent.com/95394003/147635503-b4865108-866d-4959-9e27-f252898b2387.jpeg" alt="신용카드정산 검색결과" /><br />
+<strong>No</strong><br />
+조회된 결과의 리스트 번호를 나타냅니다.</p>
 
-&lt;p&gt;&lt;strong&gt;정산구분&lt;/strong&gt;&lt;br /&gt;
-정산의 종류를 나타냅니다. 일반, 충전정산으로 구분됩니다.&lt;/p&gt;
+<p><strong>정산구분</strong><br />
+정산의 종류를 나타냅니다. 일반, 충전정산으로 구분됩니다.</p>
 
-&lt;p&gt;&lt;strong&gt;정산번호&lt;/strong&gt;&lt;br /&gt;
-정산번호를 표기합니다.&lt;/p&gt;
+<p><strong>정산번호</strong><br />
+정산번호를 표기합니다.</p>
 
-&lt;p&gt;&lt;strong&gt;지급상태&lt;/strong&gt;&lt;br /&gt;
-지급상태를 표기합니다.&lt;br /&gt;지급대기, 지급완료, 지급보류, 지급실패로 구분됩니다.&lt;/p&gt;
+<p><strong>지급상태</strong><br />
+지급상태를 표기합니다.<br />지급대기, 지급완료, 지급보류, 지급실패로 구분됩니다.</p>
 
-&lt;p&gt;&lt;strong&gt;정산일&lt;/strong&gt;&lt;br /&gt;
-정산일이 언제인지를 나타냅니다.&lt;/p&gt;
+<p><strong>정산일</strong><br />
+정산일이 언제인지를 나타냅니다.</p>
 
-&lt;p&gt;&lt;strong&gt;가맹점명&lt;/strong&gt;&lt;br /&gt;
-가맹점명을 나타냅니다.&lt;/p&gt;
+<p><strong>가맹점명</strong><br />
+가맹점명을 나타냅니다.</p>
 
-&lt;p&gt;&lt;strong&gt;가맹점ID&lt;/strong&gt;&lt;br /&gt;
-가맹점 ID를 나타냅니다.&lt;/p&gt;
+<p><strong>가맹점ID</strong><br />
+가맹점 ID를 나타냅니다.</p>
 
-&lt;p&gt;&lt;strong&gt;가맹점대표자명&lt;/strong&gt;&lt;br /&gt;
-가맹점 대표자명을 나타냅니다.&lt;/p&gt;
+<p><strong>가맹점대표자명</strong><br />
+가맹점 대표자명을 나타냅니다.</p>
 
-&lt;p&gt;&lt;strong&gt;대상거래 기간&lt;/strong&gt;&lt;br /&gt;
-대상거래 기간을 나타냅니다.&lt;/p&gt;
+<p><strong>대상거래 기간</strong><br />
+대상거래 기간을 나타냅니다.</p>
 
-&lt;p&gt;&lt;strong&gt;매출정보&lt;/strong&gt;&lt;br /&gt;
-매출 정보를 나타냅니다.&lt;br /&gt;
-매입, 매입취소, 지급보류에 대한 건수와 금액을 표기하고&lt;br /&gt;그에 대한 합계, 수수료, 지급예정, 차감금액 또한 표기합니다.&lt;/p&gt;
+<p><strong>매출정보</strong><br />
+매출 정보를 나타냅니다.<br />
+매입, 매입취소, 지급보류에 대한 건수와 금액을 표기하고<br />그에 대한 합계, 수수료, 지급예정, 차감금액 또한 표기합니다.</p>
 
-&lt;p&gt;&lt;strong&gt;대출정산차감금액&lt;/strong&gt;&lt;br /&gt;
-대출정산차감금액이 얼마인지를 나타냅니다.&lt;/p&gt;
+<p><strong>대출정산차감금액</strong><br />
+대출정산차감금액이 얼마인지를 나타냅니다.</p>
 
-&lt;p&gt;&lt;strong&gt;예수금(미출금)&lt;/strong&gt;&lt;br /&gt;
-예수금이 얼마인지를 나타냅니다.&lt;/p&gt;
+<p><strong>예수금(미출금)</strong><br />
+예수금이 얼마인지를 나타냅니다.</p>
 
-&lt;p&gt;&lt;strong&gt;실지급액&lt;/strong&gt;&lt;br /&gt;
-실제로 지급되는 금액이 얼마인지를 나타냅니다.&lt;/p&gt;
+<p><strong>실지급액</strong><br />
+실제로 지급되는 금액이 얼마인지를 나타냅니다.</p>
 
-&lt;p&gt;&lt;strong&gt;지급정보&lt;/strong&gt;&lt;br /&gt;
-계좌정보와 정산수수료율(%)을 나타냅니다.&lt;/p&gt;
+<p><strong>지급정보</strong><br />
+계좌정보와 정산수수료율(%)을 나타냅니다.</p>
 
-&lt;p&gt;&lt;strong&gt;매입&lt;/strong&gt;&lt;br /&gt;
-매입에 대한 건수와 금액을 표기합니다.&lt;/p&gt;
+<p><strong>매입</strong><br />
+매입에 대한 건수와 금액을 표기합니다.</p>
 
-&lt;p&gt;&lt;strong&gt;매입취소&lt;/strong&gt;&lt;br /&gt;
-매입취소에 대한 건수와 금액을 표기합니다.&lt;/p&gt;
+<p><strong>매입취소</strong><br />
+매입취소에 대한 건수와 금액을 표기합니다.</p>
 
-&lt;p&gt;&lt;strong&gt;지급보류&lt;/strong&gt;&lt;br /&gt;
-지급보류에 대한 건수와 금액을 표기합니다.&lt;/p&gt;
+<p><strong>지급보류</strong><br />
+지급보류에 대한 건수와 금액을 표기합니다.</p>
 
-&lt;p&gt;&lt;strong&gt;합계&lt;/strong&gt;&lt;br /&gt;
-매입, 매입취소, 지급보류에 대한 합계를 표기합니다.&lt;/p&gt;
+<p><strong>합계</strong><br />
+매입, 매입취소, 지급보류에 대한 합계를 표기합니다.</p>
 
-&lt;p&gt;&lt;strong&gt;수수료&lt;/strong&gt;&lt;br /&gt;
-수수료가 얼마인지를 나타냅니다.&lt;/p&gt;
+<p><strong>수수료</strong><br />
+수수료가 얼마인지를 나타냅니다.</p>
 
-&lt;p&gt;&lt;strong&gt;지급예정&lt;/strong&gt;&lt;br /&gt;
-지급예정 금액이 얼마인지를 나타냅니다.&lt;/p&gt;
+<p><strong>지급예정</strong><br />
+지급예정 금액이 얼마인지를 나타냅니다.</p>
 
-&lt;p&gt;&lt;strong&gt;차감 금액&lt;/strong&gt;&lt;br /&gt;
-차감 금액이 얼마인지를 나타냅니다.&lt;/p&gt;
+<p><strong>차감 금액</strong><br />
+차감 금액이 얼마인지를 나타냅니다.</p>
 
-&lt;p&gt;&lt;strong&gt;계좌정보&lt;/strong&gt;&lt;br /&gt;
-계좌 정보를 표기합니다.&lt;/p&gt;
+<p><strong>계좌정보</strong><br />
+계좌 정보를 표기합니다.</p>
 
-&lt;p&gt;&lt;strong&gt;정산수수료율&lt;/strong&gt;&lt;br /&gt;
-정산 수수료율이 몇 %인지를 나타냅니다.&lt;/p&gt;</content><author><name></name></author><category term="affliated SS" /><category term="가맹점" /><category term="매출 및 정산 내역" /><category term="신용카드 정산 조회" /><summary type="html">신용카드에 대한 정산정보를 조회합니다</summary></entry><entry><title type="html">매입 현황 조회</title><link href="http://localhost:4000/affliated%20tm/purchasestatus/" rel="alternate" type="text/html" title="매입 현황 조회" /><published>2021-12-29T00:00:00+09:00</published><updated>2021-12-29T00:00:00+09:00</updated><id>http://localhost:4000/affliated%20tm/purchasestatus</id><content type="html" xml:base="http://localhost:4000/affliated%20tm/purchasestatus/">&lt;h3 id=&quot;거래-관리---매입-현황-조회&quot;&gt;거래 관리 - &lt;em&gt;매입 현황 조회&lt;/em&gt;&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;검색 조건을 입력하여 거래건별 승인내역 등 매입 현황을&lt;br /&gt;조회합니다.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;승인번호 ~ 입금상태까지 22가지 검색 조건을 입력 및 선택할 수 있습니다.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;검색 결과는 체크박스 ~ 리스크까지 18가지의 항목들로 구분됩니다.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;조회 결과 항목 중 매입 번호를 통해 매입정보, 취소요청,&lt;br /&gt;KSPAY 영수증 조회 등 매입내역에 대한 상세 정보를&lt;br /&gt;확인할 수 있습니다.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;KSPAY 영수증 조회를 클릭하여 조회 및 VAN 매출전표를&lt;br /&gt;출력할 수 있습니다.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/95394003/147629993-ec522f9e-4e87-460f-8dbc-47cd4d13914d.jpeg&quot; alt=&quot;가맹점 매입현황조회&quot; /&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h4 id=&quot;검색-조건&quot;&gt;검색 조건&lt;/h4&gt;
-&lt;p&gt;승인번호, 매입번호, 가맹점명&lt;br /&gt;거래일자/지급일/정산예정일/입금예정일, 승인금액, 리스크,&lt;br /&gt;터미널 번호, 카드BIN, 카드뒤4자리, 매입구분, 정산상태,정산주기,&lt;br /&gt;일시불/할부, 신용/체크, 매입사, 가맹점 대표자, VAN,&lt;br /&gt;취소구분, 취소원거래번호, 거래번호, 가맹점 ID, 입금상태&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/95394003/146481772-129ea77c-27de-4d95-84df-cc3dd5c0a795.jpeg&quot; alt=&quot;image&quot; /&gt;&lt;br /&gt;
-&lt;strong&gt;승인번호&lt;/strong&gt;&lt;br /&gt;
-거래 승인번호를 입력합니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;매입번호&lt;/strong&gt;&lt;br /&gt;
-거래 매입번호를 입력합니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;가맹점명&lt;/strong&gt;&lt;br /&gt;
-거래가 발생한 가맹점의 이름을 입력합니다
-&lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/95394003/146482288-281b97a7-3e60-4c56-b40a-b5889a1299c7.jpeg&quot; alt=&quot;거래일자&quot; /&gt;&lt;br /&gt;
-&lt;strong&gt;거래일자&lt;/strong&gt;&lt;br /&gt;
-거래일자에 대한 조회 기간을 설정합니다.&lt;br /&gt;날짜부터 날짜로 설정 가능합니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;지급일&lt;/strong&gt;&lt;br /&gt;
-지급일에 대한 조회 기간을 설정합니다.&lt;br /&gt;날짜부터 날짜로 설정 가능합니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;정산예정일&lt;/strong&gt;&lt;br /&gt;
-정산예정일에 대한 조회 기간을 설정합니다.&lt;br /&gt;날짜부터 날짜로 설정 가능합니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;입금예정일&lt;/strong&gt;&lt;br /&gt;
-입금예정일에 대한 조회 기간을 설정합니다.&lt;br /&gt;날짜부터 날짜로 설정 가능합니다.
-&lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/95394003/147440848-18497c58-dec9-494f-a31e-e69c64973887.jpeg&quot; alt=&quot;지사 승인금액 리스크&quot; /&gt;&lt;br /&gt;
-&lt;strong&gt;승인금액&lt;/strong&gt;&lt;br /&gt;
-거래가 승인된 금액의 범위를 설정합니다.&lt;br /&gt;금액부터 금액으로 설정 가능합니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;리스크&lt;/strong&gt;&lt;br /&gt;
-리스크 종류를 선택합니다.&lt;br /&gt;
-전체, 건한도, 중복, 고액, 최소금액, 야간할부, 1일중복, 주간할부,&lt;br /&gt; 야간건한도, 위험, 관리자설정
-&lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/95394003/147441145-bad576a9-a7c3-4fff-b6d1-c8fb415994aa.jpeg&quot; alt=&quot;지사 터미널번호부터 정산&quot; /&gt;&lt;br /&gt;
-&lt;strong&gt;터미널 번호&lt;/strong&gt;&lt;br /&gt;
-터미널 번호를 입력합니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;카드 BIN&lt;/strong&gt;&lt;br /&gt;
-카드의 정보를 구분할 수 있는 BIN 번호를 입력합니다.&lt;br /&gt;
-카드번호의 첫번째 자리부터 여섯번째 자리까지 입력합니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;카드뒤4자리&lt;/strong&gt;&lt;br /&gt;
-카드번호 끝 4자리를 입력합니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;매입구분&lt;/strong&gt;&lt;br /&gt;
-매입에 대한 구분을 전체, 매입, 매입취소 중에 선택합니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;정산상태&lt;/strong&gt;&lt;br /&gt;
-정산에 대한 상태를 선택합니다.&lt;br /&gt;
-전체, 대기, 확정, 보류, 완료 중에 선택합니다.
-&lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;정산주기&lt;/strong&gt;&lt;br /&gt;
-&lt;img src=&quot;https://user-images.githubusercontent.com/95394003/146488198-6ca8c161-13e2-48b5-825d-f89fe582569b.jpeg&quot; alt=&quot;정산주기&quot; /&gt;
-&lt;br /&gt;정산주기를 선택합니다. (D+0~7, C+0~7, A+1, B+1)
-&lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/95394003/147441230-0b2b6c98-46ed-43de-8e11-be7868fcbde0.jpeg&quot; alt=&quot;지사 일시불부터끝&quot; /&gt;&lt;br /&gt;
-&lt;strong&gt;일시불/할부&lt;/strong&gt;&lt;br /&gt;
-거래가 일시불인지 할부인지를 선택합니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;신용/체크&lt;/strong&gt;&lt;br /&gt;
-결제한 카드가 신용카드인지 체크카드인지를 구분합니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;매입사&lt;/strong&gt;&lt;br /&gt;
-결제한 카드 매입사를 선택합니다.&lt;br /&gt;
-(전체, 국민, 농협, 롯데, 비씨, 삼성, 하나, 현대, 기타)&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;가맹점 대표자&lt;/strong&gt;&lt;br /&gt;
-가맹점 대표자를 입력합니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;VAN&lt;/strong&gt;&lt;br /&gt;
-VAN 종류를 선택합니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;취소구분&lt;/strong&gt;&lt;br /&gt;
-취소구분을 선택합니다. 전체와 부분으로 구분됩니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;취소원거래번호&lt;/strong&gt;&lt;br /&gt;
-취소원거래번호를 입력합니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;거래번호&lt;/strong&gt;&lt;br /&gt;
-거래번호를 입력합니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;가맹점 ID&lt;/strong&gt;&lt;br /&gt;
-가맹점 ID를 입력합니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;입금상태&lt;/strong&gt;&lt;br /&gt;
-입금상태를 선택합니다. 전체, 입금대기, 입금완료로 구분됩니다.
-&lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h4 id=&quot;검색-결과&quot;&gt;검색 결과&lt;/h4&gt;
-&lt;p&gt;체크박스, No, 거래일시, 승인번호, 매입번호, 거래번호, 가맹점,&lt;br /&gt; 가맹점대표, 주문번호, 터미널ID, 매입구분, 신용/체크, 취소거래,&lt;br /&gt; 금액, BIN, LAST4, 할부, 리스크&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/95394003/146479953-2adedabb-d3a8-4b89-9aa9-31b72fe795e4.jpeg&quot; alt=&quot;조회결과&quot; /&gt;&lt;br /&gt;
-&lt;strong&gt;체크박스&lt;/strong&gt;&lt;br /&gt;
-리스크를 변경하고자 하는 매입내역에 체크할 수 있습니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;No&lt;/strong&gt;&lt;br /&gt;
-조회된 결과의 리스트 번호를 나타냅니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;거래일시&lt;/strong&gt;&lt;br /&gt;
-거래가 이루어진 날짜와 시간을 나타냅니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;승인번호&lt;/strong&gt;&lt;br /&gt;
-거래의 승인번호를 나타냅니다.
-&lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;매입번호&lt;/strong&gt;&lt;br /&gt;
-&lt;img src=&quot;https://user-images.githubusercontent.com/95394003/147442074-d093c8d0-b87d-4029-aa27-84a1eeda66ad.png&quot; alt=&quot;image&quot; /&gt;
-&lt;br /&gt;매입번호를 나타냅니다.&lt;br /&gt;클릭하면 매입내역에 대한 상세정보를 확인할 수 있습니다. &lt;br /&gt;
-매입 정보를 조회하고 취소를 요청할 수도 있습니다.
-&lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;거래번호&lt;/strong&gt;&lt;br /&gt;
-거래번호를 나타냅니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;가맹점&lt;/strong&gt;&lt;br /&gt;
-거래가 이루어진 가맹점을 표기합니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;가맹점대표&lt;/strong&gt;&lt;br /&gt;
-해당 가맹점의 대표자 이름을 나타냅니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;주문번호&lt;/strong&gt;&lt;br /&gt;
-주문 번호를 나타냅니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;터미널ID&lt;/strong&gt;&lt;br /&gt;
-터미널 ID를 나타냅니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;매입구분&lt;/strong&gt;&lt;br /&gt;
-매입에 대한 구분을 나타내는데 매입과 취소로 구분됩니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;신용/체크&lt;/strong&gt;&lt;br /&gt;
-거래한 카드가 신용카드인지 체크카드인지를 나타냅니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;취소거래&lt;/strong&gt;&lt;br /&gt;
-취소 거래일 경우 취소거래번호를 나타냅니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;금액&lt;/strong&gt;&lt;br /&gt;
-거래 금액을 표기합니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;BIN&lt;/strong&gt;&lt;br /&gt;
-카드의 정보를 구분할 수 있는 BIN 번호를 나타냅니다.&lt;br /&gt;
-카드번호의 첫번째 자리부터 여섯번째 자리까지 보여줍니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;LAST4&lt;/strong&gt;&lt;br /&gt;
-카드번호 끝 4자리입니다.&lt;br /&gt;
-암호화가 되어있을 수도 있습니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;할부&lt;/strong&gt;&lt;br /&gt;
-할부 기간을 나타냅니다.&lt;br /&gt;
-일시불 거래일 경우 00으로 표기됩니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;리스크&lt;/strong&gt;&lt;br /&gt;
-리스크를 구분해서 나타냅니다.&lt;/p&gt;</content><author><name></name></author><category term="affliated TM" /><category term="가맹점" /><category term="매입 현황 조회" /><summary type="html">검색 조건을 입력하여 매입 현황을 조회합니다</summary></entry></feed>
+<p><strong>정산수수료율</strong><br />
+정산 수수료율이 몇 %인지를 나타냅니다.</p>]]></content><author><name></name></author><category term="affliated SS" /><category term="가맹점" /><category term="매출 및 정산 내역" /><category term="신용카드 정산 조회" /><summary type="html"><![CDATA[신용카드에 대한 정산정보를 조회합니다]]></summary></entry></feed>

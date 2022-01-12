@@ -393,6 +393,13 @@
 <lastmod>2021-12-27T00:00:00+09:00</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/mysite/jekyll/update/welcome-to-jekyll/</loc>
+<lastmod>2022-01-12T14:07:15+09:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/about/</loc>
+</url>
+<url>
 <loc>http://localhost:4000/categories/Biz1</loc>
 </url>
 <url>
@@ -520,6 +527,9 @@
 </url>
 <url>
 <loc>http://localhost:4000/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/mysite/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/pdf/</loc>
