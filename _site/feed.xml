@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-01-12T14:45:00+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">KwonPS</title><subtitle>KwonPS_영업기획_대외배포용_매뉴얼_제작</subtitle><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/mysite/jekyll/update/welcome-to-jekyll/" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2022-01-12T14:07:15+09:00</published><updated>2022-01-12T14:07:15+09:00</updated><id>http://localhost:4000/mysite/jekyll/update/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/mysite/jekyll/update/welcome-to-jekyll/"><![CDATA[<p>You’ll find this post in your <code class="language-plaintext highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="language-plaintext highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2022-01-12T14:49:16+09:00</updated><id>/feed.xml</id><title type="html">KwonPS</title><subtitle>KwonPS_영업기획_대외배포용_매뉴얼_제작</subtitle><entry><title type="html">Welcome to Jekyll!</title><link href="/mysite/jekyll/update/welcome-to-jekyll/" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2022-01-12T14:07:15+09:00</published><updated>2022-01-12T14:07:15+09:00</updated><id>/mysite/jekyll/update/welcome-to-jekyll</id><content type="html" xml:base="/mysite/jekyll/update/welcome-to-jekyll/"><![CDATA[<p>You’ll find this post in your <code class="language-plaintext highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="language-plaintext highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
 
 <p>Jekyll requires blog post files to be named according to the following format:</p>
 
@@ -14,7 +14,7 @@
 <span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
 <span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
 
-<p>Check out the <a href="https://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>]]></content><author><name></name></author><category term="mysite" /><category term="jekyll" /><category term="update" /><summary type="html"><![CDATA[You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.]]></summary></entry><entry><title type="html">매입 현황 조회</title><link href="http://localhost:4000/agency%20tm/purchasestatus/" rel="alternate" type="text/html" title="매입 현황 조회" /><published>2021-12-30T00:00:00+09:00</published><updated>2021-12-27T00:00:00+09:00</updated><id>http://localhost:4000/agency%20tm/purchasestatus</id><content type="html" xml:base="http://localhost:4000/agency%20tm/purchasestatus/"><![CDATA[<h3 id="거래-관리---매입-현황-조회">거래 관리 - <em>매입 현황 조회</em></h3>
+<p>Check out the <a href="https://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>]]></content><author><name></name></author><category term="mysite" /><category term="jekyll" /><category term="update" /><summary type="html"><![CDATA[You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.]]></summary></entry><entry><title type="html">매입 현황 조회</title><link href="/agency%20tm/purchasestatus/" rel="alternate" type="text/html" title="매입 현황 조회" /><published>2021-12-30T00:00:00+09:00</published><updated>2021-12-27T00:00:00+09:00</updated><id>/agency%20tm/purchasestatus</id><content type="html" xml:base="/agency%20tm/purchasestatus/"><![CDATA[<h3 id="거래-관리---매입-현황-조회">거래 관리 - <em>매입 현황 조회</em></h3>
 <ul>
   <li>
     <p>검색 조건을 입력하여 거래건별 승인내역 등 매입 현황을<br />조회합니다.</p>
@@ -210,7 +210,7 @@ VAN 종류를 선택합니다.</p>
 일시불 거래일 경우 00으로 표기됩니다.</p>
 
 <p><strong>리스크</strong><br />
-리스크를 구분해서 나타냅니다.</p>]]></content><author><name></name></author><category term="agency TM" /><category term="에이전시" /><category term="매입 현황 조회" /><summary type="html"><![CDATA[검색 조건을 입력하여 매입 현황을 조회합니다]]></summary></entry><entry><title type="html">월별 매출관리</title><link href="http://localhost:4000/branch%20sm/MSM/" rel="alternate" type="text/html" title="월별 매출관리" /><published>2021-12-30T00:00:00+09:00</published><updated>2021-12-27T00:00:00+09:00</updated><id>http://localhost:4000/branch%20sm/MSM</id><content type="html" xml:base="http://localhost:4000/branch%20sm/MSM/"><![CDATA[<h3 id="매출-관리---월별-매출관리">매출 관리 - <em>월별 매출관리</em></h3>
+리스크를 구분해서 나타냅니다.</p>]]></content><author><name></name></author><category term="agency TM" /><category term="에이전시" /><category term="매입 현황 조회" /><summary type="html"><![CDATA[검색 조건을 입력하여 매입 현황을 조회합니다]]></summary></entry><entry><title type="html">월별 매출관리</title><link href="/branch%20sm/MSM/" rel="alternate" type="text/html" title="월별 매출관리" /><published>2021-12-30T00:00:00+09:00</published><updated>2021-12-27T00:00:00+09:00</updated><id>/branch%20sm/MSM</id><content type="html" xml:base="/branch%20sm/MSM/"><![CDATA[<h3 id="매출-관리---월별-매출관리">매출 관리 - <em>월별 매출관리</em></h3>
 <ul>
   <li>
     <p>조회할 기간을 설정하여 해당 월별 매출을 조회합니다.</p>
@@ -276,7 +276,7 @@ VAN 종류를 선택합니다.</p>
 정산 금액이 얼마인지를 나타냅니다.</p>
 
 <p><strong>가맹점수수료</strong><br />
-가맹점 수수료가 얼마인지를 나타냅니다.</p>]]></content><author><name></name></author><category term="branch SM" /><category term="지사" /><category term="월별 매출관리" /><summary type="html"><![CDATA[조회할 기간을 설정하여 해당 월별 매출을 조회합니다]]></summary></entry><entry><title type="html">가맹점 조회</title><link href="http://localhost:4000/branch%20fm/ASLookup/" rel="alternate" type="text/html" title="가맹점 조회" /><published>2021-12-30T00:00:00+09:00</published><updated>2021-12-30T00:00:00+09:00</updated><id>http://localhost:4000/branch%20fm/ASLookup</id><content type="html" xml:base="http://localhost:4000/branch%20fm/ASLookup/"><![CDATA[<h3 id="가맹점-관리---가맹점-조회">가맹점 관리 - <em>가맹점 조회</em></h3>
+가맹점 수수료가 얼마인지를 나타냅니다.</p>]]></content><author><name></name></author><category term="branch SM" /><category term="지사" /><category term="월별 매출관리" /><summary type="html"><![CDATA[조회할 기간을 설정하여 해당 월별 매출을 조회합니다]]></summary></entry><entry><title type="html">가맹점 조회</title><link href="/branch%20fm/ASLookup/" rel="alternate" type="text/html" title="가맹점 조회" /><published>2021-12-30T00:00:00+09:00</published><updated>2021-12-30T00:00:00+09:00</updated><id>/branch%20fm/ASLookup</id><content type="html" xml:base="/branch%20fm/ASLookup/"><![CDATA[<h3 id="가맹점-관리---가맹점-조회">가맹점 관리 - <em>가맹점 조회</em></h3>
 <ul>
   <li>
     <p>검색 조건을 입력하여 등록된 가맹점을 조회합니다.<br /></p>
@@ -394,7 +394,7 @@ VAN 종류를 선택합니다.</p>
 <br />해당 가맹점 정보를 등록한 관리자의 아이디입니다.</p>
 
 <p><strong>등록일시</strong>
-<br />해당 내용을 등록한 날짜와 시간입니다.</p>]]></content><author><name></name></author><category term="branch FM" /><category term="지사" /><category term="가맹점 조회" /><summary type="html"><![CDATA[등록된 가맹점을 조회합니다.]]></summary></entry><entry><title type="html">공지사항</title><link href="http://localhost:4000/agency%20csc/a-information/" rel="alternate" type="text/html" title="공지사항" /><published>2021-12-30T00:00:00+09:00</published><updated>2021-12-30T00:00:00+09:00</updated><id>http://localhost:4000/agency%20csc/a-information</id><content type="html" xml:base="http://localhost:4000/agency%20csc/a-information/"><![CDATA[<h3 id="고객-센터---공지사항">고객 센터 - <em>공지사항</em></h3>
+<br />해당 내용을 등록한 날짜와 시간입니다.</p>]]></content><author><name></name></author><category term="branch FM" /><category term="지사" /><category term="가맹점 조회" /><summary type="html"><![CDATA[등록된 가맹점을 조회합니다.]]></summary></entry><entry><title type="html">공지사항</title><link href="/agency%20csc/a-information/" rel="alternate" type="text/html" title="공지사항" /><published>2021-12-30T00:00:00+09:00</published><updated>2021-12-30T00:00:00+09:00</updated><id>/agency%20csc/a-information</id><content type="html" xml:base="/agency%20csc/a-information/"><![CDATA[<h3 id="고객-센터---공지사항">고객 센터 - <em>공지사항</em></h3>
 <ul>
   <li>
     <p>등록된 공지사항을 조회하는 페이지입니다.</p>
@@ -424,7 +424,7 @@ VAN 종류를 선택합니다.</p>
 공지사항을 등록한 등록자를 나타냅니다.</p>
 
 <p><strong>등록일시</strong><br />
-공지사항이 등록된 일시를 나타냅니다.</p>]]></content><author><name></name></author><category term="agency CSC" /><category term="에이전시" /><category term="고객센터" /><category term="공지사항" /><summary type="html"><![CDATA[공지사항 조회 페이지입니다]]></summary></entry><entry><title type="html">로그인 ID관리 - ID 조회</title><link href="http://localhost:4000/agencylogin/idlookup/" rel="alternate" type="text/html" title="로그인 ID관리 - ID 조회" /><published>2021-12-30T00:00:00+09:00</published><updated>2021-12-30T00:00:00+09:00</updated><id>http://localhost:4000/agencylogin/idlookup</id><content type="html" xml:base="http://localhost:4000/agencylogin/idlookup/"><![CDATA[<h3 id="멤버관리---id-조회">멤버관리 - <em>ID 조회</em></h3>
+공지사항이 등록된 일시를 나타냅니다.</p>]]></content><author><name></name></author><category term="agency CSC" /><category term="에이전시" /><category term="고객센터" /><category term="공지사항" /><summary type="html"><![CDATA[공지사항 조회 페이지입니다]]></summary></entry><entry><title type="html">로그인 ID관리 - ID 조회</title><link href="/agencylogin/idlookup/" rel="alternate" type="text/html" title="로그인 ID관리 - ID 조회" /><published>2021-12-30T00:00:00+09:00</published><updated>2021-12-30T00:00:00+09:00</updated><id>/agencylogin/idlookup</id><content type="html" xml:base="/agencylogin/idlookup/"><![CDATA[<h3 id="멤버관리---id-조회">멤버관리 - <em>ID 조회</em></h3>
 <ul>
   <li>
     <p>검색 조건을 입력 및 선택하여 등록된 로그인 ID를 조회합니다.</p>
@@ -505,7 +505,7 @@ VAN 종류를 선택합니다.</p>
 해당 계정을 등록한 등록자를 나타냅니다.</p>
 
 <p><strong>등록일시</strong><br />
-해당 계정이 등록된 일시를 나타냅니다.<br />연, 월, 일, 시간으로 표기됩니다.</p>]]></content><author><name></name></author><category term="agencylogin" /><category term="에이전시" /><category term="멤버관리" /><category term="로그인 ID관리" /><category term="ID 조회" /><summary type="html"><![CDATA[등록된 로그인 ID를 조회합니다]]></summary></entry><entry><title type="html">월별 매출관리</title><link href="http://localhost:4000/agency%20sm/a-MSM/" rel="alternate" type="text/html" title="월별 매출관리" /><published>2021-12-30T00:00:00+09:00</published><updated>2021-12-30T00:00:00+09:00</updated><id>http://localhost:4000/agency%20sm/a-MSM</id><content type="html" xml:base="http://localhost:4000/agency%20sm/a-MSM/"><![CDATA[<h3 id="매출-관리---월별-매출관리">매출 관리 - <em>월별 매출관리</em></h3>
+해당 계정이 등록된 일시를 나타냅니다.<br />연, 월, 일, 시간으로 표기됩니다.</p>]]></content><author><name></name></author><category term="agencylogin" /><category term="에이전시" /><category term="멤버관리" /><category term="로그인 ID관리" /><category term="ID 조회" /><summary type="html"><![CDATA[등록된 로그인 ID를 조회합니다]]></summary></entry><entry><title type="html">월별 매출관리</title><link href="/agency%20sm/a-MSM/" rel="alternate" type="text/html" title="월별 매출관리" /><published>2021-12-30T00:00:00+09:00</published><updated>2021-12-30T00:00:00+09:00</updated><id>/agency%20sm/a-MSM</id><content type="html" xml:base="/agency%20sm/a-MSM/"><![CDATA[<h3 id="매출-관리---월별-매출관리">매출 관리 - <em>월별 매출관리</em></h3>
 <ul>
   <li>
     <p>조회할 기간을 설정하여 해당 월별 매출을 조회합니다.</p>
@@ -574,7 +574,7 @@ VAN 종류를 선택합니다.</p>
 정산 금액이 얼마인지를 나타냅니다.</p>
 
 <p><strong>가맹점수수료</strong><br />
-가맹점 수수료가 얼마인지를 나타냅니다.</p>]]></content><author><name></name></author><category term="agency SM" /><category term="에이전시" /><category term="월별 매출관리" /><summary type="html"><![CDATA[조회할 기간을 설정하여 해당 월별 매출을 조회합니다]]></summary></entry><entry><title type="html">공지사항</title><link href="http://localhost:4000/affliated%20csc/information/" rel="alternate" type="text/html" title="공지사항" /><published>2021-12-29T00:00:00+09:00</published><updated>2021-12-29T00:00:00+09:00</updated><id>http://localhost:4000/affliated%20csc/information</id><content type="html" xml:base="http://localhost:4000/affliated%20csc/information/"><![CDATA[<h3 id="고객-센터---공지사항">고객 센터 - <em>공지사항</em></h3>
+가맹점 수수료가 얼마인지를 나타냅니다.</p>]]></content><author><name></name></author><category term="agency SM" /><category term="에이전시" /><category term="월별 매출관리" /><summary type="html"><![CDATA[조회할 기간을 설정하여 해당 월별 매출을 조회합니다]]></summary></entry><entry><title type="html">공지사항</title><link href="/affliated%20csc/information/" rel="alternate" type="text/html" title="공지사항" /><published>2021-12-29T00:00:00+09:00</published><updated>2021-12-29T00:00:00+09:00</updated><id>/affliated%20csc/information</id><content type="html" xml:base="/affliated%20csc/information/"><![CDATA[<h3 id="고객-센터---공지사항">고객 센터 - <em>공지사항</em></h3>
 <ul>
   <li>
     <p>등록된 공지사항을 조회하는 페이지입니다.</p>
@@ -604,7 +604,7 @@ VAN 종류를 선택합니다.</p>
 공지사항을 등록한 등록자를 나타냅니다.</p>
 
 <p><strong>등록일시</strong><br />
-공지사항이 등록된 일시를 나타냅니다.</p>]]></content><author><name></name></author><category term="affliated CSC" /><category term="가맹점" /><category term="고객센터" /><category term="공지사항" /><summary type="html"><![CDATA[공지사항 조회 페이지입니다]]></summary></entry><entry><title type="html">거래내역 조회</title><link href="http://localhost:4000/affliated%20cs/transactionhistory/" rel="alternate" type="text/html" title="거래내역 조회" /><published>2021-12-29T00:00:00+09:00</published><updated>2021-12-29T00:00:00+09:00</updated><id>http://localhost:4000/affliated%20cs/transactionhistory</id><content type="html" xml:base="http://localhost:4000/affliated%20cs/transactionhistory/"><![CDATA[<h3 id="충전-정산---거래내역-조회">충전 정산 - <em>거래내역 조회</em></h3>
+공지사항이 등록된 일시를 나타냅니다.</p>]]></content><author><name></name></author><category term="affliated CSC" /><category term="가맹점" /><category term="고객센터" /><category term="공지사항" /><summary type="html"><![CDATA[공지사항 조회 페이지입니다]]></summary></entry><entry><title type="html">거래내역 조회</title><link href="/affliated%20cs/transactionhistory/" rel="alternate" type="text/html" title="거래내역 조회" /><published>2021-12-29T00:00:00+09:00</published><updated>2021-12-29T00:00:00+09:00</updated><id>/affliated%20cs/transactionhistory</id><content type="html" xml:base="/affliated%20cs/transactionhistory/"><![CDATA[<h3 id="충전-정산---거래내역-조회">충전 정산 - <em>거래내역 조회</em></h3>
 <ul>
   <li>
     <p>검색조건을 입력 및 선택하여 충전정산에 대한 거래내역을 조회합니다.</p>
@@ -697,7 +697,7 @@ VAN 종류를 선택합니다.</p>
 해당 거래에 대해 등록한 아이디를 나타냅니다.</p>
 
 <p><strong>거래일시</strong><br />
-거래일시가 언제인지를 나타냅니다.</p>]]></content><author><name></name></author><category term="affliated CS" /><category term="가맹점" /><category term="충전정산" /><category term="거래내역 조회" /><summary type="html"><![CDATA[충전정산에 대한 거래내역을 조회합니다.]]></summary></entry><entry><title type="html">신용카드 정산 조회</title><link href="http://localhost:4000/affliated%20ss/creditcard/" rel="alternate" type="text/html" title="신용카드 정산 조회" /><published>2021-12-29T00:00:00+09:00</published><updated>2021-12-29T00:00:00+09:00</updated><id>http://localhost:4000/affliated%20ss/creditcard</id><content type="html" xml:base="http://localhost:4000/affliated%20ss/creditcard/"><![CDATA[<h3 id="매출-및-정산-내역---신용카드-정산-조회">매출 및 정산 내역 - <em>신용카드 정산 조회</em></h3>
+거래일시가 언제인지를 나타냅니다.</p>]]></content><author><name></name></author><category term="affliated CS" /><category term="가맹점" /><category term="충전정산" /><category term="거래내역 조회" /><summary type="html"><![CDATA[충전정산에 대한 거래내역을 조회합니다.]]></summary></entry><entry><title type="html">신용카드 정산 조회</title><link href="/affliated%20ss/creditcard/" rel="alternate" type="text/html" title="신용카드 정산 조회" /><published>2021-12-29T00:00:00+09:00</published><updated>2021-12-29T00:00:00+09:00</updated><id>/affliated%20ss/creditcard</id><content type="html" xml:base="/affliated%20ss/creditcard/"><![CDATA[<h3 id="매출-및-정산-내역---신용카드-정산-조회">매출 및 정산 내역 - <em>신용카드 정산 조회</em></h3>
 <ul>
   <li>
     <p>검색 조건을 입력 및 선택하여 신용카드에 대한 정산 정보를 조회합니다.</p>
