@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>/blog/my-first-post/</loc>
-<lastmod>2021-12-13T00:00:00+09:00</lastmod>
-</url>
-<url>
-<loc>/dashboard/dashboard/</loc>
+<loc>/bizs%20dashboard/dashboard/</loc>
 <lastmod>2022-01-04T00:00:00+09:00</lastmod>
 </url>
 <url>
@@ -33,7 +29,7 @@
 <lastmod>2021-12-21T00:00:00+09:00</lastmod>
 </url>
 <url>
-<loc>/member%20management/branchenrollment/</loc>
+<loc>/branchmanagement/branchenrollment/</loc>
 <lastmod>2021-12-29T00:00:00+09:00</lastmod>
 </url>
 <url>
@@ -57,7 +53,7 @@
 <lastmod>2021-12-27T00:00:00+09:00</lastmod>
 </url>
 <url>
-<loc>/member%20management/branchlookup/</loc>
+<loc>/branchmanagement/branchlookup/</loc>
 <lastmod>2021-12-29T00:00:00+09:00</lastmod>
 </url>
 <url>
@@ -69,7 +65,7 @@
 <lastmod>2021-12-30T00:00:00+09:00</lastmod>
 </url>
 <url>
-<loc>/transaction%20management/tranhistory/</loc>
+<loc>/va/tranhistory/</loc>
 <lastmod>2021-12-28T00:00:00+09:00</lastmod>
 </url>
 <url>
@@ -77,7 +73,7 @@
 <lastmod>2021-12-27T00:00:00+09:00</lastmod>
 </url>
 <url>
-<loc>/member%20management/agencyenrollment/</loc>
+<loc>/agencymanagement/agencyenrollment/</loc>
 <lastmod>2021-12-29T00:00:00+09:00</lastmod>
 </url>
 <url>
@@ -85,7 +81,7 @@
 <lastmod>2021-12-28T00:00:00+09:00</lastmod>
 </url>
 <url>
-<loc>/transaction%20management/publihistory/</loc>
+<loc>/va/publihistory/</loc>
 <lastmod>2021-12-28T00:00:00+09:00</lastmod>
 </url>
 <url>
@@ -93,7 +89,7 @@
 <lastmod>2021-12-27T00:00:00+09:00</lastmod>
 </url>
 <url>
-<loc>/member%20management/agencylookup/</loc>
+<loc>/agencymanagement/agencylookup/</loc>
 <lastmod>2021-12-29T00:00:00+09:00</lastmod>
 </url>
 <url>
@@ -117,7 +113,7 @@
 <lastmod>2021-12-28T00:00:00+09:00</lastmod>
 </url>
 <url>
-<loc>/member%20management/agencyenrollment/</loc>
+<loc>/login/agencyenrollment/</loc>
 <lastmod>2021-12-29T00:00:00+09:00</lastmod>
 </url>
 <url>
@@ -133,7 +129,7 @@
 <lastmod>2021-12-28T00:00:00+09:00</lastmod>
 </url>
 <url>
-<loc>/member%20management/IDLookup/</loc>
+<loc>/login/IDLookup/</loc>
 <lastmod>2021-12-28T00:00:00+09:00</lastmod>
 </url>
 <url>
@@ -141,7 +137,7 @@
 <lastmod>2021-12-27T00:00:00+09:00</lastmod>
 </url>
 <url>
-<loc>/affliated%20tm/certification-history/</loc>
+<loc>/pam/certification-history/</loc>
 <lastmod>2021-12-29T00:00:00+09:00</lastmod>
 </url>
 <url>
@@ -149,7 +145,7 @@
 <lastmod>2021-12-27T00:00:00+09:00</lastmod>
 </url>
 <url>
-<loc>/affliated%20tm/transaction-history/</loc>
+<loc>/pam/transaction-history/</loc>
 <lastmod>2021-12-29T00:00:00+09:00</lastmod>
 </url>
 <url>
@@ -157,7 +153,7 @@
 <lastmod>2021-12-27T00:00:00+09:00</lastmod>
 </url>
 <url>
-<loc>/branch%20tm/transhistory/</loc>
+<loc>/bva/transhistory/</loc>
 <lastmod>2021-12-28T00:00:00+09:00</lastmod>
 </url>
 <url>
@@ -173,7 +169,7 @@
 <lastmod>2021-12-30T00:00:00+09:00</lastmod>
 </url>
 <url>
-<loc>/branch%20tm/publihistory/</loc>
+<loc>/bva/publihistory/</loc>
 <lastmod>2021-12-28T00:00:00+09:00</lastmod>
 </url>
 <url>
@@ -185,7 +181,7 @@
 <lastmod>2021-12-27T00:00:00+09:00</lastmod>
 </url>
 <url>
-<loc>/agency%20tm/tranhistory/</loc>
+<loc>/ava/tranhistory/</loc>
 <lastmod>2021-12-28T00:00:00+09:00</lastmod>
 </url>
 <url>
@@ -193,7 +189,7 @@
 <lastmod>2021-12-30T00:00:00+09:00</lastmod>
 </url>
 <url>
-<loc>/agency%20mm/branchenroll/</loc>
+<loc>/abm/branchenroll/</loc>
 <lastmod>2021-12-30T00:00:00+09:00</lastmod>
 </url>
 <url>
@@ -213,7 +209,7 @@
 <lastmod>2021-12-27T00:00:00+09:00</lastmod>
 </url>
 <url>
-<loc>/agency%20tm/publhistory/</loc>
+<loc>/ava/publhistory/</loc>
 <lastmod>2021-12-28T00:00:00+09:00</lastmod>
 </url>
 <url>
@@ -221,7 +217,7 @@
 <lastmod>2021-12-30T00:00:00+09:00</lastmod>
 </url>
 <url>
-<loc>/agency%20mm/branchlookup/</loc>
+<loc>/abm/branchlookup/</loc>
 <lastmod>2021-12-30T00:00:00+09:00</lastmod>
 </url>
 <url>
@@ -241,7 +237,7 @@
 <lastmod>2021-12-28T00:00:00+09:00</lastmod>
 </url>
 <url>
-<loc>/affliated%20tm/tranhistory/</loc>
+<loc>/afva/tranhistory/</loc>
 <lastmod>2021-12-29T00:00:00+09:00</lastmod>
 </url>
 <url>
@@ -309,7 +305,7 @@
 <lastmod>2021-12-28T00:00:00+09:00</lastmod>
 </url>
 <url>
-<loc>/affliated%20tm/publishing/</loc>
+<loc>/afva/publishing/</loc>
 <lastmod>2021-12-29T00:00:00+09:00</lastmod>
 </url>
 <url>
@@ -337,7 +333,7 @@
 <lastmod>2021-12-30T00:00:00+09:00</lastmod>
 </url>
 <url>
-<loc>/agency%20mm/branchIDenroll/</loc>
+<loc>/agencylogin/branchIDenroll/</loc>
 <lastmod>2021-12-30T00:00:00+09:00</lastmod>
 </url>
 <url>
@@ -350,7 +346,7 @@
 </url>
 <url>
 <loc>/branch%20sm/BSM/</loc>
-<lastmod>2021-12-28T00:00:00+09:00</lastmod>
+<lastmod>2021-12-29T00:00:00+09:00</lastmod>
 </url>
 <url>
 <loc>/affliated%20dashboard/dashboard/</loc>
@@ -381,7 +377,7 @@
 <lastmod>2021-12-30T00:00:00+09:00</lastmod>
 </url>
 <url>
-<loc>/agency%20mm/idlookup/</loc>
+<loc>/agencylogin/idlookup/</loc>
 <lastmod>2021-12-30T00:00:00+09:00</lastmod>
 </url>
 <url>
@@ -397,9 +393,6 @@
 <lastmod>2021-12-27T00:00:00+09:00</lastmod>
 </url>
 <url>
-<loc>/categories/Biz1%20DashBoard</loc>
-</url>
-<url>
 <loc>/categories/Biz1</loc>
 </url>
 <url>
@@ -412,7 +405,13 @@
 <loc>/categories/Biz4</loc>
 </url>
 <url>
+<loc>/categories/BizS%20DashBoard</loc>
+</url>
+<url>
 <loc>/categories/FM</loc>
+</url>
+<url>
+<loc>/categories/abm</loc>
 </url>
 <url>
 <loc>/categories/affliated%20CS</loc>
@@ -428,6 +427,9 @@
 </url>
 <url>
 <loc>/categories/affliated%20dashboard</loc>
+</url>
+<url>
+<loc>/categories/afva</loc>
 </url>
 <url>
 <loc>/categories/agency%20CSC</loc>
@@ -451,7 +453,16 @@
 <loc>/categories/agency%20settlement</loc>
 </url>
 <url>
+<loc>/categories/agencylogin</loc>
+</url>
+<url>
+<loc>/categories/agencymanagement</loc>
+</url>
+<url>
 <loc>/categories/</loc>
+</url>
+<url>
+<loc>/categories/ava</loc>
 </url>
 <url>
 <loc>/categories/branch%20CSC</loc>
@@ -475,10 +486,22 @@
 <loc>/categories/branch%20settlement</loc>
 </url>
 <url>
+<loc>/categories/branchmanagement</loc>
+</url>
+<url>
+<loc>/categories/bva</loc>
+</url>
+<url>
 <loc>/categories/customer%20service%20center</loc>
 </url>
 <url>
+<loc>/categories/login</loc>
+</url>
+<url>
 <loc>/categories/member%20management</loc>
+</url>
+<url>
+<loc>/categories/pam</loc>
 </url>
 <url>
 <loc>/categories/realtime%20settlement</loc>
@@ -491,6 +514,9 @@
 </url>
 <url>
 <loc>/categories/transaction%20management</loc>
+</url>
+<url>
+<loc>/categories/va</loc>
 </url>
 <url>
 <loc>/</loc>
