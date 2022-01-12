@@ -8,7 +8,9 @@
                 <li>
                   <!-- 하위 구조에 따른 링크 분기 시작 1depth-->
                     <!-- 1detph의 하위가 있을 경우 -->
-                    {% if entry.subsubfolderitems[0]}
+                    
+
+                    {% if entry.subsubfolderitems[0] %}
                       <!-- 항목명만 표시 -->
                       {{ entry.page }}
                     <!-- 1depth 하위가 없을 경우 -->
@@ -23,7 +25,7 @@
                       <ul>
                       {% for subentry in entry.subsubfolderitems[0] %}
                           <li>
-                            {% if entry.subsubsubfolderitems[0]s}
+                            {% if entry.subsubsubfolderitems[0] %}
                                 {{ subentry.page }}
                             {% else %}
                                 <a href="{{ subentry.url }}">{{ subentry.page }}</a>
@@ -49,6 +51,7 @@
         {% endfor %}
     {% endif %}
 </div>
+
 
 
 
