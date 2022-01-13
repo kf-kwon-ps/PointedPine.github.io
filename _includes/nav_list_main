@@ -1,14 +1,3 @@
----
-title: My page
-sidebar: toc
----
-
-<ul>
-    {% for item in site.data.samplelist[page.sidebar] %}
-      <li><a href="{{ item.url }}">{{ item.title }}</a></li>
-    {% endfor %}
-</ul>
-
 <div>
     {% if site.data.samplelist.toc3[0] %}
       {% for item in site.data.samplelist.toc3 %}
